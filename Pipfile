@@ -11,6 +11,9 @@ pytest = "*"
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 sqlalchemy = "*"
+requests = "*"
+pandas = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3"
