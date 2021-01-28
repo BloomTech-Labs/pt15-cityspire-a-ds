@@ -145,4 +145,4 @@ user_city_state = {'City, State':'San Francisco, California'}
 all_df = fill_10_years_pop_df() # list of dataframes
 big_df = concat_dfs(all_df)
 results = predict_pop_growth(user_city_state, big_df)
-return results 
+print(results) 
