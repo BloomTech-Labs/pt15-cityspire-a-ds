@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 from fastapi import APIRouter, Depends
 import sqlalchemy
+from app.population import fill_10_years_pop_df, concat_dfs, clean_pop_df, predict_pop_growth, population_etl
 
 router = APIRouter()
 
@@ -40,3 +41,12 @@ async def get_url(connection=Depends(get_db)):
     return {'database_url': url_without_password}
 
 
+@router.get('/pop_predict')
+async def predict_pop_growth(user_city_state):
+    # # user input
+    # user_city_state = {'City, State':'San Francisco, California'}
+
+    all_df = fill_10_years_pop_df() # list of dataframes
+    big_df = concat_dfs(all_df)
+    results = predict_pop_growth(user_city_state, big_df)
+    return results 
