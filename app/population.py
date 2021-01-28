@@ -138,11 +138,11 @@ def predict_pop_growth(user_city_state, big_df):
     return {last_label: y_pred_last_year, this_label: y_pred_this_year, 'percent_pop_growth': percent_pop_growth}
 
 
-#   # MAIN
-#   # user inpute
-#   user_city_state = {'City, State':'San Francisco, California'}
+# MAIN
+# user inpute
+user_city_state = {'City, State':'San Francisco, California'}
 
-#   all_df = fill_10_years_pop_df() # list of dataframes
-#   big_df = concat_dfs(all_df)
-#   results = predict_pop_growth(user_city_state, big_df)
-#   return results 
+all_df = fill_10_years_pop_df() # list of dataframes
+big_df = concat_dfs(all_df)
+results = predict_pop_growth(user_city_state, big_df)
+return results 
