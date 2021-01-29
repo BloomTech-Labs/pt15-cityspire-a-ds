@@ -7,3 +7,6 @@
 - added pandas to pipfile - using 'pipenv install pandas'
 - no need to add ast to pipfile - already exists
 - added sklearn to pipfile - using 'pipenv install sklearn'
+
+2021.01.28 - JA
+- added SQLAlchemy to pipfile - using 'pipenv install SQLAlchemy'

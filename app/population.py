@@ -5,7 +5,7 @@ from ast import literal_eval
 from sklearn.linear_model import LinearRegression
 
 
-def population_etl(year_str):
+def population_data_api(year_str):
 
     # convert to str
     year_str = str(year_str)
@@ -62,7 +62,7 @@ def fill_10_years_pop_df():
     
     dfs = []
     for year in years:
-        df = population_etl(year)
+        df = population_data_api(year)
         cleaned_df = clean_pop_df(df)
         dfs.append(cleaned_df)
     return dfs
@@ -138,11 +138,18 @@ def predict_pop_growth(user_city_state, big_df):
     return {last_label: y_pred_last_year, this_label: y_pred_this_year, 'percent_pop_growth': percent_pop_growth}
 
 
+
+
 # MAIN
+
+# this is to fill the database
+all_df = fill_10_years_pop_df() # list of dataframes
+big_df = concat_dfs(all_df)
+
+
 # user inpute
 user_city_state = {'City, State':'San Francisco, California'}
 
-all_df = fill_10_years_pop_df() # list of dataframes
-big_df = concat_dfs(all_df)
+
 results = predict_pop_growth(user_city_state, big_df)
 print(results) 
