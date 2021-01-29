@@ -52,6 +52,9 @@ def clean_2019(df):
         # adding year to df
         df['year'] = 2019
 
+        # Add City, State
+        df['City, State'] = df.City + ", " + df.State
+
         print(df.head(3))
 
         return df
@@ -99,6 +102,9 @@ def clean_2018(df):
         # adding year to df
         df['year'] = 2018
 
+        # Add City, State
+        df['City, State'] = df.City + ", " + df.State
+
         print(df.head(3))
 
         return df
@@ -143,6 +149,9 @@ def clean_2017(df):
 
         # adding year to df
         df['year'] = 2017
+
+        # Add City, State
+        df['City, State'] = df.City + ", " + df.State
 
         print(df.head(3))
 
@@ -189,6 +198,9 @@ def clean_2016(df):
 
         # adding year to df
         df['year'] = 2016
+
+        # Add City, State
+        df['City, State'] = df.City + ", " + df.State
 
         print(df.head(3))
 
@@ -238,6 +250,9 @@ def clean_2015(df):
         # adding year to df
         df['year'] = 2015
 
+        # Add City, State
+        df['City, State'] = df.City + ", " + df.State
+
         print(df.head(3))
 
         return df
@@ -285,6 +300,9 @@ def clean_2014(df):
 
         # adding year to df
         df['year'] = 2014
+
+        # Add City, State
+        df['City, State'] = df.City + ", " + df.State
 
         print(df.head(3))
 
