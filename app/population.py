@@ -51,11 +51,11 @@ def clean_pop_df(df):
         df['CITY'] = df.CITY.str.replace(i, "")
 
     # feature engineering for joining key
-    df['City, State'] = df.CITY + ", " + df.STATE
+    df['City_State'] = df.CITY + ", " + df.STATE
 
     # prep population df for joining
     # pop_df = df[['YEAR', 'CITY', 'STATE', 'City, State', 'POPULATION']]
-    pop_df = df[['YEAR', 'City, State', 'POPULATION']]
+    pop_df = df[['YEAR', 'City_State', 'POPULATION']]
 
     return pop_df
 
@@ -100,7 +100,7 @@ def predict_pop_growth(user_city_state, big_df):
     city_state = user_city_state['City, State']
 
     # filter big_df
-    Graph_df = big_df[big_df['City, State']== city_state]
+    Graph_df = big_df[big_df['City_State']== city_state]
 
     #2. Instantiate this class
     model = LinearRegression()
@@ -158,18 +158,48 @@ def population_etl(big_df):
     engine = create_engine('sqlite://', echo=False)
     big_df.to_sql("pop_2010_2019", con=engine, if_exists = 'replace', index=False)
 
+    print("\n1. Count how many rows you have.")
+    result1 = engine.execute("SELECT COUNT(*) FROM pop_2010_2019").fetchone()
+    print("Number of row : ", result1)
 
-    # engine = create_engine('sqlite://', echo=False)
-    # big_df.to_sql('pop_2010_2019', con=engine) # if_exist # 09:20 https://www.youtube.com/watch?v=M-4EpNdlSuY
-    # print(engine.execute("SELECT * FROM pop_2010_2019").fetchone())
+    print("\n2. 10 years of population data for 'San Francisco, California'.")
+    result1 = engine.execute("SELECT * FROM pop_2010_2019 WHERE City_State = 'San Francisco, California'").fetchall()
+    for result in result1:
+        print(result)
+    
+    connection.commit()
+    print("COMMIT")
+    connection.close()
 
+def pop_query():
+    # Part 1
+    DB_FILEPATH = os.path.join(os.path.dirname(__file__), "pop_db.sqlite3")
+
+    connection = sqlite3.connect(DB_FILEPATH)
+    print("CONNECTION:", connection)
+
+    cursor = connection.cursor()
+    print("CURSOR", cursor)
+
+
+    print("\n1. Count how many rows you have.")
+    result1 = cursor.execute("SELECT COUNT(*) FROM pop_2010_2019").fetchone()
+    print("Number of row : ", result1)
+
+    print("\n2. 10 years of population data for 'San Francisco, California'.")
+    result1 = cursor.execute("SELECT * FROM pop_2010_2019 WHERE City_State = 'San Francisco, California'").fetchall()
+    for result in result1:
+        print(result)
+    
 
 # MAIN
-
+# THIS IS THE ETL
 # this is to fill the database
 all_df = fill_10_years_pop_df() # list of dataframes
 big_df = concat_dfs(all_df)
 population_etl(big_df)
+
+pop_query()
 
 # user inpute
 user_city_state = {'City, State':'San Francisco, California'}
