@@ -10,3 +10,6 @@
 
 2021.01.28 - JA
 - added SQLAlchemy to pipfile - using 'pipenv install SQLAlchemy'
+
+2021.01.29 - JA
+- to run fastapi app - 'uvicorn app.main:app --reload'
