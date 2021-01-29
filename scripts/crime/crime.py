@@ -6,7 +6,9 @@ import numpy as np
 # crime_2018 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2018.xls')
 # crime_2017 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2017.xls')
 # crime_2016 = pd.read_excel('./data/Table_6_Offenses_Known_to_Law_Enforcement_by_State_by_City_2016.xls')
-crime_2015 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2015.xls')
+# crime_2015 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2015.xls')
+crime_2014 = pd.read_excel('./data/table-8.xls')
+
 
 def clean_2019(df):
         '''
@@ -200,49 +202,103 @@ def clean_2015(df):
         '''
 
         # deleting last 10 rows due to useles info
-        df = df.drop(df.tail(11).index)
+        df = df.drop(df.tail(10).index)
 
-        # # front fill states 
-        # df['State'] = df['State'].fillna(method='ffill')
-        # temp = df['State'].str.split("-", n=1, expand=True)
-        # df['State'] = temp[0]
+        # front fill states 
+        df['State'] = df['State'].fillna(method='ffill')
+        temp = df['State'].str.split("-", n=1, expand=True)
+        df['State'] = temp[0]
         
-        # # fix formating of headers
-        # df.columns = df.columns.str.replace('\n',' ' )
+        # NJ naming fix
+        df['State'] = df['State'].str.replace('NEW JERSEY9', 'NEW JERSEY')
 
-        # # # droping unwanted columns
-        # drop_list = ['State', 'City', 'Population', 'Violent crime', 'Property crime']
-        # df = df.drop(df.columns.difference(drop_list), axis=1)
+        # fix formating of headers
+        df.columns = df.columns.str.replace('\n',' ' )
 
-        # # lowercasing whole df
-        # df = df.applymap(lambda s:s.lower() if type(s) == str else s)
+        # # droping unwanted columns
+        drop_list = ['State', 'City', 'Population', 'Violent crime', 'Property crime']
+        df = df.drop(df.columns.difference(drop_list), axis=1)
 
-        # # dealing with NaN's
-        # zeros = ['Violent crime', 'Property crime']
-        # df[zeros] = df[zeros].fillna(value=0)
+        # lowercasing whole df
+        df = df.applymap(lambda s:s.lower() if type(s) == str else s)
 
+        # dealing with NaN's
+        zeros = ['Violent crime', 'Property crime']
+        df[zeros] = df[zeros].fillna(value=0)
 
-        # # removing unessary text from cities 
-        # df['City'] = df['City'].str.replace(' County Police Department', '')
-        # df['City'] = df['City'].str.replace(' Police Department', '')
-        # df['City'] = df['City'].str.replace(' County', '')
-        # df['City'] = df['City'].str.replace('7', '')
-        # df['City'] = df['City'].str.replace('5', '')
-        # df['City'] = df['City'].str.replace('3', '')
-        # df['City'] = df['City'].str.replace("'s", '')
+        # removing unessary text from cities 
+        df['City'] = df['City'].str.replace(' County Police Department', '')
+        df['City'] = df['City'].str.replace(' Police Department', '')
+        df['City'] = df['City'].str.replace(' County', '')
+        df['City'] = df['City'].str.replace('7', '')
+        df['City'] = df['City'].str.replace('5', '')
+        df['City'] = df['City'].str.replace('3', '')
+        df['City'] = df['City'].str.replace("'s", '')
 
-        # # adding year to df
-        # df['year'] = 2016
+        # adding year to df
+        df['year'] = 2015
 
-        # print(df.head(3))
+        print(df.head(3))
 
         return df
 
-        
-# crime_2016 = clean_2016(crime_2016)
-# crime_2018 = clean_2018(crime_2018)
-# crime_2019 = clean_2019(crime_2019)
+def clean_2014(df): 
 
-# create csv
+        '''
+        simple cleaning function to preprcess 2014 data to for modeling
+        df: input data frame
+        '''
+
+        # deleting last 17 rows due to useles info
+        df = df.drop(df.tail(17).index)
+
+        # front fill states 
+        df['State'] = df['State'].fillna(method='ffill')
+        temp = df['State'].str.split("-", n=1, expand=True)
+        df['State'] = temp[0]
+        
+        # GA naming fix
+        df['State'] = df['State'].str.replace('GEORGIA7', 'GEORGIA')
+
+        # fix formating of headers
+        df.columns = df.columns.str.replace('\n',' ' )
+
+        # # droping unwanted columns
+        drop_list = ['State', 'City', 'Population', 'Violent crime', 'Property crime']
+        df = df.drop(df.columns.difference(drop_list), axis=1)
+
+        # lowercasing whole df
+        df = df.applymap(lambda s:s.lower() if type(s) == str else s)
+
+        # dealing with NaN's
+        zeros = ['Violent crime', 'Property crime']
+        df[zeros] = df[zeros].fillna(value=0)
+
+        # removing unessary text from cities 
+        df['City'] = df['City'].str.replace(' County Police Department', '')
+        df['City'] = df['City'].str.replace(' Police Department', '')
+        df['City'] = df['City'].str.replace(' County', '')
+        df['City'] = df['City'].str.replace('7', '')
+        df['City'] = df['City'].str.replace('5', '')
+        df['City'] = df['City'].str.replace('3', '')
+        df['City'] = df['City'].str.replace("'s", '')
+
+        # adding year to df
+        df['year'] = 2014
+
+        print(df.tail(3))
+
+        print(df.State.unique())
+
+        return df
+        
+
+crime_2014 = clean_2014(crime_2014)
+crime_2015 = clean_2015(crime_2015)
+crime_2016 = clean_2016(crime_2016)
+crime_2018 = clean_2018(crime_2018)
+crime_2019 = clean_2019(crime_2019)
+
+# create csv's
 # crime_2019.to_csv('crime_2019')
 
