@@ -2,11 +2,11 @@ import pandas as pd
 import numpy as np
 
 
-# crime_2019 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2019.xls')
-# crime_2018 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2018.xls')
-# crime_2017 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2017.xls')
-# crime_2016 = pd.read_excel('./data/Table_6_Offenses_Known_to_Law_Enforcement_by_State_by_City_2016.xls')
-# crime_2015 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2015.xls')
+crime_2019 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2019.xls')
+crime_2018 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2018.xls')
+crime_2017 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2017.xls')
+crime_2016 = pd.read_excel('./data/Table_6_Offenses_Known_to_Law_Enforcement_by_State_by_City_2016.xls')
+crime_2015 = pd.read_excel('./data/Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City_2015.xls')
 crime_2014 = pd.read_excel('./data/table-8.xls')
 
 
@@ -286,9 +286,7 @@ def clean_2014(df):
         # adding year to df
         df['year'] = 2014
 
-        print(df.tail(3))
-
-        print(df.State.unique())
+        print(df.head(3))
 
         return df
         
@@ -296,9 +294,15 @@ def clean_2014(df):
 crime_2014 = clean_2014(crime_2014)
 crime_2015 = clean_2015(crime_2015)
 crime_2016 = clean_2016(crime_2016)
+crime_2017 = clean_2017(crime_2017)
 crime_2018 = clean_2018(crime_2018)
 crime_2019 = clean_2019(crime_2019)
 
 # create csv's
-# crime_2019.to_csv('crime_2019')
+crime_2019.to_csv('crime_2019')
+crime_2018.to_csv('crime_2018')
+crime_2017.to_csv('crime_2017')
+crime_2016.to_csv('crime_2016')
+crime_2015.to_csv('crime_2015')
+crime_2014.to_csv('crime_2014')
 
