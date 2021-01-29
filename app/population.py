@@ -4,6 +4,8 @@ from ast import literal_eval
 # Import the appropriate estimator class from Scikit-Learn
 from sklearn.linear_model import LinearRegression
 # Import for SQLAlchemy
+import os
+import sqlite3
 from sqlalchemy import create_engine
 
 
@@ -143,9 +145,23 @@ def predict_pop_growth(user_city_state, big_df):
 
 # https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.to_sql.html
 def population_etl(big_df):
+    # Part 1
+    DB_FILEPATH = os.path.join(os.path.dirname(__file__), "pop_db.sqlite3")
+
+    connection = sqlite3.connect(DB_FILEPATH)
+    print("CONNECTION:", connection)
+
+    cursor = connection.cursor()
+    print("CURSOR", cursor)
+
+    # Part 2
     engine = create_engine('sqlite://', echo=False)
-    big_df.to_sql('population', con=engine)
-    print(engine.execute("SELECT * FROM population").fetchone())
+    big_df.to_sql("pop_2010_2019", con=engine, if_exists = 'replace', index=False)
+
+
+    # engine = create_engine('sqlite://', echo=False)
+    # big_df.to_sql('pop_2010_2019', con=engine) # if_exist # 09:20 https://www.youtube.com/watch?v=M-4EpNdlSuY
+    # print(engine.execute("SELECT * FROM pop_2010_2019").fetchone())
 
 
 # MAIN
