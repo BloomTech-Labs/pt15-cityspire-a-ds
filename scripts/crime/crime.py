@@ -317,10 +317,10 @@ crime_2018 = clean_2018(crime_2018)
 crime_2019 = clean_2019(crime_2019)
 
 # create csv's
-crime_2019.to_csv('crime_2019')
-crime_2018.to_csv('crime_2018')
-crime_2017.to_csv('crime_2017')
-crime_2016.to_csv('crime_2016')
-crime_2015.to_csv('crime_2015')
-crime_2014.to_csv('crime_2014')
+crime_2019.to_csv('crime_2019.csv')
+crime_2018.to_csv('crime_2018.csv')
+crime_2017.to_csv('crime_2017.csv')
+crime_2016.to_csv('crime_2016.csv')
+crime_2015.to_csv('crime_2015.csv')
+crime_2014.to_csv('crime_2014.csv')
 
