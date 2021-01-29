@@ -3,6 +3,8 @@ import pandas as pd
 from ast import literal_eval
 # Import the appropriate estimator class from Scikit-Learn
 from sklearn.linear_model import LinearRegression
+# Import for SQLAlchemy
+from sqlalchemy import create_engine
 
 
 def population_data_api(year_str):
@@ -50,7 +52,8 @@ def clean_pop_df(df):
     df['City, State'] = df.CITY + ", " + df.STATE
 
     # prep population df for joining
-    pop_df = df[['YEAR', 'CITY', 'STATE', 'City, State', 'POPULATION']]
+    # pop_df = df[['YEAR', 'CITY', 'STATE', 'City, State', 'POPULATION']]
+    pop_df = df[['YEAR', 'City, State', 'POPULATION']]
 
     return pop_df
 
@@ -138,6 +141,11 @@ def predict_pop_growth(user_city_state, big_df):
     return {last_label: y_pred_last_year, this_label: y_pred_this_year, 'percent_pop_growth': percent_pop_growth}
 
 
+# https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.to_sql.html
+def population_etl(big_df):
+    engine = create_engine('sqlite://', echo=False)
+    big_df.to_sql('population', con=engine)
+    print(engine.execute("SELECT * FROM population").fetchone())
 
 
 # MAIN
@@ -145,7 +153,7 @@ def predict_pop_growth(user_city_state, big_df):
 # this is to fill the database
 all_df = fill_10_years_pop_df() # list of dataframes
 big_df = concat_dfs(all_df)
-
+population_etl(big_df)
 
 # user inpute
 user_city_state = {'City, State':'San Francisco, California'}
