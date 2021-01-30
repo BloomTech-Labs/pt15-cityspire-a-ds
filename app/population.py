@@ -103,16 +103,13 @@ def predict_pop_growth(user_city_state):
     # get city state from json
     city_state = user_city_state['City, State']
 
+    # Read sqlite query results into a pandas DataFrame
+    connection = sqlite3.connect("app/pop_db.sqlite3")
+    Graph_df = pd.read_sql_query(f"SELECT * FROM pop_2010_2019 WHERE city_state = \'{city_state}\'", con=connection)
 
-    # TODO makd this a db call instead
-    #
-    #
-    big_df = pd.read_csv('app/pop_2010_2019.csv')
-    # filter big_df
-    Graph_df = big_df[big_df['City_State']== city_state]
-    #
-    #
-    #
+    # Verify that result of SQL query is stored in the dataframe
+    # print(Graph_df.head())
+    connection.close()
 
     #2. Instantiate this class
     model = LinearRegression()
@@ -123,7 +120,6 @@ def predict_pop_growth(user_city_state):
 
     X_train = Graph_df[features]
     y_train = Graph_df[target]
-    # print(X_train.shape, y_train.shape)
 
     #4. Fit the Model
     model.fit(X_train, y_train)
@@ -223,8 +219,8 @@ def initial_fill():
 # population_etl()
 pop_query()
 
-# # user inpute
-# user_city_state = {'City, State':'San Francisco, California'}
+# user inpute
+user_city_state = {'City, State':'San Francisco, California'}
 
-# results = predict_pop_growth(user_city_state)
-# print(results) 
+results = predict_pop_growth(user_city_state)
+print(results) 

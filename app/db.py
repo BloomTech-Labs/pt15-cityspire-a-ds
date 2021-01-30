@@ -50,10 +50,7 @@ async def get_url(connection=Depends(get_db)):
 
 @router.get('/pop_predict')
 async def predict_pop_growth_route(user_city_state):
-    # # user input
-    # user_city_state = {'City, State':'San Francisco, California'}
-
-
+    
     results = predict_pop_growth(user_city_state)
     return results 
 
