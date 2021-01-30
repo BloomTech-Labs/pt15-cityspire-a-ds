@@ -6,18 +6,22 @@ from sklearn.linear_model import LinearRegression
 from datetime import datetime
 # Import for SQLAlchemy
 import os
+from dotenv import load_dotenv
+from os import getenv
 import sqlite3
 from sqlalchemy import create_engine
 
 
 def population_data_api(year_str):
 
+    load_dotenv()
+
+    # look up how to protect our API keys using environmental variables
+    census_api_key = os.getenv('CENSUS_API_KEY')
+
     # convert to str
     year_str = str(year_str)
   
-    # look up how to protect our API keys using environmental variables
-    census_api_key = 'ca170bc6585e4b20fe39912a9c403931fa7e8196'
-
     #make API calls with python
     calledAPI = 'https://api.census.gov/data/' + year_str + '/acs/acs5?get=NAME,B01003_001E&for=place:*&in=state:*&key='+ census_api_key
 
@@ -214,7 +218,7 @@ def initial_fill():
 
 # MAIN
 
-# initial_fill()
+initial_fill()
 
 # population_etl()
 pop_query()
