@@ -188,38 +188,6 @@ def population_etl_initial(big_df):
     connection.close()
 
 
-# def population_etl():
-#     '''
-#     This etl is collecting from the api in current time
-#     CSV ---> DF ---> DB
-#     '''
-#     # Part 1
-#     DB_FILEPATH = os.path.join(os.path.dirname(__file__), "pop_db.sqlite3")
-
-#     connection = sqlite3.connect(DB_FILEPATH)
-#     print("CONNECTION:", connection)
-
-#     cursor = connection.cursor()
-#     print("CURSOR", cursor)
-#     big_df = pd.read_csv('app/pop_2010_2019.csv')
-#     # Part 2
-#     engine = create_engine('sqlite://', echo=False)
-#     big_df.to_sql("pop_2010_2019", con=engine, if_exists = 'replace', index=False)
-
-#     print("\n1. Count how many rows you have.")
-#     result1 = engine.execute("SELECT COUNT(*) FROM pop_2010_2019").fetchone()
-#     print("Number of row : ", result1)
-
-#     print("\n2. 10 years of population data for 'San Francisco, California'.")
-#     result1 = engine.execute("SELECT * FROM pop_2010_2019 WHERE City_State = 'San Francisco, California'").fetchall()
-#     for result in result1:
-#         print(result)
-    
-#     connection.commit()
-#     print("COMMIT")
-#     connection.close()
-
-
 def pop_query():
     # Part 1
     DB_FILEPATH = os.path.join(os.path.dirname(__file__), "pop_db.sqlite3")
@@ -241,17 +209,19 @@ def pop_query():
         print(result)
     
 
+def initial_fill():
+    # THIS IS THE INITIAL ETL to fill the csv the first time
+    # this is to fill the database
+    all_df = fill_10_years_pop_df() # list of dataframes
+    big_df = concat_dfs(all_df)
+    population_etl_initial(big_df)
+
 # MAIN
 
-
-# THIS IS THE INITIAL ETL to fill the csv the first time
-# this is to fill the database
-all_df = fill_10_years_pop_df() # list of dataframes
-big_df = concat_dfs(all_df)
-population_etl_initial(big_df)
+# initial_fill()
 
 # population_etl()
-# pop_query()
+pop_query()
 
 # # user inpute
 # user_city_state = {'City, State':'San Francisco, California'}
