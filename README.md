@@ -23,3 +23,6 @@
 - https://fastapi.tiangolo.com/advanced/testing-database/
 - https://datacarpentry.org/python-ecology-lesson/09-working-with-sql/index.html
 - SQLITE test db works with population.py
+2021.01.30
+- created .env file for credentials
+- load_dotenv() and os.getenv() to call credentials
