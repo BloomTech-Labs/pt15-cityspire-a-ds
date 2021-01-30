@@ -22,3 +22,4 @@
     - you must do it manually
 - https://fastapi.tiangolo.com/advanced/testing-database/
 - https://datacarpentry.org/python-ecology-lesson/09-working-with-sql/index.html
+- SQLITE test db works with population.py
