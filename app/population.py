@@ -3,6 +3,7 @@ import pandas as pd
 from ast import literal_eval
 # Import the appropriate estimator class from Scikit-Learn
 from sklearn.linear_model import LinearRegression
+from datetime import datetime
 # Import for SQLAlchemy
 import os
 import sqlite3
@@ -90,7 +91,7 @@ def concat_dfs(all_df):
     # print(big_df.shape)
 
     # save the big_df as a csv
-    big_df.to_csv('pop_2010_2019.csv', sep=',') # '\t'
+    big_df.to_csv('pop_2010_2019.csv', sep=',', index=False) # '\t'
 
     return big_df
 
@@ -106,7 +107,7 @@ def predict_pop_growth(user_city_state):
     # TODO makd this a db call instead
     #
     #
-    big_df = pd.read_csv('pop_2010_2019.csv')
+    big_df = pd.read_csv('app/pop_2010_2019.csv')
     # filter big_df
     Graph_df = big_df[big_df['City_State']== city_state]
     #
@@ -128,7 +129,7 @@ def predict_pop_growth(user_city_state):
     model.fit(X_train, y_train)
 
     #5. Apply the model to new data
-    from datetime import datetime
+    # from datetime import datetime
     today = datetime.today()
 
     # this year prediction
@@ -169,22 +170,35 @@ def population_etl_initial(big_df):
     cursor = connection.cursor()
     print("CURSOR", cursor)
     
+    sql = """
+        CREATE TABLE pop_2010_2019 (
+            year INTEGER,
+            city_state TEXT,
+            population INTEGER,
+            primary key(city_state)
+        ) """
+
+    cursor.execute(sql)
+    print("pop_2010_2019 has been created.......")
+
+
     # Part 2
-    engine = create_engine('sqlite://', echo=False)
-    big_df.to_sql("pop_2010_2019", con=engine, if_exists = 'replace', index=False)
+    # engine = create_engine('sqlite://', echo=False)
+    big_df.to_sql("pop_2010_2019", con=connection, if_exists = 'replace', index=False)
 
-    print("\n1. Count how many rows you have.")
-    result1 = engine.execute("SELECT COUNT(*) FROM pop_2010_2019").fetchone()
-    print("Number of row : ", result1)
+    # print("\n1. Count how many rows you have.")
+    # result1 = engine.execute("SELECT COUNT(*) FROM pop_2010_2019").fetchone()
+    # print("Number of row : ", result1)
 
-    print("\n2. 10 years of population data for 'San Francisco, California'.")
-    result1 = engine.execute("SELECT * FROM pop_2010_2019 WHERE City_State = 'San Francisco, California'").fetchall()
-    for result in result1:
-        print(result)
+    # print("\n2. 10 years of population data for 'San Francisco, California'.")
+    # result1 = engine.execute("SELECT * FROM pop_2010_2019 WHERE City_State = 'San Francisco, California'").fetchall()
+    # for result in result1:
+    #     print(result)
     
     connection.commit()
     print("COMMIT")
     connection.close()
+
 
 def population_etl():
     '''
@@ -242,18 +256,17 @@ def pop_query():
 # MAIN
 
 
-# # THIS IS THE INITIAL ETL to fill the csv the first time
-# # this is to fill the database
-# all_df = fill_10_years_pop_df() # list of dataframes
-# big_df = concat_dfs(all_df)
-# population_etl_initial(big_df)
+# THIS IS THE INITIAL ETL to fill the csv the first time
+# this is to fill the database
+all_df = fill_10_years_pop_df() # list of dataframes
+big_df = concat_dfs(all_df)
+population_etl_initial(big_df)
 
-population_etl()
+# population_etl()
 # pop_query()
 
-# user inpute
-user_city_state = {'City, State':'San Francisco, California'}
+# # user inpute
+# user_city_state = {'City, State':'San Francisco, California'}
 
-
-results = predict_pop_growth(user_city_state)
-print(results) 
+# results = predict_pop_growth(user_city_state)
+# print(results) 

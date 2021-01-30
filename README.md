@@ -13,3 +13,11 @@
 
 2021.01.29 - JA
 - to run fastapi app - 'uvicorn app.main:app --reload'
+- reminder when you open folder
+    - pipenv shell
+    - code .
+- Reminder when you change the pipenv install --dev
+    - you have to delete the piplock file
+    - they do not write over or replace
+    - you must do it manually
+- https://fastapi.tiangolo.com/advanced/testing-database/
