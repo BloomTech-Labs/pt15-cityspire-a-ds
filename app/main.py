@@ -4,6 +4,8 @@ import uvicorn
 
 from app import db, ml, viz
 
+
+
 description = """
 Edit your app's title and description. See [https://fastapi.tiangolo.com/tutorial/metadata/](https://fastapi.tiangolo.com/tutorial/metadata/)
 
@@ -20,6 +22,7 @@ app = FastAPI(
     description=description,
     docs_url='/',
 )
+
 
 app.include_router(db.router, tags=['Database'])
 app.include_router(ml.router, tags=['Machine Learning'])

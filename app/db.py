@@ -14,6 +14,7 @@ from ast import literal_eval
 from sklearn.linear_model import LinearRegression
 
 
+
 router = APIRouter()
 
 
@@ -48,10 +49,10 @@ async def get_url(connection=Depends(get_db)):
     return {'database_url': url_without_password}
 
 
-@router.get('/pop_predict')
+@router.get('/pop_predict/{user_city_state}')
 async def predict_pop_growth_route(user_city_state):
-    
-    results = predict_pop_growth(user_city_state)
+    results = {user_city_state}
+    # results = predict_pop_growth(user_city_state)
     return results 
 
 # # MAIN

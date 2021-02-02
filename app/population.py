@@ -42,7 +42,9 @@ def population_data_api(year_str):
 
 
 def clean_pop_df(df):
-  
+    # population is a str need to convert to int
+    df['POPULATION'] =  df['POPULATION'].astype(int)
+
     # split CITY_STATE for cleaning and feature engineering 
     df[['CITY','STATE']] = df.NAME.str.split(",",expand=True) 
 
@@ -61,7 +63,7 @@ def clean_pop_df(df):
     # prep population df for joining
     # pop_df = df[['YEAR', 'CITY', 'STATE', 'City, State', 'POPULATION']]
     pop_df = df[['YEAR', 'City_State', 'POPULATION']]
-
+    
     return pop_df
 
 
@@ -218,7 +220,7 @@ def initial_fill():
 
 # MAIN
 
-initial_fill()
+# initial_fill()
 
 # population_etl()
 pop_query()
