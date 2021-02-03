@@ -177,11 +177,10 @@ def population_etl_initial(big_df):
     
     sql = """
         CREATE TABLE pop_2010_2019 (
-            id_num INTEGER,
+            id_num INTEGER PRIMARY KEY,
             year INTEGER,
             city_state TEXT,
-            population INTEGER,
-            primary key(id_num)
+            population INTEGER
         ) """
 
     cursor.execute(sql)
