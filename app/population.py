@@ -12,6 +12,7 @@ import sqlite3
 from sqlalchemy import create_engine
 
 
+
 def population_data_api(year_str):
 
     load_dotenv()
@@ -158,6 +159,8 @@ def predict_pop_growth(user_city_state):
     percent_pop_growth = round(percent_pop_growth,2)
 
     return {last_label: y_pred_last_year, this_label: y_pred_this_year, 'percent_pop_growth': percent_pop_growth}
+
+
 
 
 # https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.to_sql.html
