@@ -4,7 +4,19 @@ import uvicorn
 
 from app import db, ml, viz
 
+#
+#
+from typing import List
 
+from fastapi import Depends, FastAPI, HTTPException
+from sqlalchemy.orm import Session
+
+from . import crud, models, schemas
+from .database import SessionLocal, engine
+
+models.Base.metadata.create_all(bind=engine)
+#
+#
 
 description = """
 Edit your app's title and description. See [https://fastapi.tiangolo.com/tutorial/metadata/](https://fastapi.tiangolo.com/tutorial/metadata/)
@@ -22,6 +34,19 @@ app = FastAPI(
     description=description,
     docs_url='/',
 )
+
+#
+# Dependency
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+#
+
+
+
 
 
 app.include_router(db.router, tags=['Database'])

@@ -12,28 +12,52 @@ import pandas as pd
 from ast import literal_eval
 # Import the appropriate estimator class from Scikit-Learn
 from sklearn.linear_model import LinearRegression
+import sqlite3
 
+from .models import Pop_Table
+#
+#
+from typing import List
 
+from fastapi import Depends, FastAPI, HTTPException
+from sqlalchemy.orm import Session
 
+from . import crud, models, schemas
+from .database import SessionLocal, engine
+
+models.Base.metadata.create_all(bind=engine)
+#
+#
 router = APIRouter()
 
 
-async def get_db() -> sqlalchemy.engine.base.Connection:
-    """Get a SQLAlchemy database connection.
-    
-    Uses this environment variable if it exists:  
-    DATABASE_URL=dialect://user:password@host/dbname
-
-    Otherwise uses a SQLite database for initial local development.
-    """
-    load_dotenv()
-    database_url = os.getenv('DATABASE_URL', default='sqlite:///temporary.db')
-    engine = sqlalchemy.create_engine(database_url)
-    connection = engine.connect()
+# Dependency
+def get_db():
+    db = SessionLocal()
     try:
-        yield connection
+        yield db
     finally:
-        connection.close()
+        db.close()
+
+
+
+# async def get_db() -> sqlalchemy.engine.base.Connection:
+#     """Get a SQLAlchemy database connection.
+    
+#     Uses this environment variable if it exists:  
+#     DATABASE_URL=dialect://user:password@host/dbname
+
+#     Otherwise uses a SQLite database for initial local development.
+#     """
+#     load_dotenv()
+#     # database_url = os.getenv('DATABASE_URL', default='sqlite:///temporary.db')
+#     database_url = os.getenv('DATABASE_URL', default='sqlite:///app/pop_db.sqlite3')
+#     engine = sqlalchemy.create_engine(database_url)
+#     connection = engine.connect()
+#     try:
+#         yield connection
+#     finally:
+#         connection.close()
 
 
 @router.get('/info')
@@ -49,17 +73,20 @@ async def get_url(connection=Depends(get_db)):
     return {'database_url': url_without_password}
 
 
-@router.get('/pop_predict/{user_city_state}')
-async def predict_pop_growth_route(user_city_state):
-    results = {user_city_state}
-    # results = predict_pop_growth(user_city_state)
-    return results 
+@router.get('/pop_query/{year}/{city_state}')
+async def query_pop(year: int, city_state: str, db: Session=Depends(get_db)):
 
-# # MAIN
-# # user inpute
-# user_city_state = {'City, State':'San Francisco, California'}
+    results = crud.get_pop_predict_model(db, year, city_state)
+    if results == []:
+        results = {"error": 123}
+    return results
 
-# all_df = fill_10_years_pop_df() # list of dataframes
-# big_df = concat_dfs(all_df)
-# results = predict_pop_growth(user_city_state, big_df)
-# print(results) 
+
+@router.get('/pop_query_predict_10/{city_state}')
+async def predict_pop_model_10(city_state: str, db: Session=Depends(get_db)):
+
+    results = crud.pop_predict_model_all(db, city_state)
+    
+    if results == []:
+        results = {"error": 123}
+    return results

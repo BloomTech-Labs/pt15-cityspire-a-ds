@@ -21,8 +21,41 @@
     - they do not write over or replace
     - you must do it manually
 - https://fastapi.tiangolo.com/advanced/testing-database/
-- https://datacarpentry.org/python-ecology-lesson/09-working-with-sql/index.html
+- https://datacarpentry.org/python-ecology-lesson/09-working-with-sql/index.htmlhh
 - SQLITE test db works with population.py
 2021.01.30
 - created .env file for credentials
 - load_dotenv() and os.getenv() to call credentials
+
+
+
+2021.02.02
+https://fastapi.tiangolo.com/tutorial/sql-databases/
+- database.py
+- models.py
+- crud.py
+- main part 
+
+
+
+- import Pydantics Base Model - https://fastapi.tiangolo.com/tutorial/body/
+
+class UserInput(Base Model):
+    crime_rate :  float
+    rental_rate : float
+    population : int
+
+
+Database call not returning .all() due to primary key error, need to index and add column
+
+    # save the big_df as a csv
+    big_df.to_csv('app/pop_2010_2019.csv', sep=',', index=True) # changed to True
+
+        sql = """
+        CREATE TABLE pop_2010_2019 (
+            id INTEGER,
+            year INTEGER,
+            city_state TEXT,
+            population INTEGER,
+            primary key(id)
+        ) """
