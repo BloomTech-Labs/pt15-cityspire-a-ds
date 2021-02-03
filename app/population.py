@@ -95,7 +95,9 @@ def concat_dfs(all_df):
 
     # check size of 10 datasets (295459, 5)
     # print(big_df.shape)
+
     big_df['id'] = big_df.index
+    big_df[['id', 'YEAR', 'City_State','POPULATION']]
     # save the big_df as a csv
     big_df.to_csv('app/pop_2010_2019.csv', sep=',', index=False) # '\t'
     
@@ -175,11 +177,11 @@ def population_etl_initial(big_df):
     
     sql = """
         CREATE TABLE pop_2010_2019 (
-            id INTEGER,
+            id_num INTEGER,
             year INTEGER,
             city_state TEXT,
             population INTEGER,
-            primary key(id)
+            primary key(id_num)
         ) """
 
     cursor.execute(sql)

@@ -10,8 +10,8 @@ from .database import Base
 class Pop_Table(Base):
     __tablename__ = "pop_2010_2019"
 
-    
+    id_num = Column(Integer, primary_key=True, index=True)
     year = Column(Integer)
     city_state = Column(String) 
     population= Column(Integer)
-    id = Column(Integer, primary_key=True, index=True)
+    
