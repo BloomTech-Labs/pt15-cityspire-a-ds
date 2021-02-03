@@ -15,9 +15,8 @@ from sqlalchemy import create_engine
 
 def population_data_api(year_str):
 
-    load_dotenv()
-
     # look up how to protect our API keys using environmental variables
+    load_dotenv()
     census_api_key = os.getenv('CENSUS_API_KEY')
 
     # convert to str
@@ -61,7 +60,6 @@ def clean_pop_df(df):
     # feature engineering for joining key
     df['City_State'] = df.CITY + ", " + df.STATE
 
-    # prep population df for joining
     # pop_df = df[['YEAR', 'CITY', 'STATE', 'City, State', 'POPULATION']]
     pop_df = df[['YEAR', 'City_State', 'POPULATION']]
     
@@ -71,13 +69,13 @@ def clean_pop_df(df):
 def fill_10_years_pop_df():
     years = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
     years = [str(x) for x in years]
-    # dfs = [df_2010, df_2011, df_2012, df_2013, df_2014, df_2015, df_2016, df_2017, df_2018, df_2019]
     
     dfs = []
     for year in years:
         df = population_data_api(year)
         cleaned_df = clean_pop_df(df)
         dfs.append(cleaned_df)
+
     return dfs
 
 
@@ -102,14 +100,15 @@ def concat_dfs(all_df):
     # save the big_df as a csv
     big_df.to_csv('app/pop_2010_2019.csv', sep=',', index=False) # '\t'
     
-
     return big_df
 
 
 # # Import the appropriate estimator class from Scikit-Learn
 # from sklearn.linear_model import LinearRegression
 def predict_pop_growth(user_city_state):
-
+    """
+    This is accesses the local SQLITE3 
+    """
     # get city state from json
     city_state = user_city_state['City, State']
 
@@ -161,8 +160,6 @@ def predict_pop_growth(user_city_state):
     return {last_label: y_pred_last_year, this_label: y_pred_this_year, 'percent_pop_growth': percent_pop_growth}
 
 
-
-
 # https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.DataFrame.to_sql.html
 def population_etl_initial(big_df):
     '''
@@ -207,7 +204,6 @@ def pop_query():
     cursor = connection.cursor()
     print("CURSOR", cursor)
 
-
     print("\n1. Count how many rows you have.")
     result1 = cursor.execute("SELECT COUNT(*) FROM pop_2010_2019").fetchone()
     print("Number of row : ", result1)
@@ -225,15 +221,14 @@ def initial_fill():
     big_df = concat_dfs(all_df)
     population_etl_initial(big_df)
 
+
 # MAIN
 
 # initial_fill()
-
 
 pop_query()
 
 # user inpute
 user_city_state = {'City, State':'San Francisco, California'}
-
 results = predict_pop_growth(user_city_state)
 print(results) 
