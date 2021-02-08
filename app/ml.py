@@ -36,33 +36,40 @@ router = APIRouter()
 # this is for a prediction that was predicted "APRIORI"  
 # (AKA ahead of time and stored in db up to the year 2022)
 @router.get('/predict_population')
-async def predict():
+async def predict(year, city_state):
     """
+    Request URL
+    http://127.0.0.1:8000/predict_population?year=2012&city_state=Newark%2C%20New%20Jersey
+    
+    
     Predict population in Newark, New Jersey.
     {
         "city_state": "Newark, New Jersey",
-        "year": 2022
+        "year": 2012
     }
 
     """
     
     return {
             "population": 276478,
-            "city_state": "Newark, New Jersey",
-            "year": 2022,
+            "city_state": city_state,
+            "year": year,
             "id_num": 19634
             }
 
 
 # This is for the combined recommendation model
 @router.get('/recommend')
-async def recommendatio_model():
+async def recommendatio_model(crime_rate, rental_rate, population):
     """
+    Request URL
+    http://127.0.0.1:8000/recommend?crime_rate=1.0&rental_rate=10000&population=30000
+
     Predict population in Newark, New Jersey.
     {
-        "crime_rate" : user.cr
-        "rental_rate" : user.rr
-        "population" : user.g
+        "crime_rate" : 1.0
+        "rental_rate" : 10000
+        "population" : 30000
     }
 
     """

@@ -83,8 +83,11 @@ async def get_url(connection=Depends(get_db)):
 
 
 @router.get('/call_population')
-async def predict():
+async def predict(year, city_state):
     """
+    Request URL
+    http://127.0.0.1:8000/call_population?year=2012&city_state=Newark%2C%20New%20Jersey
+
     Predict population in Newark, New Jersey.
     {
         "city_state": "Newark, New Jersey",
@@ -102,12 +105,14 @@ async def predict():
 
 
 @router.get('/population_history/')
-async def predict():
+async def predict(city_state):
     """
+    Request URL
+    http://127.0.0.1:8000/population_history/?city_state=Newark%2C%20New%20Jersey
+
     collect population in Newark, New Jersey.
     {
         "city_state": "Newark, New Jersey",
-        "year": 2022
     }
 
     """
