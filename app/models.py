@@ -13,4 +13,7 @@ class Pop_Table(Base):
     year = Column(Integer)
     city_state = Column(String) 
     population= Column(Integer)
+
+    def __repr__(self):
+        return '{"id_num": %s, "population": %s, "city_state": "%s", "year": %s}' % (self.id_num, self.population, self.city_state, self.year)
     

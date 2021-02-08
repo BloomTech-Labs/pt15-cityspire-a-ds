@@ -59,3 +59,12 @@ Database call not returning .all() due to primary key error, need to index and a
             population INTEGER,
             primary key(id)
         ) """
+
+I am currently working on a FastAPI app 
+that is calling data from Sqlite db and SQLAlchemy is 
+returning objects instead of the data. Please advise
+
+Need to write a __repr__(self) for db class
+
+- pipenv install simplejson
+- import simplejson as json

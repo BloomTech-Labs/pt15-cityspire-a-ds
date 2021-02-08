@@ -12,6 +12,7 @@ requests = "*"
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 sqlalchemy = "*"
+simplejson = "*"
 
 [requires]
 python_version = "3"

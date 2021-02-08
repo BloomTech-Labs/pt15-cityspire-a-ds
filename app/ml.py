@@ -16,6 +16,9 @@ from sqlalchemy.orm import Session
 
 from . import crud, models, schemas
 from .database import SessionLocal, engine
+from .models import Pop_Table
+import simplejson as json
+
 
 
 # Dependency
@@ -32,28 +35,39 @@ router = APIRouter()
 @router.get('/ML_pop_predict/{user_city_state}')
 async def ML_predict_pop_growth_route(user_city_state, db: Session=Depends(get_db)): 
     
+    # NOTE input in form {'City_State' : 'San Francisco, California'}
 
-    # get city state from json
-    city_state = user_city_state['City, State']
-
-    # # Read sqlite query results into a pandas DataFrame
-    # connection = sqlite3.connect("app/pop_db.sqlite3")
-    # Graph_df = pd.read_sql_query(f"SELECT * FROM pop_2010_2019 WHERE city_state = \'{city_state}\'", con=connection)
-
-    # # Verify that result of SQL query is stored in the dataframe
-    # # print(Graph_df.head())
-    # connection.close()
+    # # get city state from json
+    # city_state = user_city_state['City_State']
+    
+    # for 2021.02.03 test
+    city_state = user_city_state 
 
     # https://stackoverflow.com/questions/40973211/convert-list-of-dictionaries-to-a-dataframe 
     list_dict = crud.pop_predict_model_all(db, city_state)
-    Graph_df = pd.DataFrame(list_dict)
+    # returns a json object 
+
+    Graph_df = pd.read_sql_query(list_dict, con=db)
+    print(Graph_df.shape, Graph_df.columns)
+    return list_dict  
+    
+    # data = json.dumps(list_dict)
+    # print(data)
+    # print(list_dict)
+    
+
+    # Graph_df = pd.DataFrame.from_records(list_dict)
+    # print(Graph_df.shape, Graph_df.columns)
+    # return list_dict
+
 
     #2. Instantiate this class
     model = LinearRegression()
 
     #3. Arrange X features matrix & y target vector
-    features = ['YEAR']
-    target = 'POPULATION'
+    # make sure to match the list of dict [columns]
+    features = ['year']
+    target = 'population'
 
     X_train = Graph_df[features]
     y_train = Graph_df[target]
