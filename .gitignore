@@ -1,3 +1,6 @@
+# credentials
+.env
+
 .DS_Store
 .vscode/
 temporary.db
