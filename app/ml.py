@@ -21,82 +21,95 @@ import simplejson as json
 
 
 
-# Dependency
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+# # Dependency
+# def get_db():
+#     db = SessionLocal()
+#     try:
+#         yield db
+#     finally:
+#         db.close()
 
 router = APIRouter()
 
-#/{user_city_state}')
-@router.get('/ML_pop_predict/{user_city_state}')
-async def ML_predict_pop_growth_route(user_city_state, db: Session=Depends(get_db)): 
+
+
+# this is for a prediction that was predicted "APRIORI"  
+# (AKA ahead of time and stored in db up to the year 2022)
+@router.get('/predict_population')
+async def predict(year: int, city_state: str):
+    """
+    Request URL
+    http://127.0.0.1:8000/predict_population?year=2012&city_state=Newark%2C%20New%20Jersey
     
-    # NOTE input in form {'City_State' : 'San Francisco, California'}
-
-    # # get city state from json
-    # city_state = user_city_state['City_State']
     
-    # for 2021.02.03 test
-    city_state = user_city_state 
+    Predict population in Newark, New Jersey.
+    {
+        "city_state": "Newark, New Jersey",
+        "year": 2012
+    }
 
-    # https://stackoverflow.com/questions/40973211/convert-list-of-dictionaries-to-a-dataframe 
-    list_dict = crud.pop_predict_model_all(db, city_state)
-    # returns a json object 
-
-    Graph_df = pd.read_sql_query(list_dict, con=db)
-    print(Graph_df.shape, Graph_df.columns)
-    return list_dict  
+    """
     
-    # data = json.dumps(list_dict)
-    # print(data)
-    # print(list_dict)
+    return {
+            "population": 276478,
+            "city_state": city_state,
+            "year": year,
+            "id_num": 19634
+            }
+
+
+# This is for the combined recommendation model
+@router.get('/recommend')
+async def recommendatio_model(crime_rate: float, rental_rate: float, population: int):
+    """
+    Request URL
+    http://127.0.0.1:8000/recommend?crime_rate=1.0&rental_rate=10000&population=30000
+
+    Predict population in Newark, New Jersey.
+    {
+        "crime_rate" : 1.0
+        "rental_rate" : 10000
+        "population" : 30000
+    }
+
+    """
     
-
-    # Graph_df = pd.DataFrame.from_records(list_dict)
-    # print(Graph_df.shape, Graph_df.columns)
-    # return list_dict
-
-
-    #2. Instantiate this class
-    model = LinearRegression()
-
-    #3. Arrange X features matrix & y target vector
-    # make sure to match the list of dict [columns]
-    features = ['year']
-    target = 'population'
-
-    X_train = Graph_df[features]
-    y_train = Graph_df[target]
-
-    #4. Fit the Model
-    model.fit(X_train, y_train)
-
-    #5. Apply the model to new data
-    # from datetime import datetime
-    today = datetime.today()
-
-    # this year prediction
-    this_year = today.year
-    test_features =[this_year]
-    X_test = [test_features]
-    y_pred_this_year = model.predict(X_test)
-    y_pred_this_year = round(y_pred_this_year[0], 0)
-    this_label = 'pop_'+ str(this_year)
-
-    # last year prediction
-    last_year = this_year - 1
-    test_features =[last_year]
-    X_test = [test_features]
-    y_pred_last_year = model.predict(X_test)
-    y_pred_last_year = round(y_pred_last_year[0],0)
-    last_label = 'pop_'+ str(last_year)
-
-    # calculate percent_pop_growth
-    percent_pop_growth = (y_pred_this_year - y_pred_last_year)/y_pred_last_year * 100
-    percent_pop_growth = round(percent_pop_growth,2)
-
-    return {last_label: y_pred_last_year, this_label: y_pred_this_year, 'percent_pop_growth': percent_pop_growth}
+    results = [
+                {
+                    "city_state" : "New York, New York",
+                    "crime_rate" : 2.2,
+                    "rental_rate" : 10000,
+                    "population" : 250000,
+                },
+                                {
+                    "city_state" : "New York, New York",
+                    "crime_rate" : 2.2,
+                    "rental_rate" : 10000,
+                    "population" : 250000,
+                },
+                                {
+                    "city_state" : "New York, New York",
+                    "crime_rate" : 2.2,
+                    "rental_rate" : 10000,
+                    "population" : 250000,
+                },
+                                {
+                    "city_state" : "New York, New York",
+                    "crime_rate" : 2.2,
+                    "rental_rate" : 10000,
+                    "population" : 250000,
+                },
+                                {
+                    "city_state" : "New York, New York",
+                    "crime_rate" : 2.2,
+                    "rental_rate" : 10000,
+                    "population" : 250000,
+                },
+                                {
+                    "city_state" : "New York, New York",
+                    "crime_rate" : 2.2,
+                    "rental_rate" : 10000,
+                    "population" : 250000,
+                },
+            ]
+    return results
