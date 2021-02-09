@@ -180,13 +180,76 @@ async def predict(city_state):
                 ]
     return results
 
-#
-# Dummy Endpoints
-#
+@router.get('/call_crime_rate')
+async def predict(year, city_state):
+    '''{
+        "city_state": "Newark, New Jersey",
+        "year": 2012
+    }
 
+    '''
+    return {
+            "crime_per_1000": 125.2,
+            "city_state": "Newark, New Jersey",
+            "percent_diff_national": "12%",
+            "year": 2012,
+            "id_num": 1234
+            }
 
+@router.get('/crime_rate_history/')
+async def predict(city_state):
+    """
+    collect crime rate of Newark, New Jersey.
+    {
+        "city_state": "Newark, New Jersey",
+    }
 
-
+    """
+    results = [
+                {
+                    "crime_per_1000": 120.2,
+                    "city_state": "Newark, New Jersey",
+                    "percent_diff_national": "12%",
+                    "year": 2014,
+                    "id_num": 15515
+                },
+                {
+                    "crime_per_1000": 115.2,
+                    "city_state": "Newark, New Jersey",
+                    "percent_diff_national": "12%",
+                    "year": 2015,
+                    "id_num": 12454
+                },
+                {
+                    "crime_per_1000": 145.1,
+                    "city_state": "Newark, New Jersey",
+                    "percent_diff_national": "12%",
+                    "year": 2016,
+                    "id_num": 15541
+                },
+                {
+                    "crime_per_1000": 110.5,
+                    "city_state": "Newark, New Jersey",
+                    "percent_diff_national": "12%",
+                    "year": 2017,
+                    "id_num": 211515
+                },
+                {
+                    "crime_per_1000": 125.2,
+                    "city_state": "Newark, New Jersey",
+                    "percent_diff_national": "12%",
+                    "year": 2018,
+                    "id_num": 3162184835
+                },
+                {
+                    "crime_per_1000": 110.9,
+                    "city_state": "Newark, New Jersey",
+                    "percent_diff_national": "12%",
+                    "year": 2019,
+                    "id_num": 1215184
+                }
+                ]
+    return results
 
 
 #
