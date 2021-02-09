@@ -219,6 +219,8 @@ def initial_fill():
     # this is to fill the database
     all_df = fill_10_years_pop_df() # list of dataframes
     big_df = concat_dfs(all_df)
+    #this adds the prediction years of 2020, 2021,2022, up to ???
+
     population_etl_initial(big_df)
 
 
