@@ -33,6 +33,25 @@ router = APIRouter()
 
 
 
+@router.get('/predict_rent')
+async def predict_rent(city_state: str):
+    """
+    Request URL
+    http://127.0.0.1:8000/predict_rent?city_state=Newark%2C%20New%20Jersey
+    
+    
+    Predict population in Newark, New Jersey.
+    {
+        "city_state": "Newark, New Jersey",
+    }
+
+    """
+    
+    return {
+            "Rent_Amount": 2764,
+            }
+
+
 # this is for a prediction that was predicted "APRIORI"  
 # (AKA ahead of time and stored in db up to the year 2022)
 @router.get('/predict_population')
