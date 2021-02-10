@@ -33,6 +33,7 @@ router = APIRouter()
 
 
 
+
 @router.get('/predict_rent')
 async def predict_rent(city_state: str):
     """
@@ -56,6 +57,7 @@ async def predict_rent(city_state: str):
 # (AKA ahead of time and stored in db up to the year 2022)
 @router.get('/predict_population')
 async def predict(year: int, city_state: str):
+
     """
     Request URL
     http://127.0.0.1:8000/predict_population?year=2012&city_state=Newark%2C%20New%20Jersey
@@ -80,6 +82,7 @@ async def predict(year: int, city_state: str):
 # This is for the combined recommendation model
 @router.get('/recommend')
 async def recommendatio_model(crime_rate: float, rental_rate: float, population: int):
+
     """
     Request URL
     http://127.0.0.1:8000/recommend?crime_rate=1.0&rental_rate=10000&population=30000
