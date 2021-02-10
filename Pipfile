@@ -13,6 +13,10 @@ fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 sqlalchemy = "*"
 simplejson = "*"
+pandas = "*"
+sklearn = "*"
+typing = "*"
+datetime = "*"
 
 [requires]
 python_version = "3"
