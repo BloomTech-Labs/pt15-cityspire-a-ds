@@ -251,6 +251,20 @@ async def predict(city_state):
                 ]
     return results
 
+@router.get('/call_rental_rate')
+async def predict(year, city_state):
+    '''{
+        "city_state": "Newark, New Jersey",
+        "year": 2012
+    }
+
+    '''
+    return {
+            "city_state": "Newark, New Jersey",
+            "year": 2012,
+            "rent_amount" : 2664.0,
+            "id_num": 1234
+           }
 
 #
 # This code works with SQLITE DB
