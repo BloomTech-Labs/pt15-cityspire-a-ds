@@ -221,6 +221,16 @@ def initial_fill():
     big_df = concat_dfs(all_df)
     #this adds the prediction years of 2020, 2021,2022, up to ???
 
+
+    # TODO 
+    # we need big_df to create the city_state column for the prediction years
+    # create a list of prediction years 2020 to 2030
+    # create a function to crunch the predictions
+    # concat the prediction year to the big_df
+    # remember to index 
+
+
+
     population_etl_initial(big_df)
 
 
