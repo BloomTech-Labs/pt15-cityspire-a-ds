@@ -17,6 +17,7 @@ pandas = "*"
 sklearn = "*"
 typing = "*"
 datetime = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3"
