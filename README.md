@@ -68,3 +68,9 @@ Need to write a __repr__(self) for db class
 
 - pipenv install simplejson
 - import simplejson as json
+
+
+2021.02.11
+- Delete the Dockerfile (not technically required but it would be confusing to have it in your repo if you’re not using it)
+- Create a Procfile with this line: web: gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker (Like on Heroku, the Procfile tells AWS what command to run. We’ve had better luck in the past using gunicorn instead of uvicorn with the Python platform on AWS Elastic Beanstalk.)
+- pipenv install gunicorn (to install gunicorn)
