@@ -18,6 +18,7 @@ sklearn = "*"
 typing = "*"
 datetime = "*"
 requests = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3"

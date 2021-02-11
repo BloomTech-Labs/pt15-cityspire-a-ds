@@ -25,7 +25,9 @@ from sqlalchemy.orm import Session
 from . import crud, models, schemas
 from .database import SessionLocal, engine
 
-from .schemas import Pop_History, Predict_Pop
+
+from .schemas import Pop_History, Predict_Pop, Query_Pop
+
 
 models.Base.metadata.create_all(bind=engine)
 #
@@ -78,17 +80,20 @@ async def get_url(connection=Depends(get_db)):
 
 
 #
-# Dummy Endpoints
+# Dummy Endpointss
 #
 
+@router.post('/call_population')
+async def find_pop(user_var: Query_Pop):
 
-@router.get('/call_population')
-async def predict(year, city_state):
     """
     Request URL
     http://127.0.0.1:8000/call_population?year=2012&city_state=Newark%2C%20New%20Jersey
 
     Predict population in Newark, New Jersey.
+
+    Pop_History schema
+
     {
         "city_state": "Newark, New Jersey",
         "year": 2012
@@ -96,16 +101,45 @@ async def predict(year, city_state):
 
     """
     
-    return {
+    result={
             "population": 276478,
-            "city_state": "Newark, New Jersey",
-            "year": 2012,
+            "city_state": user_var.city_state,
+            "year": user_var.year,
             "id_num": 17634
             }
+    return result
+
+
+
+
+# @router.post('/call_population')
+# async def find_pop(city_state: str, year: int):
+#     """
+#     Request URL
+#     http://127.0.0.1:8000/call_population?year=2012&city_state=Newark%2C%20New%20Jersey
+
+#     Predict population in Newark, New Jersey.
+
+#     Pop_History schema
+#     {
+#         "city_state": "Newark, New Jersey",
+#         "year": 2012
+#     }
+
+#     """
+    
+#     result={
+#             "population": 276478,
+#             "city_state": city_state,
+#             "year": year,
+#             "id_num": 17634
+#             }
+#     return result
 
 
 @router.get('/population_history/')
-async def predict(city_state):
+async def predict(city_state: str):
+
     """
     Request URL
     http://127.0.0.1:8000/population_history/?city_state=Newark%2C%20New%20Jersey
@@ -179,6 +213,14 @@ async def predict(city_state):
                 }
                 ]
     return results
+
+#
+# Dummy Endpoints
+#
+
+
+
+
 
 @router.get('/call_crime_rate')
 async def predict(year, city_state):
