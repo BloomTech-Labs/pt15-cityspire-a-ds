@@ -1,2501 +1,2501 @@
-,City,Zip Code,Walk Score,Transit Score,Bike Score,Population,State
-0,Birmingham,35211,35,25,31,212237,AL
-1,Montgomery,36109,26,16,38,205764,AL
-2,Mobile,36605,32,--,39,195111,AL
-3,Huntsville,35810,24,13,40,180105,AL
-4,Tuscaloosa,,33,--,37,90468,AL
-5,Hoover,,17,--,12,81619,AL
-6,Dothan,,23,--,35,65496,AL
-7,Decatur,,25,--,40,55683,AL
-8,Auburn,,27,--,38,53380,AL
-9,Madison,35758,17,--,34,42938,AL
-10,Florence,35630,32,--,36,39319,AL
-11,Gadsden,,25,--,33,36856,AL
-12,Vestavia Hills,,22,--,15,34033,AL
-13,Prattville,,17,--,28,33960,AL
-14,Phenix City,36867,23,--,24,32822,AL
-15,Alabaster,,9,--,20,30352,AL
-16,Bessemer,,26,--,31,27456,AL
-17,Enterprise,,19,--,28,26562,AL
-18,Opelika,,17,--,29,26477,AL
-19,Homewood,,41,22,27,25167,AL
-20,Northport,,26,--,30,23330,AL
-21,Anniston,36205,23,--,26,23106,AL
-22,Prichard,36612,25,--,39,22659,AL
-23,Athens,,21,--,37,21897,AL
-24,Daphne,,16,--,32,21570,AL
-25,Pelham,,13,--,16,21352,AL
-26,Oxford,,10,--,23,21348,AL
-27,Albertville,,21,--,34,21160,AL
-28,Selma,,33,--,48,20756,AL
-29,Mountain Brook,,22,--,16,20413,AL
-30,Trussville,,10,--,12,19933,AL
-31,Troy,,21,--,24,18033,AL
-32,Tillmans Corner,,13,--,31,17398,AL
-33,Center Point,,24,--,19,16921,AL
-34,Helena,,12,--,18,16793,AL
-0,Anchorage,,28,21,52,291826,AK
-1,Fairbanks,,33,24,57,31535,AK
-2,Juneau,,22,18,35,31275,AK
-3,Badger,,2,--,35,19482,AK
-0,Phoenix,85032,41,36,56,1445632,AZ
-1,Tucson,85710,42,35,67,520116,AZ
-2,Mesa,85204,37,27,61,439041,AZ
-3,Chandler,85225,35,24,57,236123,AZ
-4,Glendale,85301,40,34,59,226721,AZ
-5,Scottsdale,85255,31,26,56,217385,AZ
-6,Gilbert,85296,28,15,54,208453,AZ
-7,Tempe,85281,53,47,74,161719,AZ
-8,Peoria,85345,29,14,47,154065,AZ
-9,Surprise,85374,21,--,47,117517,AZ
-10,Yuma,,31,19,55,93064,AZ
-11,San Tan Valley,,13,--,35,81321,AZ
-12,Avondale,85329,28,--,52,76238,AZ
-13,Casas Adobes,85741,24,--,46,66795,AZ
-14,Flagstaff,,38,35,65,65870,AZ
-15,Goodyear,,18,--,42,65275,AZ
-16,Lake Havasu City,86403,15,--,29,52527,AZ
-17,Buckeye,,13,--,33,50876,AZ
-18,Catalina Foothills,85718,13,--,30,50796,AZ
-19,Casa Grande,,26,--,45,48571,AZ
-20,Sierra Vista,85613,25,--,53,43888,AZ
-21,Maricopa,,14,--,39,43482,AZ
-22,Oro Valley,,12,--,41,41011,AZ
-23,Prescott,,25,--,27,39843,AZ
-24,Bullhead City,,23,--,32,39540,AZ
-25,Prescott Valley,,17,--,36,38822,AZ
-26,Sun City,85351,25,--,43,37499,AZ
-27,Apache Junction,,18,--,42,35840,AZ
-28,Marana,,12,--,38,34961,AZ
-29,El Mirage,,27,--,43,31797,AZ
-30,Kingman,,24,--,36,28068,AZ
-31,Drexel Heights,,15,--,32,27749,AZ
-32,Queen Creek,,16,--,44,26361,AZ
-33,Fortuna Foothills,85367,13,--,36,26265,AZ
-34,Florence,,19,--,39,25536,AZ
-35,San Luis,85349,27,--,43,25505,AZ
-36,Sahuarita,,9,--,31,25259,AZ
-37,Sun City West,,11,--,40,24535,AZ
-38,Fountain Hills,85268,19,--,26,22489,AZ
-39,Anthem,,18,--,42,21700,AZ
-40,Green Valley,,12,--,31,21391,AZ
-41,Nogales,,34,--,27,20837,AZ
-42,Rio Rico,,6,--,17,18962,AZ
-43,Douglas,,41,--,49,17378,AZ
-44,Tanque Verde,,4,--,29,16901,AZ
-45,Eloy,,14,--,35,16631,AZ
-0,Little Rock,72209,32,19,32,193524,AR
-1,Fort Smith,72903,35,--,38,86209,AR
-2,Fayetteville,,32,--,50,73580,AR
-3,Springdale,,26,--,39,69797,AR
-4,Jonesboro,,21,--,34,67263,AR
-5,North Little Rock,72116,30,19,34,62304,AR
-6,Conway,,25,--,37,58908,AR
-7,Rogers,,20,--,43,55964,AR
-8,Pine Bluff,,28,--,39,49083,AR
-9,Bentonville,,25,--,41,35301,AR
-10,Hot Springs,,31,--,27,35193,AR
-11,Benton,,18,--,27,30681,AR
-12,Texarkana,,25,--,40,29919,AR
-13,Sherwood,,20,7,29,29523,AR
-14,Jacksonville,,23,3,37,28364,AR
-15,Russellville,72801,27,--,38,27920,AR
-16,Bella Vista,72714,3,--,9,26461,AR
-17,West Memphis,,33,--,43,26245,AR
-18,Paragould,,22,--,35,26113,AR
-19,Cabot,,17,--,31,23776,AR
-20,Searcy,,39,--,45,22858,AR
-21,Van Buren,,23,--,27,22791,AR
-22,El Dorado,,31,--,38,18884,AR
-23,Maumelle,,15,--,44,17163,AR
-24,Bryant,72022,16,--,31,16688,AR
-0,Los Angeles,90011,68,53,59,3792621,CA
-1,San Diego,92126,51,37,43,1307402,CA
-2,San Jose,95123,49,41,62,945942,CA
-3,San Francisco,94112,87,80,72,805235,CA
-4,Fresno,93702,45,32,59,494665,CA
-5,Sacramento,95822,45,34,68,466488,CA
-6,Long Beach,90805,72,52,69,462257,CA
-7,Oakland,94601,74,56,65,390724,CA
-8,Bakersfield,93309,34,27,44,347483,CA
-9,Anaheim,92804,55,37,52,336265,CA
-10,Santa Ana,92704,66,45,61,324528,CA
-11,Riverside,92505,42,33,49,303871,CA
-12,Stockton,95207,43,28,57,291707,CA
-13,Chula Vista,91911,43,36,41,243916,CA
-14,Fremont,94536,48,36,54,214089,CA
-15,Irvine,92612,43,27,69,212375,CA
-16,San Bernardino,92405,43,35,44,209924,CA
-17,Modesto,95355,45,30,50,201165,CA
-18,Oxnard,93035,55,32,52,197899,CA
-19,Fontana,92336,36,29,41,196069,CA
-20,Moreno Valley,92553,32,29,37,193365,CA
-21,Glendale,91205,71,45,52,191719,CA
-22,Huntington Beach,92647,55,32,71,189992,CA
-23,Santa Clarita,,35,--,33,176320,CA
-24,Garden Grove,92840,61,39,58,170883,CA
-25,Santa Rosa,95405,44,27,51,167815,CA
-26,Oceanside,92057,36,33,33,167086,CA
-27,Rancho Cucamonga,91730,40,25,46,165269,CA
-28,Ontario,91761,46,26,47,163924,CA
-29,Lancaster,,29,--,42,156633,CA
-30,Elk Grove,,32,--,46,153015,CA
-31,Palmdale,,24,--,35,152750,CA
-32,Corona,92879,38,18,35,152374,CA
-33,Salinas,93905,47,33,51,150441,CA
-34,Pomona,91766,52,35,48,149058,CA
-35,Torrance,90503,67,39,55,145438,CA
-36,Hayward,94544,55,40,54,144186,CA
-37,Escondido,,44,31,40,143911,CA
-38,Sunnyvale,94087,59,41,76,140081,CA
-39,Pasadena,91104,69,51,70,137122,CA
-40,Orange,92867,51,34,55,136416,CA
-41,Fullerton,92833,53,34,48,135161,CA
-42,Thousand Oaks,91360,32,17,27,126683,CA
-43,East Los Angeles,90022,75,56,50,126496,CA
-44,Visalia,,35,--,49,124442,CA
-45,Simi Valley,93065,36,21,47,124237,CA
-46,Concord,94518,46,30,53,122067,CA
-47,Roseville,95678,36,20,61,118788,CA
-48,Santa Clara,95051,58,41,74,116468,CA
-49,Vallejo,94590,40,31,36,115942,CA
-50,Victorville,92394,19,23,34,115903,CA
-51,El Monte,91732,62,46,58,113475,CA
-52,Berkeley,94704,83,59,82,112580,CA
-53,Downey,90242,60,--,54,111772,CA
-54,Costa Mesa,92627,64,39,66,109960,CA
-55,Inglewood,90301,72,49,55,109673,CA
-56,San Buenaventura (Ventura),,46,--,57,106433,CA
-57,West Covina,91790,44,--,37,106098,CA
-58,Norwalk,90650,60,43,53,105549,CA
-59,Carlsbad,92009,30,23,29,105328,CA
-60,Fairfield,94535,32,25,42,105321,CA
-61,Richmond,94804,57,43,53,103701,CA
-62,Murrieta,,27,20,24,103466,CA
-63,Burbank,91505,70,39,62,103340,CA
-64,Antioch,94509,36,--,42,102372,CA
-65,Daly City,94015,61,52,35,101123,CA
-66,Temecula,,29,16,29,100097,CA
-67,Santa Maria,,47,--,55,99553,CA
-68,El Cajon,92020,57,38,47,99478,CA
-69,Rialto,92376,39,30,45,99171,CA
-70,San Mateo,94403,65,40,65,97207,CA
-71,Compton,,65,--,61,96455,CA
-72,Clovis,93612,36,--,51,95631,CA
-73,South Gate,90280,70,--,56,94396,CA
-74,Vista,92083,44,34,31,93834,CA
-75,Mission Viejo,92691,35,--,37,93305,CA
-76,Vacaville,,33,24,46,92428,CA
-77,Arden-Arcade,95821,50,32,65,92186,CA
-78,Carson,90745,55,--,51,91714,CA
-79,Hesperia,,15,--,32,90173,CA
-80,Redding,,26,18,42,89861,CA
-81,Santa Monica,90405,82,62,86,89736,CA
-82,Westminster,92683,63,--,58,89701,CA
-83,Santa Barbara,93101,61,--,66,88410,CA
-84,Chico,95926,45,--,69,86187,CA
-85,Whittier,90602,63,--,52,85331,CA
-86,Newport Beach,92660,47,29,53,85186,CA
-87,San Leandro,94577,63,45,62,84950,CA
-88,Hawthorne,90250,71,45,59,84293,CA
-89,San Marcos,92078,33,--,30,83781,CA
-90,Citrus Heights,95610,43,--,47,83301,CA
-91,Alhambra,91801,71,--,50,83089,CA
-92,Tracy,95376,42,--,47,82922,CA
-93,Livermore,,40,--,66,80968,CA
-94,Buena Park,90620,55,39,55,80530,CA
-95,Lakewood,90712,56,--,62,80048,CA
-96,Merced,,38,--,53,78958,CA
-97,Hemet,,30,--,43,78657,CA
-98,Chino,,43,24,48,77983,CA
-99,Menifee,92586,16,--,29,77519,CA
-100,Lake Forest,92630,39,--,46,77264,CA
-101,Napa,,42,--,60,76915,CA
-102,Redwood City,94061,61,--,67,76815,CA
-103,Bellflower,90706,65,--,61,76616,CA
-104,Indio,,31,--,43,76036,CA
-105,Tustin,92780,51,34,59,75540,CA
-106,Baldwin Park,,53,--,50,75390,CA
-107,Chino Hills,91709,23,--,20,74799,CA
-108,Mountain View,94040,65,43,90,74066,CA
-109,Alameda,94501,66,41,76,73812,CA
-110,Upland,91786,47,29,49,73732,CA
-111,Folsom,95630,30,--,55,72203,CA
-112,San Ramon,,24,--,37,72148,CA
-113,Pleasanton,,40,--,58,70285,CA
-114,Lynwood,90262,69,--,57,69772,CA
-115,Union City,,47,--,53,69516,CA
-116,Apple Valley,,12,20,31,69135,CA
-117,Redlands,,39,--,53,68747,CA
-118,Turlock,,41,29,46,68549,CA
-119,Perris,,24,--,33,68386,CA
-120,Manteca,,41,--,46,67096,CA
-121,Milpitas,,52,39,66,66790,CA
-122,Redondo Beach,90278,74,--,64,66748,CA
-123,Davis,,44,34,90,65622,CA
-124,Camarillo,,42,--,46,65201,CA
-125,Yuba City,,41,--,56,64925,CA
-126,Rancho Cordova,,41,33,60,64776,CA
-127,Palo Alto,94306,60,39,91,64403,CA
-128,Yorba Linda,92887,28,--,34,64234,CA
-129,Walnut Creek,94596,39,26,49,64173,CA
-130,South San Francisco,94080,57,--,43,63632,CA
-131,San Clemente,92672,34,--,31,63522,CA
-132,Florence-Graham,,75,59,57,63387,CA
-133,Pittsburg,,34,--,40,63264,CA
-134,Laguna Niguel,92677,32,--,32,62979,CA
-135,Pico Rivera,90660,58,--,60,62942,CA
-136,Montebello,90640,65,--,53,62500,CA
-137,Lodi,,55,13,53,62134,CA
-138,Carmichael,95608,44,--,56,61762,CA
-139,Madera,,44,--,46,61416,CA
-140,Castro Valley,94546,39,26,31,61388,CA
-141,Monterey Park,91754,63,--,39,60269,CA
-142,La Habra,,62,--,47,60239,CA
-143,Santa Cruz,95064,62,37,84,59946,CA
-144,Encinitas,92024,41,--,36,59518,CA
-145,Tulare,,40,--,57,59278,CA
-146,Gardena,90249,75,46,57,58829,CA
-147,National City,91950,66,47,48,58582,CA
-148,Cupertino,,48,35,66,58302,CA
-149,Huntington Park,,82,53,60,58114,CA
-150,Petaluma,,47,30,56,57941,CA
-151,San Rafael,94901,51,37,46,57713,CA
-152,South Whittier,,53,--,48,57156,CA
-153,La Mesa,91942,59,42,36,57065,CA
-154,Rocklin,95765,32,--,51,56974,CA
-155,Arcadia,91007,54,--,47,56364,CA
-156,Diamond Bar,,29,--,18,55544,CA
-157,Woodland,,48,28,67,55468,CA
-158,Fountain Valley,92708,55,34,66,55313,CA
-159,Porterville,,40,--,47,54165,CA
-160,Paramount,90723,63,--,57,54098,CA
-161,Hacienda Heights,91745,34,--,30,54038,CA
-162,Hanford,,35,21,47,53967,CA
-163,Rosemead,,64,40,52,53764,CA
-164,Eastvale,,24,--,34,53668,CA
-165,Santee,,33,--,31,53413,CA
-166,Highland,,33,28,36,53104,CA
-167,Delano,,34,--,40,53041,CA
-168,Colton,,41,29,45,52154,CA
-169,Novato,,33,30,37,51904,CA
-170,Lake Elsinore,,21,--,24,51821,CA
-171,Brentwood,,35,--,50,51481,CA
-172,Yucaipa,,24,--,27,51367,CA
-173,Cathedral City,92234,36,--,43,51200,CA
-174,Watsonville,95019,65,32,71,51199,CA
-175,Placentia,92870,50,31,47,50533,CA
-176,Glendora,91741,45,31,42,50073,CA
-177,Cerritos,90703,53,--,57,49041,CA
-178,Rowland Heights,,43,--,34,48993,CA
-179,Gilroy,,42,--,63,48821,CA
-180,West Sacramento,95605,33,24,62,48744,CA
-181,La Mirada,90638,47,--,52,48527,CA
-182,Palm Desert,,27,--,40,48445,CA
-183,Rancho Santa Margarita,,33,--,34,47853,CA
-184,Aliso Viejo,,36,--,36,47823,CA
-185,Poway,,29,--,31,47811,CA
-186,Cypress,90630,52,32,63,47802,CA
-187,Covina,91723,57,35,49,47796,CA
-188,Florin,,42,--,46,47513,CA
-189,Azusa,,56,41,50,46361,CA
-190,Dublin,94568,37,--,56,46036,CA
-191,Antelope,95843,33,--,44,45770,CA
-192,Ceres,,39,19,45,45417,CA
-193,San Luis Obispo,,54,30,68,45119,CA
-194,Palm Springs,92264,35,29,46,44552,CA
-195,San Jacinto,92582,28,--,42,44199,CA
-196,Lincoln,,22,--,49,42819,CA
-197,Altadena,91001,50,--,44,42777,CA
-198,North Highlands,95660,48,31,57,42694,CA
-199,El Centro,,49,--,49,42598,CA
-200,Newark,,54,31,48,42573,CA
-201,Lompoc,,51,--,65,42434,CA
-202,El Dorado Hills,95762,12,--,18,42108,CA
-203,Bell Gardens,,70,--,62,42072,CA
-204,Danville,94526,23,--,35,42039,CA
-205,Rancho Palos Verdes,90275,28,--,21,41643,CA
-206,San Bruno,94066,52,--,36,41114,CA
-207,Rohnert Park,94928,42,--,56,40971,CA
-208,Coachella,,38,--,43,40704,CA
-209,La Puente,,57,--,47,39816,CA
-210,San Gabriel,91776,73,37,51,39718,CA
-211,Campbell,95008,54,39,71,39349,CA
-212,Brea,,49,--,47,39282,CA
-213,Culver City,90232,75,51,71,38883,CA
-214,Calexico,,53,--,49,38572,CA
-215,Stanton,90680,61,39,57,38186,CA
-216,Morgan Hill,,30,23,50,37882,CA
-217,La Quinta,92253,22,--,34,37467,CA
-218,Pacifica,,40,--,26,37234,CA
-219,Beaumont,,22,--,31,36877,CA
-220,Montclair,91763,55,36,54,36664,CA
-221,Monrovia,91016,61,33,47,36590,CA
-222,Willowbrook,,57,--,53,35983,CA
-223,Los Banos,,32,--,40,35972,CA
-224,Martinez,,38,--,39,35824,CA
-225,Temple City,91780,56,40,56,35558,CA
-226,Bell,,77,--,61,35477,CA
-227,Oakley,94561,25,--,50,35432,CA
-228,Manhattan Beach,90266,72,--,52,35135,CA
-229,Hollister,,42,20,49,34928,CA
-230,Claremont,91711,46,--,50,34926,CA
-231,San Juan Capistrano,,34,--,46,34593,CA
-232,Moorpark,,30,--,32,34421,CA
-233,West Hollywood,,91,61,57,34399,CA
-234,Rubidoux,,30,--,32,34280,CA
-235,La Presa,,41,32,33,34169,CA
-236,Beverly Hills,90212,75,60,53,34109,CA
-237,Orangevale,95662,32,--,41,33960,CA
-238,San Dimas,91773,35,--,33,33371,CA
-239,Dana Point,92629,52,27,43,33351,CA
-240,Pleasant Hill,94523,51,29,60,33152,CA
-241,Foothill Farms,95842,41,--,56,33121,CA
-242,Seaside,93955,51,--,48,33025,CA
-243,Lawndale,,81,--,59,32769,CA
-244,Oildale,,44,33,48,32684,CA
-245,Wildomar,92595,10,--,22,32176,CA
-246,Menlo Park,94025,57,--,79,32026,CA
-247,Westmont,,60,56,56,31853,CA
-248,Adelanto,,12,--,31,31765,CA
-249,La Verne,,40,--,39,31063,CA
-250,Fair Oaks,95628,37,23,40,30912,CA
-251,Foster City,94404,44,--,65,30567,CA
-252,Fallbrook,,38,--,26,30534,CA
-253,Laguna Hills,,40,28,41,30344,CA
-254,Saratoga,,28,--,45,29926,CA
-255,Goleta,,42,--,71,29888,CA
-256,El Paso de Robles (Paso Robles),,40,--,31,29793,CA
-257,Banning,,29,--,32,29603,CA
-258,Los Gatos,,43,--,51,29413,CA
-259,Santa Paula,,55,--,47,29321,CA
-260,Walnut,,30,36,29,29172,CA
-261,San Pablo,,70,44,51,29139,CA
-262,Los Altos,,45,30,72,28976,CA
-263,Orcutt,,23,--,40,28905,CA
-264,Burlingame,,65,--,65,28806,CA
-265,San Carlos,94070,45,--,41,28406,CA
-266,Atascadero,,26,--,29,28310,CA
-267,Spring Valley,,33,28,25,28205,CA
-268,Atwater,,39,--,43,28168,CA
-269,East Palo Alto,,58,--,70,28155,CA
-270,Suisun City,,33,--,51,28111,CA
-271,Monterey,,54,39,47,27810,CA
-272,Ridgecrest,,33,--,50,27616,CA
-273,Maywood,90270,78,43,63,27395,CA
-274,Eureka,,64,--,70,27191,CA
-275,Norco,92860,22,--,29,27063,CA
-276,Benicia,,29,--,24,26997,CA
-277,Windsor,,37,--,48,26801,CA
-278,Imperial Beach,91932,67,37,62,26324,CA
-279,Paradise,,20,--,28,26218,CA
-280,Desert Hot Springs,,34,29,33,25938,CA
-281,Belmont,,46,11,37,25835,CA
-282,Soledad,,27,--,40,25738,CA
-283,South Pasadena,91030,67,46,50,25619,CA
-284,Wasco,,35,--,40,25545,CA
-285,West Whittier-Los Nietos,,60,--,58,25540,CA
-286,Lemon Grove,91945,49,39,35,25320,CA
-287,Twentynine Palms,,18,--,31,25048,CA
-288,Brawley,,45,--,49,24953,CA
-289,North Tustin,,23,--,34,24917,CA
-290,Vineyard,,14,--,33,24836,CA
-291,Corcoran,,23,--,38,24813,CA
-292,Lemoore,,40,--,46,24531,CA
-293,Sanger,,49,--,48,24270,CA
-294,Reedley,,50,--,54,24194,CA
-295,Seal Beach,90740,41,33,60,24168,CA
-296,Hercules,94547,25,--,26,24060,CA
-297,Lafayette,,25,16,28,23893,CA
-298,Bloomington,,31,--,37,23851,CA
-299,Cudahy,,60,45,62,23805,CA
-300,Galt,,31,--,39,23647,CA
-301,San Fernando,,78,48,58,23645,CA
-302,El Cerrito,94530,64,51,60,23549,CA
-303,San Lorenzo,,56,34,56,23452,CA
-304,Loma Linda,92354,36,31,42,23261,CA
-305,Selma,,46,--,44,23219,CA
-306,Isla Vista,,59,--,91,23096,CA
-307,French Valley,,8,--,25,23067,CA
-308,Calabasas,,22,--,15,23058,CA
-309,Ladera Ranch,92694,27,--,26,22980,CA
-310,Valinda,,49,--,48,22822,CA
-311,Lennox,,74,53,58,22753,CA
-312,Laguna Beach,,43,26,24,22723,CA
-313,Rosemont,,40,32,57,22681,CA
-314,Riverbank,,36,--,44,22678,CA
-315,Barstow,,39,29,37,22639,CA
-316,West Puente Valley,,53,--,51,22636,CA
-317,Temescal Valley,,9,--,12,22535,CA
-318,Mira Loma,,28,--,35,21930,CA
-319,Ashland,,63,52,52,21925,CA
-320,Port Hueneme,,58,26,60,21723,CA
-321,West Carson,,57,--,53,21699,CA
-322,Millbrae,94030,52,--,41,21532,CA
-323,Dinuba,,54,--,50,21453,CA
-324,South Lake Tahoe,,40,--,65,21403,CA
-325,Bay Point,,35,--,49,21349,CA
-326,Duarte,,45,--,48,21321,CA
-327,Rancho San Diego,,22,--,18,21208,CA
-328,Blythe,,22,--,37,20817,CA
-329,Yucca Valley,,19,--,30,20700,CA
-330,Oakdale,,50,16,53,20675,CA
-331,Lakeside,,24,--,29,20648,CA
-332,Winter Gardens,,30,--,19,20631,CA
-333,South San Jose Hills,,37,39,40,20551,CA
-334,Patterson,,41,--,41,20413,CA
-335,Granite Bay,95746,12,--,32,20402,CA
-336,Agoura Hills,,34,--,26,20330,CA
-337,Ramona,,31,--,34,20292,CA
-338,Lomita,90717,73,38,59,20256,CA
-339,La Cañada Flintridge,,33,--,25,20246,CA
-340,Glen Avon,,26,--,33,20199,CA
-341,South El Monte,,62,--,56,20116,CA
-342,Marina,,44,--,57,19718,CA
-343,La Crescenta-Montrose,,53,--,29,19653,CA
-344,Hermosa Beach,90254,87,--,70,19506,CA
-345,American Canyon,,30,--,49,19454,CA
-346,Arvin,,35,--,39,19304,CA
-347,Castaic,,23,--,16,19015,CA
-348,Coronado,92118,51,33,72,18912,CA
-349,Casa de Oro-Mount Helix,,26,--,19,18762,CA
-350,Chowchilla,,23,--,42,18720,CA
-351,Albany,94706,82,55,90,18539,CA
-352,Mead Valley,,6,--,27,18510,CA
-353,Pinole,94564,41,--,30,18390,CA
-354,Dixon,,43,--,44,18351,CA
-355,Cameron Park,,19,--,22,18228,CA
-356,Rosamond,,18,--,33,18150,CA
-357,Lathrop,95330,27,--,41,18023,CA
-358,Susanville,,25,--,33,17947,CA
-359,Linda,,24,--,48,17773,CA
-360,Orinda,,9,--,18,17643,CA
-361,Prunedale,,5,--,11,17560,CA
-362,Stevenson Ranch,,19,--,20,17557,CA
-363,East Hemet,,21,--,38,17418,CA
-364,Arroyo Grande,,41,--,41,17252,CA
-365,Arcata,,47,--,64,17231,CA
-366,Rancho Mirage,92270,16,--,34,17218,CA
-367,Live Oak,,53,29,80,17158,CA
-368,Shafter,,43,--,46,16988,CA
-369,Nipomo,,24,--,31,16714,CA
-370,El Segundo,90245,65,--,49,16654,CA
-371,Artesia,90701,78,38,60,16522,CA
-0,Denver,80219,61,47,73,600158,CO
-1,Colorado Springs,80918,35,19,45,416427,CO
-2,Aurora,80013,43,38,55,325078,CO
-3,Fort Collins,,37,29,78,143986,CO
-4,Lakewood,80226,42,38,58,142980,CO
-5,Thornton,80241,31,24,50,118772,CO
-6,Pueblo,,35,--,50,106595,CO
-7,Arvada,80004,34,29,52,106433,CO
-8,Westminster,80031,35,33,53,106114,CO
-9,Centennial,80122,36,25,47,100377,CO
-10,Boulder,,57,49,86,97385,CO
-11,Highlands Ranch,80126,27,--,50,96713,CO
-12,Greeley,,36,--,49,92889,CO
-13,Longmont,80501,39,29,59,86270,CO
-14,Loveland,,26,--,48,66859,CO
-15,Grand Junction,81501,33,--,57,58566,CO
-16,Broomfield,,32,18,59,55889,CO
-17,Castle Rock,,12,--,40,48231,CO
-18,Commerce City,,30,24,45,45913,CO
-19,Parker,,22,--,46,45297,CO
-20,Littleton,80120,39,35,46,41737,CO
-21,Northglenn,,46,32,57,35789,CO
-22,Brighton,,36,20,50,33352,CO
-23,Security-Widefield,80911,19,--,34,32882,CO
-24,Ken Caryl,,36,18,54,32438,CO
-25,Dakota Ridge,,24,21,44,32005,CO
-26,Englewood,,62,44,62,30255,CO
-27,Wheat Ridge,80033,44,37,62,30166,CO
-28,Pueblo West,,7,--,36,29637,CO
-29,Fountain,,18,--,30,25846,CO
-30,Lafayette,,41,36,52,24453,CO
-31,Columbine,,29,13,49,24280,CO
-32,Clifton,,14,19,38,19889,CO
-33,Montrose,,29,--,43,19132,CO
-34,Golden,,41,--,56,18867,CO
-35,Windsor,,24,--,40,18644,CO
-36,Evans,80620,29,--,39,18537,CO
-37,Louisville,,40,32,70,18376,CO
-38,Sherrelwood,,40,33,39,18287,CO
-39,Erie,,11,--,44,18135,CO
-40,Durango,,38,--,51,16887,CO
-0,Bridgeport,6606,67,40,52,144229,CT
-1,New Haven,6511,68,48,68,129779,CT
-2,Hartford,6106,71,54,57,124775,CT
-3,Stamford,6902,54,46,46,122643,CT
-4,Waterbury,6708,48,34,29,110366,CT
-5,Norwalk,6854,48,36,42,85603,CT
-6,Danbury,6810,39,--,28,80893,CT
-7,New Britain,6053,48,38,47,73206,CT
-8,West Hartford,6107,42,--,44,63268,CT
-9,Meriden,6450,40,23,33,60868,CT
-10,Bristol,6010,33,--,30,60477,CT
-11,West Haven,6516,48,--,41,55564,CT
-12,Stratford,6614,40,--,41,51384,CT
-13,Milford,6460,31,--,37,51271,CT
-14,East Hartford,6118,32,--,42,51252,CT
-15,Middletown,6457,30,--,28,47648,CT
-16,Norwich,6360,34,--,25,40493,CT
-17,Shelton,6484,18,1,19,39559,CT
-18,Torrington,6790,35,--,29,36383,CT
-19,Trumbull,6611,15,--,24,36018,CT
-20,Naugatuck,6770,30,--,21,31862,CT
-21,Manchester,,54,34,44,30577,CT
-22,Newington,6111,28,--,33,30562,CT
-23,East Haven,,33,--,33,29257,CT
-24,New London,6320,53,--,43,27620,CT
-25,Wethersfield,6109,31,--,39,26668,CT
-26,Westport,6880,21,--,30,26391,CT
-27,North Haven,6473,18,--,29,24093,CT
-28,Darien,6820,28,37,34,20732,CT
-29,Ansonia,6401,39,--,27,19249,CT
-30,Wallingford Center,,45,--,38,18209,CT
-31,Willimantic,,53,--,46,17737,CT
-0,Wilmington,,75,50,53,70851,DE
-1,Dover,,34,29,48,36047,DE
-2,Newark,,40,27,60,31454,DE
-3,Bear,,27,--,37,19371,DE
-4,Middletown,,29,--,42,18871,DE
-0,Washington D.C.,,76,71,69,601723,DC
-0,Jacksonville,32210,26,23,43,821784,FL
-1,Miami,33125,78,57,65,399457,FL
-2,Tampa,33604,49,34,57,335709,FL
-3,St. Petersburg,33710,44,35,61,244769,FL
-4,Orlando,32811,41,33,60,238300,FL
-5,Hialeah,33012,69,39,58,224669,FL
-6,Tallahassee,32301,32,31,47,181376,FL
-7,Fort Lauderdale,33308,57,39,57,165521,FL
-8,Port St. Lucie,34953,13,--,37,164603,FL
-9,Pembroke Pines,33028,32,24,43,154750,FL
-10,Cape Coral,33914,17,--,39,154305,FL
-11,Hollywood,33021,54,34,54,140768,FL
-12,Gainesville,32605,36,--,68,124354,FL
-13,Miramar,,28,24,43,122041,FL
-14,Coral Springs,33065,37,29,46,121096,FL
-15,Clearwater,33755,43,29,57,107685,FL
-16,Miami Gardens,33056,40,42,46,107167,FL
-17,Brandon,33511,23,--,42,103483,FL
-18,Palm Bay,32907,13,--,39,103190,FL
-19,West Palm Beach,33401,43,--,52,99919,FL
-20,Pompano Beach,33060,44,34,54,99845,FL
-21,Spring Hill,34609,16,--,36,98621,FL
-22,Lakeland,,37,--,52,97422,FL
-23,Davie,33314,27,16,45,91992,FL
-24,Miami Beach,33139,75,51,70,87779,FL
-25,Lehigh Acres,33971,7,--,32,86784,FL
-26,Deltona,,15,--,32,85182,FL
-27,Plantation,,29,34,44,84955,FL
-28,Sunrise,33351,37,33,46,84439,FL
-29,Boca Raton,33486,38,--,57,84392,FL
-30,Town 'n' Country,33615,33,27,47,78442,FL
-31,Alafaya,32828,17,--,43,78113,FL
-32,Largo,,43,31,53,77648,FL
-33,Melbourne,32935,34,20,47,76068,FL
-34,Kendall,33176,44,35,49,75371,FL
-35,Palm Coast,32164,6,--,35,75180,FL
-36,Deerfield Beach,33442,39,27,51,75018,FL
-37,Riverview,33569,14,--,38,71050,FL
-38,Boynton Beach,33435,35,--,46,68217,FL
-39,Lauderhill,,41,36,49,66887,FL
-40,Weston,33327,17,--,41,65333,FL
-41,Fort Myers,33901,36,--,51,62298,FL
-42,Daytona Beach,32114,37,29,52,61005,FL
-43,Delray Beach,33445,37,--,50,60522,FL
-44,Homestead,33035,34,25,47,60512,FL
-45,Tamarac,33321,31,30,53,60427,FL
-46,Pine Hills,,28,31,40,60076,FL
-47,Fountainebleau,,49,43,53,59764,FL
-48,Kissimmee,,30,27,50,59682,FL
-49,North Miami,33181,63,43,54,58786,FL
-50,Palm Harbor,34683,29,20,48,57439,FL
-51,North Port,34288,6,12,33,57357,FL
-52,Wellington,33414,20,12,37,56508,FL
-53,Ocala,,28,19,44,56315,FL
-54,Kendale Lakes,33183,45,34,53,56148,FL
-55,Port Orange,32129,21,--,40,56048,FL
-56,Tamiami,,39,32,45,55271,FL
-57,Jupiter,33477,27,--,47,55156,FL
-58,Port Charlotte,33952,17,--,39,54392,FL
-59,Sanford,,26,20,42,53570,FL
-60,Margate,33063,38,33,48,53284,FL
-61,Poinciana,,3,--,29,53193,FL
-62,Coconut Creek,33073,25,30,43,52909,FL
-63,Pensacola,32501,35,--,50,51923,FL
-64,Sarasota,34237,53,35,59,51917,FL
-65,The Villages,,8,--,49,51442,FL
-66,The Hammocks,,44,35,47,51003,FL
-67,Bradenton,,41,27,45,49546,FL
-68,Pinellas Park,33781,39,31,52,49079,FL
-69,Palm Beach Gardens,,20,--,38,48452,FL
-70,Country Club,,42,39,44,47105,FL
-71,Coral Gables,33146,57,38,58,46780,FL
-72,Doral,,39,35,55,45704,FL
-73,Wesley Chapel,33543,9,--,35,44092,FL
-74,Bonita Springs,,19,--,45,43914,FL
-75,Titusville,,25,--,43,43761,FL
-76,Fort Pierce,34950,38,--,52,41590,FL
-77,Apopka,,18,18,38,41542,FL
-78,North Miami Beach,,64,49,61,41523,FL
-79,Altamonte Springs,,35,25,46,41496,FL
-80,Oakland Park,,54,37,58,41363,FL
-81,University,,48,41,64,41163,FL
-82,North Lauderdale,,41,28,48,41023,FL
-83,Cutler Bay,,27,26,49,40286,FL
-84,North Fort Myers,33917,15,--,37,39407,FL
-85,The Acreage,,4,--,30,38704,FL
-86,Ormond Beach,,21,--,43,38137,FL
-87,Greenacres,,34,--,44,37573,FL
-88,Hallandale Beach,,56,37,62,37113,FL
-89,Panama City,,34,--,47,36484,FL
-90,Kendall West,,51,36,48,36154,FL
-91,Aventura,,45,45,58,35762,FL
-92,South Miami Heights,,41,35,51,35696,FL
-93,Ocoee,34761,21,--,39,35579,FL
-94,Valrico,,11,--,33,35545,FL
-95,Dunedin,34698,42,25,55,35321,FL
-96,Egypt Lake-Leto,,46,29,49,35282,FL
-97,St. Cloud,,27,--,46,35183,FL
-98,Lake Worth,33460,58,--,65,34910,FL
-99,Merritt Island,32952,23,--,37,34743,FL
-100,Plant City,33563,31,--,42,34721,FL
-101,West Little River,,53,46,51,34699,FL
-102,Winter Garden,,29,--,43,34568,FL
-103,Royal Palm Beach,,21,--,38,34140,FL
-104,Winter Haven,,26,--,43,33874,FL
-105,Carrollwood,,29,23,47,33365,FL
-106,Oviedo,,16,--,37,33342,FL
-107,Winter Springs,,17,--,38,33282,FL
-108,Golden Glades,,50,43,48,33145,FL
-109,Lauderdale Lakes,,43,39,44,32593,FL
-110,Riviera Beach,33404,35,--,52,32488,FL
-111,Land O' Lakes,,12,--,35,31996,FL
-112,Richmond West,,25,24,45,31973,FL
-113,Navarre,,13,--,37,31378,FL
-114,University - Central,,26,21,53,31084,FL
-115,East Lake,34685,10,--,38,30962,FL
-116,Lakeside,32065,20,--,40,30943,FL
-117,Westchester,,62,38,55,29862,FL
-118,Dania Beach,,52,35,61,29639,FL
-119,Fruit Cove,,8,--,32,29362,FL
-120,Miami Lakes,,36,28,40,29361,FL
-121,Ferry Pass,,23,--,45,28921,FL
-122,Clermont,,23,--,34,28742,FL
-123,Cooper City,,26,15,41,28547,FL
-124,Lake Magdalene,,26,21,40,28509,FL
-125,Winter Park,32789,44,28,53,27852,FL
-126,Fleming Island,32003,11,--,36,27126,FL
-127,DeLand,,35,--,51,27031,FL
-128,University Park,,57,39,58,26995,FL
-129,Casselberry,,34,22,49,26241,FL
-130,Four Corners,,12,--,32,26116,FL
-131,Buenaventura Lakes,34743,17,23,32,26079,FL
-132,Meadow Woods,,13,22,33,25558,FL
-133,Rockledge,,20,22,37,24926,FL
-134,Key West,,63,--,86,24649,FL
-135,Temple Terrace,,37,32,48,24541,FL
-136,Coral Terrace,,60,36,52,24376,FL
-137,Citrus Park,33625,20,14,45,24252,FL
-138,Immokalee,,26,--,44,24154,FL
-139,Keystone,,7,--,33,24039,FL
-140,Parkland,,13,--,36,23962,FL
-141,Golden Gate,,34,--,49,23961,FL
-142,Tarpon Springs,34689,30,18,45,23484,FL
-143,Bayonet Point,,25,--,43,23467,FL
-144,Palmetto Bay,,30,27,44,23410,FL
-145,Bellview,,15,--,36,23355,FL
-146,Wright,,37,--,45,23127,FL
-147,Palm City,,13,--,37,23120,FL
-148,Vero Beach South,,20,--,38,23092,FL
-149,The Crossings,,49,32,47,22758,FL
-150,East Lake-Orient Park,,26,28,45,22753,FL
-151,Bloomingdale,,17,--,37,22711,FL
-152,Oak Ridge,,40,39,55,22685,FL
-153,Leisure City,,41,32,46,22655,FL
-154,Estero,,13,--,41,22612,FL
-155,New Smyrna Beach,,23,--,46,22464,FL
-156,Holiday,,25,--,41,22403,FL
-157,South Bradenton,,43,31,46,22178,FL
-158,Northdale,,14,--,40,22079,FL
-159,Princeton,,29,29,38,22038,FL
-160,Wekiwa Springs,,17,--,36,21998,FL
-161,Sebastian,,14,--,32,21929,FL
-162,Brent,,23,--,42,21804,FL
-163,Westchase,,22,--,44,21747,FL
-164,Hialeah Gardens,,52,26,46,21744,FL
-165,Jacksonville Beach,32250,51,--,55,21362,FL
-166,West Pensacola,,35,--,49,21339,FL
-167,Palm River-Clair Mel,,28,24,45,21024,FL
-168,Crestview,,17,--,29,20978,FL
-169,Sunny Isles Beach,,59,45,59,20832,FL
-170,Edgewater,,15,--,43,20750,FL
-171,Venice,34285,33,19,55,20748,FL
-172,Ensley,,16,--,38,20602,FL
-173,Haines City,,26,--,38,20535,FL
-174,Oakleaf Plantation,,6,--,30,20315,FL
-175,Leesburg,,27,--,43,20117,FL
-176,Pace,,13,--,35,20039,FL
-177,Palm Valley,,16,--,40,20019,FL
-178,Lealman,,47,32,55,19879,FL
-179,Naples,34102,36,--,47,19537,FL
-180,Ives Estates,,42,31,44,19525,FL
-181,Fort Walton Beach,,39,--,47,19507,FL
-182,Lutz,33548,9,--,33,19344,FL
-183,DeBary,32713,15,--,38,19320,FL
-184,Sun City Center,33573,10,--,36,19258,FL
-185,Jasmine Estates,,41,--,48,18989,FL
-186,Palm Springs,,44,31,46,18928,FL
-187,Eustis,,28,--,37,18558,FL
-188,Lynn Haven,,25,--,41,18493,FL
-189,West Melbourne,,22,--,43,18355,FL
-190,Pinecrest,,29,33,47,18223,FL
-191,Florida Ridge,,10,--,33,18164,FL
-192,Ojus,,40,45,46,18036,FL
-193,Belle Glade,,38,--,43,17467,FL
-194,Bartow,,28,--,45,17298,FL
-195,Seminole,,38,29,53,17233,FL
-196,Ruskin,,13,--,37,17208,FL
-197,Cocoa,32922,35,26,46,17140,FL
-198,Glenvar Heights,,45,39,52,16898,FL
-199,Safety Harbor,34695,22,19,44,16884,FL
-200,San Carlos Park,,14,--,37,16824,FL
-201,Punta Gorda,,15,--,42,16641,FL
-0,Atlanta,30318,48,47,45,420003,GA
-1,Augusta-Richmond County,30906,22,--,33,195844,GA
-2,Columbus,31907,26,--,31,189885,GA
-3,Savannah,,43,--,53,136286,GA
-4,Athens-Clarke County,30605,27,--,34,115452,GA
-5,Sandy Springs,30350,27,27,20,93853,GA
-6,Macon,31204,31,--,32,91351,GA
-7,Roswell,30076,22,14,22,88346,GA
-8,Albany,,25,--,40,77434,GA
-9,Johns Creek,,18,--,21,76728,GA
-10,Warner Robins,,22,--,37,66588,GA
-11,Alpharetta,,21,16,26,57551,GA
-12,Marietta,,35,20,30,56579,GA
-13,Valdosta,,30,--,47,54518,GA
-14,Smyrna,,34,21,28,51271,GA
-15,Dunwoody,30338,32,27,28,46267,GA
-16,North Atlanta,,46,37,29,40456,GA
-17,Mableton,,15,16,19,37115,GA
-18,Rome,,27,--,38,36303,GA
-19,Martinez,,20,--,27,35795,GA
-20,Peachtree City,30269,19,--,26,34364,GA
-21,Gainesville,,31,--,23,33804,GA
-22,East Point,30344,31,43,28,33712,GA
-23,Hinesville,,18,--,37,33437,GA
-24,Dalton,,31,--,34,33128,GA
-25,Newnan,,25,--,27,33039,GA
-26,Redan,,17,29,24,33015,GA
-27,Milton,,12,10,20,32661,GA
-28,Douglasville,,18,--,20,30961,GA
-29,Kennesaw,,25,--,25,29783,GA
-30,LaGrange,,26,--,28,29588,GA
-31,Evans,,9,--,19,29011,GA
-32,Lawrenceville,,29,16,30,28546,GA
-33,Statesboro,,31,--,49,28422,GA
-34,Tucker,,22,31,25,27581,GA
-35,Duluth,,30,--,24,26600,GA
-36,Stockbridge,,21,--,24,25636,GA
-37,Carrollton,,24,--,38,24388,GA
-38,Woodstock,,21,--,22,23896,GA
-39,Griffin,,32,--,36,23643,GA
-40,Candler-McAfee,,26,39,23,23025,GA
-41,Canton,,22,--,14,22958,GA
-42,McDonough,,21,--,30,22084,GA
-43,Acworth,,24,--,32,20425,GA
-44,Cartersville,,27,--,29,19731,GA
-45,Union City,30291,10,22,20,19456,GA
-46,Decatur,,60,49,69,19335,GA
-47,Pooler,31322,12,--,33,19140,GA
-48,North Druid Hills,,43,35,28,18947,GA
-49,Sugar Hill,,9,--,13,18522,GA
-50,Forest Park,,35,28,39,18468,GA
-51,Thomasville,,29,--,44,18413,GA
-52,Snellville,,17,--,26,18242,GA
-53,Milledgeville,,25,--,30,17715,GA
-54,St. Marys,,11,--,36,17121,GA
-55,Americus,,25,--,36,17041,GA
-56,North Decatur,,43,34,41,16698,GA
-0,Honolulu,96817,65,57,51,337256,HI
-1,East Honolulu,96825,20,34,22,49914,HI
-2,Pearl City,,26,37,23,47698,HI
-3,Hilo,,23,--,31,43263,HI
-4,Kailua,,39,32,43,38635,HI
-5,Waipahu,,48,53,42,38216,HI
-6,Kaneohe,,36,33,29,34597,HI
-7,Mililani Town,,33,38,32,27629,HI
-8,Kahului,96732,29,--,40,26337,HI
-9,Ewa Gentry,,34,39,43,22690,HI
-10,Mililani Mauka,,17,29,18,21039,HI
-11,Kihei,,42,--,47,20881,HI
-12,Makakilo,,12,33,7,18248,HI
-13,Wahiawa,,40,36,34,17821,HI
-0,Boise City,83704,39,23,62,205671,ID
-1,Nampa,,30,--,46,81557,ID
-2,Meridian,,26,--,41,75092,ID
-3,Idaho Falls,,40,--,51,56813,ID
-4,Pocatello,,38,--,42,54255,ID
-5,Caldwell,,26,--,39,46237,ID
-6,Coeur d'Alene,,36,--,50,44137,ID
-7,Twin Falls,,38,--,55,44125,ID
-8,Lewiston,,35,--,41,31894,ID
-9,Post Falls,,22,--,41,27574,ID
-10,Rexburg,,44,--,56,25484,ID
-11,Moscow,,47,--,55,23800,ID
-12,Eagle,,18,--,38,19908,ID
-0,Chicago,60629,77,65,73,2695598,IL
-1,Aurora,60505,40,22,54,197899,IL
-2,Rockford,61104,42,--,46,152871,IL
-3,Joliet,,35,17,46,147433,IL
-4,Naperville,,34,21,47,141853,IL
-5,Springfield,62704,35,--,48,116250,IL
-6,Peoria,61614,39,--,44,115007,IL
-7,Elgin,,42,29,53,108188,IL
-8,Waukegan,,49,30,45,89078,IL
-9,Cicero,60804,73,52,57,83891,IL
-10,Champaign,61820,50,47,65,81055,IL
-11,Bloomington,61701,35,27,49,76610,IL
-12,Decatur,62523,32,--,43,76122,IL
-13,Arlington Heights,60004,46,--,60,75101,IL
-14,Evanston,60201,74,50,88,74486,IL
-15,Schaumburg,60193,42,--,67,74227,IL
-16,Bolingbrook,60440,33,--,48,73366,IL
-17,Palatine,,39,--,53,68557,IL
-18,Skokie,60076,66,42,70,64784,IL
-19,Des Plaines,,53,36,57,58364,IL
-20,Orland Park,,28,--,44,56767,IL
-21,Tinley Park,,33,--,44,56703,IL
-22,Oak Lawn,60453,57,35,51,56690,IL
-23,Berwyn,,73,45,58,56657,IL
-24,Mount Prospect,60056,51,28,61,54167,IL
-25,Wheaton,,40,24,53,52894,IL
-26,Normal,,38,37,50,52497,IL
-27,Hoffman Estates,60192,34,--,56,51895,IL
-28,Oak Park,60302,78,62,66,51878,IL
-29,Downers Grove,,44,27,50,47833,IL
-30,Glenview,,37,31,44,44692,IL
-31,Belleville,,38,30,45,44478,IL
-32,Elmhurst,60126,48,25,53,44121,IL
-33,DeKalb,,37,--,60,43862,IL
-34,Moline,,43,37,43,43483,IL
-35,Lombard,,44,21,53,43165,IL
-36,Buffalo Grove,60089,39,--,56,41496,IL
-37,Urbana,61801,51,52,70,41250,IL
-38,Bartlett,,21,--,50,41208,IL
-39,Crystal Lake,,29,--,46,40743,IL
-40,Quincy,62301,42,--,46,40633,IL
-41,Streamwood,60107,34,--,49,39858,IL
-42,Carol Stream,60188,35,--,53,39711,IL
-43,Romeoville,60446,24,--,41,39680,IL
-44,Plainfield,,20,4,46,39581,IL
-45,Rock Island,61201,45,--,47,39018,IL
-46,Hanover Park,,44,--,57,37973,IL
-47,Carpentersville,,30,--,41,37691,IL
-48,Wheeling,60090,42,23,50,37648,IL
-49,Park Ridge,60068,53,40,55,37480,IL
-50,Calumet City,60409,55,30,52,37042,IL
-51,Addison,60101,46,--,52,36942,IL
-52,Glendale Heights,60139,38,--,47,34208,IL
-53,Pekin,,39,--,46,34094,IL
-54,Northbrook,,35,21,46,33170,IL
-55,Elk Grove Village,,40,--,53,33127,IL
-56,Danville,,32,--,42,33027,IL
-57,St. Charles,,36,--,51,32974,IL
-58,Woodridge,60517,31,--,53,32971,IL
-59,North Chicago,60064,38,28,46,32574,IL
-60,Galesburg,,37,--,47,32195,IL
-61,Gurnee,,22,21,37,31295,IL
-62,Mundelein,,37,--,51,31064,IL
-63,Oswego,,23,--,51,30355,IL
-64,Chicago Heights,,49,33,55,30276,IL
-65,Algonquin,,25,--,50,30046,IL
-66,Granite City,,33,--,47,29849,IL
-67,Niles,60714,62,42,57,29803,IL
-68,Highland Park,60035,41,29,53,29763,IL
-69,Lake in the Hills,,20,--,49,28965,IL
-70,Burbank,60459,58,35,50,28925,IL
-71,Lansing,,47,16,53,28331,IL
-72,O'Fallon,,23,--,36,28281,IL
-73,Round Lake Beach,,39,--,45,28175,IL
-74,Oak Forest,,35,21,40,27962,IL
-75,Alton,,39,--,30,27865,IL
-76,Kankakee,,51,--,47,27537,IL
-77,Glen Ellyn,,50,26,52,27450,IL
-78,Wilmette,60091,56,35,57,27087,IL
-79,West Chicago,,37,--,49,27086,IL
-80,East St. Louis,,34,42,45,27006,IL
-81,McHenry,,27,--,43,26992,IL
-82,Batavia,,30,--,53,26045,IL
-83,Carbondale,,41,--,53,25902,IL
-84,Freeport,,41,--,47,25638,IL
-85,Belvidere,,35,--,46,25585,IL
-86,Collinsville,,30,--,26,25579,IL
-87,Melrose Park,60160,68,38,54,25411,IL
-88,Harvey,,52,44,49,25282,IL
-89,Vernon Hills,60061,26,--,47,25113,IL
-90,Elmwood Park,,69,52,56,24883,IL
-91,Lockport,,24,--,37,24839,IL
-92,Woodstock,,30,--,41,24770,IL
-93,Westmont,60559,51,25,49,24685,IL
-94,Zion,,38,--,48,24413,IL
-95,New Lenox,,23,--,44,24394,IL
-96,Edwardsville,,30,--,46,24293,IL
-97,Huntley,,13,--,45,24291,IL
-98,Homer Glen,,14,--,36,24220,IL
-99,Rolling Meadows,,43,--,60,24099,IL
-100,Maywood,60153,62,40,57,24090,IL
-101,Loves Park,61111,30,--,43,23996,IL
-102,Blue Island,,62,45,48,23706,IL
-103,Machesney Park,61115,21,--,44,23499,IL
-104,East Peoria,,15,--,25,23402,IL
-105,Morton Grove,60053,57,37,57,23270,IL
-106,Dolton,60419,50,29,45,23153,IL
-107,Roselle,,34,16,59,22763,IL
-108,Lisle,,36,24,43,22390,IL
-109,Darien,60561,34,--,47,22086,IL
-110,South Holland,60473,43,31,42,22030,IL
-111,Bloomingdale,60108,41,--,59,22018,IL
-112,South Elgin,,29,--,51,21985,IL
-113,Park Forest,,33,27,47,21975,IL
-114,Villa Park,,50,17,51,21904,IL
-115,Charleston,,39,--,50,21838,IL
-116,Geneva,,37,--,57,21495,IL
-117,East Moline,,35,--,41,21302,IL
-118,Grayslake,,26,22,45,20957,IL
-119,Crest Hill,,25,--,44,20837,IL
-120,Libertyville,,37,--,52,20315,IL
-121,Evergreen Park,60805,62,46,55,19852,IL
-122,Lake Zurich,,32,--,41,19631,IL
-123,Jacksonville,,34,--,46,19446,IL
-124,Lake Forest,,19,--,42,19375,IL
-125,Homewood,,43,36,43,19323,IL
-126,Macomb,,37,--,43,19288,IL
-127,Alsip,60803,44,27,50,19277,IL
-128,Bellwood,60104,60,37,58,19071,IL
-129,Matteson,,21,--,43,19009,IL
-130,Brookfield,60513,59,32,57,18978,IL
-131,Ottawa,,40,--,45,18768,IL
-132,Mokena,,21,--,39,18740,IL
-133,Bourbonnais,,38,--,43,18631,IL
-134,Mattoon,,36,--,51,18555,IL
-135,Montgomery,,15,0,53,18438,IL
-136,Bensenville,,46,25,50,18352,IL
-137,Franklin Park,60131,60,35,48,18333,IL
-138,Round Lake,,18,--,40,18289,IL
-139,Cary,,24,7,47,18271,IL
-140,Deerfield,,37,26,43,18225,IL
-141,Godfrey,,11,--,25,17982,IL
-142,Frankfort,,19,--,46,17782,IL
-143,Sycamore,,27,--,47,17519,IL
-144,Palos Hills,,37,33,43,17484,IL
-145,Marion,,37,--,44,17193,IL
-146,Fairview Heights,62208,25,26,30,17078,IL
-147,Yorkville,,18,--,42,16921,IL
-148,Hinsdale,60521,43,26,42,16816,IL
-149,North Aurora,60542,19,--,44,16760,IL
-150,Westchester,60154,41,31,47,16718,IL
-151,Country Club Hills,,31,--,39,16541,IL
-0,Indianapolis,46227,31,23,45,820445,IN
-1,Fort Wayne,46815,30,22,47,253691,IN
-2,Evansville,47714,42,--,47,117429,IN
-3,South Bend,46615,43,--,60,101168,IN
-4,Hammond,46324,52,--,57,80830,IN
-5,Bloomington,47405,43,28,57,80405,IN
-6,Gary,46404,34,--,45,80294,IN
-7,Carmel,46032,17,--,55,79191,IN
-8,Fishers,46038,18,--,53,76794,IN
-9,Muncie,47305,37,--,55,70085,IN
-10,Lafayette,47904,36,32,45,67140,IN
-11,Terre Haute,47807,37,19,52,60785,IN
-12,Anderson,46016,31,--,43,56129,IN
-13,Noblesville,,15,--,45,51969,IN
-14,Elkhart,,37,--,49,50949,IN
-15,Greenwood,,23,--,43,49791,IN
-16,Mishawaka,,41,--,50,48252,IN
-17,Lawrence,46236,24,10,40,46001,IN
-18,Kokomo,,38,--,51,45468,IN
-19,Jeffersonville,47130,23,--,37,44953,IN
-20,Columbus,,25,--,49,44061,IN
-21,Portage,46368,17,--,43,36828,IN
-22,Richmond,,39,--,50,36812,IN
-23,New Albany,,36,--,41,36372,IN
-24,Merrillville,,24,--,42,35246,IN
-25,Valparaiso,,40,--,47,31730,IN
-26,Goshen,,31,--,51,31719,IN
-27,Michigan City,,39,--,45,31479,IN
-28,Granger,46530,8,--,32,30465,IN
-29,Westfield,,15,--,52,30068,IN
-30,Marion,,38,--,49,29948,IN
-31,East Chicago,46312,59,--,57,29698,IN
-32,West Lafayette,,49,45,62,29596,IN
-33,Schererville,46375,21,--,42,29243,IN
-34,Hobart,,23,--,42,29059,IN
-35,Plainfield,,20,1,49,27631,IN
-36,Crown Point,,28,--,42,27317,IN
-37,Highland,46322,44,2,59,23727,IN
-38,Franklin,,26,--,44,23712,IN
-39,Munster,46321,36,--,54,23603,IN
-40,La Porte,,41,--,52,22053,IN
-41,Clarksville,47129,30,--,46,21724,IN
-42,Brownsburg,,21,--,38,21285,IN
-43,Greenfield,,30,--,44,20602,IN
-44,Shelbyville,,37,--,46,19191,IN
-45,Vincennes,,44,--,47,18423,IN
-46,Logansport,,51,--,48,18396,IN
-47,New Castle,,37,--,43,18114,IN
-48,Seymour,,39,--,48,17503,IN
-49,Huntington,,41,--,43,17391,IN
-50,Griffith,,40,--,50,16893,IN
-0,Des Moines ,50315,45,30,42,203433,IA
-1,Cedar Rapids,52402,34,20,41,126326,IA
-2,Davenport,52806,41,--,43,99685,IA
-3,Sioux City,51104,41,24,36,82684,IA
-4,Waterloo,50702,37,--,48,68406,IA
-5,Iowa City,52245,44,--,64,67862,IA
-6,Council Bluffs,51501,35,--,45,62230,IA
-7,Ames,,43,--,68,58965,IA
-8,Dubuque,,40,25,34,57637,IA
-9,West Des Moines,50265,32,--,37,56609,IA
-10,Ankeny,,32,--,40,45582,IA
-11,Urbandale,50322,31,--,40,39463,IA
-12,Cedar Falls,,38,20,57,39260,IA
-13,Marion,,29,--,41,34768,IA
-14,Bettendorf,,31,--,42,33217,IA
-15,Mason City,,38,20,54,28079,IA
-16,Marshalltown,,44,16,49,27552,IA
-17,Clinton,,39,22,42,26885,IA
-18,Burlington,,38,13,41,25663,IA
-19,Fort Dodge,,34,19,46,25206,IA
-20,Ottumwa,,35,--,37,25023,IA
-21,Muscatine,,38,22,41,22886,IA
-22,Coralville,52241,32,21,47,18907,IA
-23,Johnston,,19,--,32,17278,IA
-0,Wichita,67212,35,20,48,382368,KS
-1,Overland Park,66212,35,16,48,173372,KS
-2,Kansas City,66102,33,22,28,145786,KS
-3,Topeka,66604,36,24,56,127473,KS
-4,Olathe,,27,11,50,125872,KS
-5,Lawrence,,39,35,59,87643,KS
-6,Shawnee,66216,24,--,33,62209,KS
-7,Manhattan,66506,39,--,54,52281,KS
-8,Lenexa,66215,33,--,44,48190,KS
-9,Salina,,38,--,47,47707,KS
-10,Hutchinson,,33,--,45,42080,KS
-11,Leavenworth,66027,29,--,35,35251,KS
-12,Leawood,66206,20,--,34,31867,KS
-13,Dodge City,,37,--,43,27340,KS
-14,Garden City,,41,--,53,26658,KS
-15,Emporia,,45,--,48,24916,KS
-16,Junction City,,33,--,35,23353,KS
-17,Derby,,31,--,39,22158,KS
-18,Prairie Village,,41,--,39,21447,KS
-19,Liberal,,44,--,47,20525,KS
-20,Hays,,42,--,48,20510,KS
-21,Pittsburg,,36,--,52,20233,KS
-22,Newton,,34,--,49,19132,KS
-23,Gardner,,23,--,39,19123,KS
-0,Louisville-Jefferson,40214,34,28,43,597337,KY
-1,Lexington-Fayette,40517,34,24,46,295803,KY
-2,Bowling Green,,39,--,42,58067,KY
-3,Owensboro,,36,--,50,57265,KY
-4,Covington,41014,45,33,40,40640,KY
-5,Hopkinsville,,25,--,37,31577,KY
-6,Richmond,,32,--,32,31364,KY
-7,Florence,,33,21,34,29951,KY
-8,Georgetown,,23,--,30,29098,KY
-9,Henderson,,28,--,42,28757,KY
-10,Elizabethtown,,27,--,32,28531,KY
-11,Nicholasville,,29,--,34,28015,KY
-12,Jeffersontown,,30,22,39,26595,KY
-13,Frankfort,,30,--,25,25527,KY
-14,Paducah,,33,--,44,25024,KY
-15,Independence,,10,10,13,24757,KY
-16,Radcliff,,19,--,29,21688,KY
-17,Ashland,,31,--,28,21684,KY
-18,Madisonville,,19,--,33,19591,KY
-19,Winchester,,37,--,33,18368,KY
-20,Erlanger,,22,16,23,18082,KY
-21,Murray,,33,--,43,17741,KY
-22,St. Matthews,,48,36,49,17472,KY
-0,New Orleans,70119,59,44,66,343829,LA
-1,Baton Rouge,70808,41,--,47,229493,LA
-2,Shreveport,71105,31,--,41,199311,LA
-3,Metairie,70003,54,--,50,138481,LA
-4,Lafayette,,42,--,49,120623,LA
-5,Lake Charles,70601,37,--,47,71993,LA
-6,Kenner,70065,45,--,47,66702,LA
-7,Bossier City,,28,--,42,61315,LA
-8,Monroe,71201,34,--,45,48815,LA
-9,Alexandria,,33,--,45,47723,LA
-10,Houma,,42,--,47,33727,LA
-11,Marrero,,46,--,47,33141,LA
-12,New Iberia,,42,--,52,30617,LA
-13,Laplace,70068,23,--,39,29872,LA
-14,Slidell,,37,--,47,27068,LA
-15,Prairieville,,12,--,32,26895,LA
-16,Central,70818,7,--,31,26864,LA
-17,Terrytown,,52,--,47,23319,LA
-18,Ruston,,24,--,34,21859,LA
-19,Sulphur,,30,--,43,20410,LA
-20,Harvey,,45,0,45,20348,LA
-21,Hammond,,35,--,46,20019,LA
-22,Bayou Cane,,38,--,47,19355,LA
-23,Shenandoah,,22,--,35,18399,LA
-24,Natchitoches,,33,--,43,18323,LA
-25,Gretna,70053,64,--,56,17736,LA
-26,Chalmette,,46,--,46,16751,LA
-27,Opelousas,,46,--,53,16634,LA
-0,Portland,4103,61,4,68,66194,ME
-1,Lewiston,4240,45,--,42,36592,ME
-2,Bangor,,41,--,39,33039,ME
-3,South Portland,4106,41,--,62,25002,ME
-4,Auburn,4210,33,--,31,23055,ME
-5,Biddeford,,39,--,44,21277,ME
-6,Augusta,,25,--,30,19136,ME
-7,Saco,4072,23,--,40,18482,ME
-8,Westbrook,4092,32,--,47,17494,ME
-0,Baltimore,21215,65,57,56,620961,MD
-1,Columbia,21044,32,27,34,99615,MD
-2,Germantown,,36,37,47,86395,MD
-3,Silver Spring,20910,61,64,59,71452,MD
-4,Waldorf,,17,--,35,67752,MD
-5,Glen Burnie,,35,23,43,67639,MD
-6,Ellicott City,,23,11,23,65834,MD
-7,Frederick,,46,--,47,65239,MD
-8,Dundalk,21222,49,34,46,63597,MD
-9,Rockville,,54,53,58,61209,MD
-10,Bethesda,,45,46,56,60858,MD
-11,Gaithersburg,,49,41,52,59933,MD
-12,Towson,21204,49,40,38,55197,MD
-13,Bowie,,25,23,40,54727,MD
-14,Aspen Hill,,27,42,40,48759,MD
-15,Wheaton,,48,57,45,48284,MD
-16,Bel Air South,,21,13,24,47709,MD
-17,Potomac,,16,--,26,44965,MD
-18,Severn,,17,17,32,44231,MD
-19,North Bethesda,,49,54,55,43828,MD
-20,Catonsville,,39,38,38,41567,MD
-21,Hagerstown,,52,--,52,39662,MD
-22,Essex,,39,35,41,39262,MD
-23,Annapolis,,50,34,57,38394,MD
-24,Woodlawn,,38,39,35,37879,MD
-25,Severna Park,21146,18,11,32,37634,MD
-26,Odenton,,25,--,39,37132,MD
-27,Clinton,20735,14,5,24,35970,MD
-28,Olney,20832,23,26,46,33844,MD
-29,Chillum,,53,53,56,33513,MD
-30,Randallstown,,23,23,29,32430,MD
-31,Montgomery Village,,36,39,35,32032,MD
-32,Pikesville,,34,29,31,30764,MD
-33,Parkville,,57,39,44,30734,MD
-34,Owings Mills,,35,23,26,30622,MD
-35,Bel Air North,,17,--,27,30568,MD
-36,Eldersburg,,13,--,18,30531,MD
-37,College Park,,52,48,67,30413,MD
-38,Salisbury,,45,--,46,30343,MD
-39,Carney,,39,23,28,29941,MD
-40,Milford Mill,,37,37,35,29042,MD
-41,Perry Hall,,28,13,27,28474,MD
-42,Crofton,21114,27,--,33,27348,MD
-43,South Laurel,,28,26,32,26112,MD
-44,Reisterstown,,37,22,33,25968,MD
-45,Suitland,,35,43,32,25825,MD
-46,Edgewood,21040,21,21,29,25562,MD
-47,Lochearn,,28,39,30,25333,MD
-48,Middle River,,35,26,39,25191,MD
-49,Laurel,,53,34,41,25115,MD
-50,North Potomac,,21,24,33,24410,MD
-51,Scaggsville,,24,--,26,24333,MD
-52,Pasadena,,24,--,33,24287,MD
-53,Fort Washington,,14,22,21,23717,MD
-54,Fairland,,22,38,43,23681,MD
-55,Ilchester,,19,--,23,23476,MD
-56,Arnold,21012,15,9,21,23106,MD
-57,Landover,,48,41,32,23078,MD
-58,Greenbelt,,42,39,49,23068,MD
-59,Cumberland,,49,19,34,20859,MD
-60,Cockeysville,,33,23,26,20776,MD
-61,Arbutus,,43,37,35,20483,MD
-62,Lake Shore,,15,--,28,19477,MD
-63,Rosedale,,35,32,30,19257,MD
-64,Camp Springs,,21,28,29,19096,MD
-65,Langley Park,,66,57,53,18755,MD
-66,Westminster,,40,9,35,18590,MD
-67,Ballenger Creek,,25,--,40,18274,MD
-68,Calverton,,27,34,38,17724,MD
-69,Oxon Hill,,20,27,27,17722,MD
-70,Hyattsville,,66,59,74,17557,MD
-71,White Oak,,39,48,31,17403,MD
-72,Glassmanor,,33,47,23,17295,MD
-73,Seabrook,,30,30,42,17287,MD
-74,Redland,,22,41,35,17242,MD
-75,Beltsville,,39,29,43,16772,MD
-76,Ferndale,,36,35,39,16746,MD
-77,Takoma Park,,69,61,68,16715,MD
-0,Boston,2124,82,72,70,617594,MA
-1,Worcester,1604,56,33,38,181045,MA
-2,Springfield,1109,59,43,50,153060,MA
-3,Lowell,1852,64,39,46,106519,MA
-4,Cambridge,2138,88,74,96,105162,MA
-5,New Bedford,2740,66,33,52,95072,MA
-6,Brockton,2301,51,36,46,93810,MA
-7,Quincy,2169,60,49,44,92271,MA
-8,Lynn,1902,67,40,47,90329,MA
-9,Fall River,2720,65,34,50,88857,MA
-10,Newton,2459,55,42,48,85146,MA
-11,Lawrence,1841,72,36,46,76377,MA
-12,Somerville,2145,89,64,89,75754,MA
-13,Framingham,1702,42,21,39,68318,MA
-14,Haverhill,1830,41,22,33,60879,MA
-15,Waltham,2453,55,33,48,60632,MA
-16,Malden,2148,72,53,52,59450,MA
-17,Brookline,2446,80,69,72,58732,MA
-18,Medford,2155,67,50,60,56173,MA
-19,Taunton,2780,28,--,37,55874,MA
-20,Chicopee,1020,43,35,41,55298,MA
-21,Weymouth Town,2190,35,27,37,53743,MA
-22,Revere,2151,62,54,46,51755,MA
-23,Peabody,1960,41,--,37,51251,MA
-24,Methuen Town,1844,36,--,34,47255,MA
-25,Barnstable Town,2601,23,14,36,45193,MA
-26,Pittsfield,,38,21,39,44737,MA
-27,Attleboro,2703,31,23,41,43593,MA
-28,Arlington,2474,67,48,65,42844,MA
-29,Everett,2149,83,49,52,41667,MA
-30,Salem,1970,67,32,54,41340,MA
-31,Westfield,,29,16,36,41094,MA
-32,Leominster,1453,37,23,33,40759,MA
-33,Fitchburg,1420,42,28,33,40318,MA
-34,Holyoke,1040,54,36,41,39880,MA
-35,Beverly,1915,48,--,39,39502,MA
-36,Marlborough,1752,40,--,31,38499,MA
-37,Woburn,1801,45,27,36,38120,MA
-38,Braintree Town,2184,37,33,35,35744,MA
-39,Chelsea,2150,81,57,47,35177,MA
-40,Randolph,2368,35,31,42,32112,MA
-41,Watertown Town,2472,74,47,68,31915,MA
-42,Franklin Town,2038,21,--,28,31635,MA
-43,Lexington,2421,32,--,44,31394,MA
-44,Needham,2492,38,22,37,28886,MA
-45,Gloucester,1930,42,32,31,28789,MA
-46,Norwood,2062,48,26,42,28602,MA
-47,Northampton,1060,42,27,60,28549,MA
-48,Agawam Town,1001,22,--,35,28438,MA
-49,West Springfield Town,1089,35,28,39,28391,MA
-50,Wellesley,2481,37,--,36,27982,MA
-51,Milton,2186,37,39,50,27003,MA
-52,Melrose,2176,60,37,40,26983,MA
-53,Saugus,1906,39,28,31,26628,MA
-54,Danvers,1923,34,--,35,26493,MA
-55,Milford,,41,--,42,25055,MA
-56,Wakefield,1880,47,26,40,24932,MA
-57,Reading,1867,33,--,37,24747,MA
-58,Belmont,2478,59,41,60,24729,MA
-59,Dedham,2026,40,29,37,24729,MA
-60,Burlington,1803,28,--,31,24498,MA
-61,Wilmington,1887,20,--,33,22325,MA
-62,Stoneham,2180,48,25,40,21437,MA
-63,Winchester,1890,38,29,43,21374,MA
-64,Gardner,1440,38,--,29,20228,MA
-65,Marblehead,1945,50,27,39,19808,MA
-66,Amherst Center,1003,54,--,57,19065,MA
-67,Somerset,2726,28,--,36,18165,MA
-68,Winthrop Town,,60,--,43,17497,MA
-69,Greenfield Town,,39,--,38,17456,MA
-70,Newburyport,1950,50,--,45,17416,MA
-71,Southbridge Town,1550,41,--,29,16719,MA
-0,Detroit,48228,53,39,55,713777,MI
-1,Grand Rapids,49504,57,40,53,188040,MI
-2,Warren,48089,43,--,46,134056,MI
-3,Sterling Heights,48310,32,--,40,129699,MI
-4,Lansing,48915,43,34,59,114297,MI
-5,Ann Arbor,48104,50,48,69,113934,MI
-6,Flint,48503,43,31,49,102434,MI
-7,Dearborn,48126,59,--,50,98153,MI
-8,Livonia,48154,34,--,48,96942,MI
-9,Westland,48185,36,--,48,84094,MI
-10,Troy,48085,27,--,43,80980,MI
-11,Farmington Hills,48336,23,--,39,79740,MI
-12,Kalamazoo,49001,48,--,52,74262,MI
-13,Wyoming,49509,37,--,44,72125,MI
-14,Southfield,48034,35,--,42,71739,MI
-15,Rochester Hills,48309,18,--,35,70995,MI
-16,Taylor,48180,32,--,41,63131,MI
-17,St. Clair Shores,48080,41,--,45,59715,MI
-18,Pontiac,48340,41,--,46,59515,MI
-19,Dearborn Heights,48127,45,--,51,57774,MI
-20,Royal Oak,48073,52,--,54,57236,MI
-21,Novi,48375,17,--,46,55224,MI
-22,Battle Creek,,37,--,42,52347,MI
-23,Saginaw,48602,39,--,48,51508,MI
-24,Kentwood,,24,--,43,48707,MI
-25,East Lansing,48825,53,--,77,48579,MI
-26,Roseville,48066,43,--,47,47299,MI
-27,Portage,49024,18,--,47,46292,MI
-28,Midland,,30,--,50,41863,MI
-29,Muskegon,49440,44,--,52,38401,MI
-30,Lincoln Park,48146,60,--,52,38144,MI
-31,Bay City,,51,--,59,34932,MI
-32,Jackson,,46,--,60,33534,MI
-33,Holland,,43,--,61,33051,MI
-34,Eastpointe,48021,56,--,49,32442,MI
-35,Port Huron,,45,--,49,30184,MI
-36,Southgate,48195,49,--,47,30047,MI
-37,Burton,48529,22,--,37,29999,MI
-38,Madison Heights,48071,55,--,50,29694,MI
-39,Oak Park,48237,43,--,46,29319,MI
-40,Allen Park,48101,49,--,46,28210,MI
-41,Garden City,48135,43,--,47,27692,MI
-42,Mount Pleasant,,52,--,58,26016,MI
-43,Wyandotte,,60,--,51,25883,MI
-44,Forest Hills,,8,--,26,25867,MI
-45,Inkster,48141,29,--,41,25369,MI
-46,Norton Shores,,13,--,35,23994,MI
-47,Romulus,,15,--,36,23989,MI
-48,Holt,,17,--,44,23973,MI
-49,Waverly,,27,--,46,23925,MI
-50,Walker,,18,--,36,23537,MI
-51,Hamtramck,,82,--,56,22423,MI
-52,Auburn Hills,48326,27,--,46,21412,MI
-53,Okemos,,21,--,41,21369,MI
-54,Marquette,,46,--,60,21355,MI
-55,Adrian,,49,--,54,21133,MI
-56,Monroe,,46,--,49,20733,MI
-57,Birmingham,48009,59,--,49,20103,MI
-58,Ferndale,48220,63,13,68,19900,MI
-59,Ypsilanti,,59,43,67,19435,MI
-60,Haslett,,18,--,43,19220,MI
-61,Trenton,,38,--,43,18853,MI
-62,Wayne,,42,--,45,17593,MI
-63,Allendale,,20,--,36,17579,MI
-64,Jenison,,19,--,40,16538,MI
-0,Minneapolis,55407,70,57,84,382578,MN
-1,St. Paul,55106,60,48,67,285068,MN
-2,Rochester,,30,--,57,106769,MN
-3,Duluth,55812,35,34,43,86265,MN
-4,Bloomington,55420,28,--,44,82893,MN
-5,Brooklyn Park,55443,26,28,46,75781,MN
-6,Plymouth,55447,19,--,43,70576,MN
-7,St. Cloud,,33,--,50,65842,MN
-8,Eagan,55122,22,23,37,64206,MN
-9,Woodbury,55125,18,--,37,61961,MN
-10,Maple Grove,55311,13,--,46,61567,MN
-11,Coon Rapids,55433,24,23,48,61476,MN
-12,Eden Prairie,55347,17,--,50,60797,MN
-13,Burnsville,55337,31,25,40,60306,MN
-14,Blaine,55434,22,--,41,57186,MN
-15,Lakeville,,14,--,39,55954,MN
-16,Minnetonka,55345,21,22,38,49734,MN
-17,Apple Valley,55124,20,27,39,49084,MN
-18,Edina,55436,36,35,50,47941,MN
-19,St. Louis Park,55426,47,37,65,45250,MN
-20,Mankato,,38,--,51,39309,MN
-21,Moorhead,,30,--,56,38065,MN
-22,Maplewood,,22,33,40,38018,MN
-23,Shakopee,,26,--,54,37076,MN
-24,Richfield,55423,55,49,68,35228,MN
-25,Cottage Grove,55016,14,9,33,34589,MN
-26,Inver Grove Heights,55076,16,26,28,33880,MN
-27,Roseville,55113,33,33,49,33660,MN
-28,Andover,,11,--,42,30598,MN
-29,Brooklyn Center,,31,40,52,30104,MN
-30,Winona,,39,--,54,27592,MN
-31,Oakdale,55128,18,20,37,27378,MN
-32,Fridley,,36,36,48,27208,MN
-33,Savage,55378,22,--,47,26911,MN
-34,Owatonna,,26,--,39,25599,MN
-35,Shoreview,55126,16,21,39,25043,MN
-36,Austin,,35,--,57,24718,MN
-37,White Bear Lake,,34,--,46,23797,MN
-38,Chaska,,21,--,42,23770,MN
-39,Ramsey,,8,--,42,23668,MN
-40,Faribault,,28,--,45,23352,MN
-41,Champlin,55316,19,--,51,23089,MN
-42,Elk River,,15,--,33,22974,MN
-43,Chanhassen,55317,15,--,48,22952,MN
-44,Prior Lake,,14,--,43,22796,MN
-45,Hastings,,31,--,43,22172,MN
-46,Crystal,,43,30,52,22151,MN
-47,Rosemount,,21,--,43,21874,MN
-48,New Brighton,,32,31,45,21456,MN
-49,Farmington,,19,--,41,21086,MN
-50,Golden Valley,,28,31,53,20371,MN
-51,New Hope,,42,28,51,20339,MN
-52,Lino Lakes,,8,--,38,20216,MN
-53,South St. Paul,55075,38,34,40,20160,MN
-54,Northfield,,29,--,51,20007,MN
-55,Willmar,,34,--,53,19610,MN
-56,West St. Paul,,45,37,47,19540,MN
-57,Columbia Heights,,53,39,51,19496,MN
-58,Forest Lake,,17,--,38,18375,MN
-59,Stillwater,,33,--,43,18225,MN
-60,Albert Lea,,29,--,43,18016,MN
-61,Hopkins,,57,34,71,17591,MN
-62,Anoka,,40,25,55,17142,MN
-0,Jackson,39212,28,20,38,173514,MS
-1,Gulfport,39501,23,--,41,67793,MS
-2,Southaven,38671,17,--,30,48982,MS
-3,Hattiesburg,,36,--,51,45989,MS
-4,Biloxi,39531,31,--,44,44054,MS
-5,Meridian,,29,--,33,41148,MS
-6,Tupelo,,21,--,35,34546,MS
-7,Greenville,,33,--,47,34400,MS
-8,Olive Branch,,14,--,29,33484,MS
-9,Horn Lake,38637,23,--,33,26066,MS
-10,Clinton,,21,0,34,25216,MS
-11,Pearl,,20,--,35,25092,MS
-12,Madison,,8,--,29,24149,MS
-13,Ridgeland,,31,--,45,24047,MS
-14,Starkville,,28,--,38,23888,MS
-15,Vicksburg,,21,--,25,23856,MS
-16,Columbus,,36,--,45,23640,MS
-17,Pascagoula,39567,34,--,46,22392,MS
-18,Brandon,,11,--,29,21705,MS
-19,Oxford,,24,--,37,18916,MS
-20,Gautier,39553,10,--,34,18572,MS
-21,Laurel,,34,--,41,18540,MS
-22,Clarksdale,,33,--,46,17962,MS
-23,Ocean Springs,,25,--,41,17442,MS
-0,Kansas City,64114,35,29,35,459787,MO
-1,St. Louis,63116,65,45,62,319294,MO
-2,Springfield,65804,38,--,53,159498,MO
-3,Independence,64055,26,20,28,116830,MO
-4,Columbia,,31,--,40,108500,MO
-5,Lee's Summit,64081,20,--,29,91364,MO
-6,O'Fallon,,21,--,29,79329,MO
-7,St. Joseph,64506,33,--,31,76780,MO
-8,St. Charles,,32,--,32,65794,MO
-9,St. Peters,,26,--,37,52575,MO
-10,Blue Springs,,27,--,33,52575,MO
-11,Florissant,,38,29,41,52158,MO
-12,Joplin,,36,--,44,50150,MO
-13,Chesterfield,63017,19,20,23,47484,MO
-14,Jefferson City,,26,--,23,43079,MO
-15,Cape Girardeau,63703,31,--,31,37941,MO
-16,Oakville,,14,9,20,36143,MO
-17,Wildwood,63040,10,--,17,35517,MO
-18,University City,63130,59,40,53,35371,MO
-19,Ballwin,,20,17,24,30404,MO
-20,Raytown,,28,13,31,29526,MO
-21,Liberty,,22,--,25,29149,MO
-22,Wentzville,,11,--,23,29070,MO
-23,Mehlville,,31,28,31,28380,MO
-24,Kirkwood,,38,27,35,27540,MO
-25,Maryland Heights,63043,23,20,28,27472,MO
-26,Hazelwood,63042,26,25,32,25703,MO
-27,Gladstone,,34,21,35,25410,MO
-28,Grandview,64030,20,--,31,24475,MO
-29,Belton,,22,--,32,23116,MO
-30,Webster Groves,,46,31,41,22995,MO
-31,Sedalia,,43,--,51,21387,MO
-32,Ferguson,63135,37,34,35,21203,MO
-33,Arnold,,20,12,20,20808,MO
-34,Affton,,36,24,36,20307,MO
-35,Spanish Lake,,21,30,32,19650,MO
-36,Rolla,,37,--,48,19559,MO
-37,Raymore,,16,--,28,19206,MO
-38,Old Jamestown,,11,17,25,19184,MO
-39,Nixa,,19,--,31,19022,MO
-40,Warrensburg,,37,--,46,18838,MO
-41,Manchester,,24,14,23,18094,MO
-42,Hannibal,,31,--,28,17916,MO
-43,Creve Coeur,,25,24,27,17833,MO
-44,Ozark,,17,--,24,17820,MO
-45,Kirksville,,41,--,53,17505,MO
-46,Poplar Bluff,,34,--,37,17023,MO
-47,Lemay,,44,29,44,16645,MO
-0,Billings,59102,35,--,47,104170,MT
-1,Missoula,59801,46,34,60,66788,MT
-2,Great Falls,59401,44,--,47,58505,MT
-3,Bozeman,,48,20,62,37280,MT
-4,Butte-Silver Bow,,40,17,45,33525,MT
-5,Helena,,50,--,44,28190,MT
-6,Kalispell,,41,--,48,19927,MT
-0,Omaha,68104,47,27,44,408958,NE
-1,Lincoln,68521,43,24,61,258379,NE
-2,Bellevue,,31,--,30,50137,NE
-3,Grand Island,,40,--,52,48520,NE
-4,Kearney,,41,--,49,30787,NE
-5,Fremont,,45,--,50,26397,NE
-6,Hastings,,41,--,50,24907,NE
-7,North Platte,,36,--,44,24733,NE
-8,Norfolk,,43,--,45,24210,NE
-9,Columbus,,43,--,48,22111,NE
-10,Papillion,,39,--,45,18894,NE
-0,Las Vegas,89108,41,34,46,583756,NV
-1,Henderson,89074,29,24,44,257729,NV
-2,Reno,89509,38,28,52,225221,NV
-3,Paradise,89119,48,38,54,223167,NV
-4,North Las Vegas,89031,33,32,48,216961,NV
-5,Sunrise Manor,89142,36,40,48,189372,NV
-6,Spring Valley,89147,43,38,45,178395,NV
-7,Enterprise,89139,24,--,38,108481,NV
-8,Sparks,89431,40,--,52,90264,NV
-9,Carson City,89701,35,--,57,55274,NV
-10,Whitney,,28,37,47,38585,NV
-11,Pahrump,89060,4,--,31,36441,NV
-12,Winchester,,52,45,56,27978,NV
-13,Summerlin South,,21,28,34,24085,NV
-14,Fernley,,16,--,37,19368,NV
-15,Sun Valley,89433,20,21,34,19299,NV
-16,Elko,,36,--,40,18297,NV
-0,Manchester,3103,49,--,42,109565,NH
-1,Nashua,3060,38,--,38,86494,NH
-2,Concord,3301,36,--,37,42695,NH
-3,Dover,,32,--,36,29987,NH
-4,Rochester,3868,22,--,33,29752,NH
-5,Keene,,43,--,51,23409,NH
-6,Derry,,29,--,38,22015,NH
-7,Portsmouth,,47,--,48,20779,NH
-0,Newark,7104,79,65,61,277140,NJ
-1,Jersey City,7305,87,71,70,247597,NJ
-2,Paterson,7501,78,48,48,146199,NJ
-3,Elizabeth,7202,81,43,56,124969,NJ
-4,Toms River,8753,28,--,39,88791,NJ
-5,Trenton,8608,70,45,58,84913,NJ
-6,Clifton,7011,61,45,47,84136,NJ
-7,Camden,8105,70,47,59,77344,NJ
-8,Passaic,7055,82,54,52,69781,NJ
-9,Union City,7087,94,81,56,66455,NJ
-10,East Orange,7017,73,56,50,64270,NJ
-11,Bayonne,7002,80,62,52,63024,NJ
-12,Vineland,8361,26,--,38,60724,NJ
-13,New Brunswick,8901,74,34,62,55181,NJ
-14,Lakewood,,54,--,48,53805,NJ
-15,Perth Amboy,8861,76,43,51,50814,NJ
-16,Hoboken,7030,96,75,80,50005,NJ
-17,Plainfield,7062,59,42,50,49808,NJ
-18,West New York,7093,94,73,51,49708,NJ
-19,Hackensack,7601,73,56,51,43010,NJ
-20,Sayreville,8872,30,--,33,42704,NJ
-21,Kearny,7032,75,42,47,40684,NJ
-22,Linden,7036,67,42,52,40499,NJ
-23,Atlantic City,8401,73,48,61,39558,NJ
-24,Fort Lee,7024,79,54,50,35345,NJ
-25,Fair Lawn,7410,58,42,47,32457,NJ
-26,Long Branch,7740,63,26,58,30719,NJ
-27,Garfield,7026,76,45,49,30487,NJ
-28,Westfield,7090,44,32,43,30316,NJ
-29,Millville,,31,--,42,28400,NJ
-30,Rahway,7065,64,39,58,27346,NJ
-31,Englewood,7631,60,46,45,27147,NJ
-32,Bergenfield,7621,62,46,50,26764,NJ
-33,Paramus,7652,36,41,38,26342,NJ
-34,Bridgeton,,43,--,43,25349,NJ
-35,Ridgewood,7450,42,42,41,24958,NJ
-36,Lodi,7644,70,45,47,24136,NJ
-37,Old Bridge,,30,36,37,23753,NJ
-38,Cliffside Park,7010,83,55,45,23594,NJ
-39,South Plainfield,7080,43,24,43,23385,NJ
-40,Carteret,7008,56,32,47,22844,NJ
-41,Somerset,,26,--,41,22083,NJ
-42,North Plainfield,,58,38,44,21936,NJ
-43,Summit,7901,47,33,33,21457,NJ
-44,Roselle,7203,66,44,50,21085,NJ
-45,Pleasantville,8232,51,37,56,20249,NJ
-46,Palisades Park,7650,81,52,42,19622,NJ
-47,Elmwood Park,7407,55,42,45,19403,NJ
-48,Woodbridge,,52,38,44,19265,NJ
-49,Hawthorne,7506,53,26,37,18791,NJ
-50,Iselin,8830,60,35,47,18695,NJ
-51,Glassboro,,38,--,48,18579,NJ
-52,Morristown,,70,32,42,18411,NJ
-53,Point Pleasant,,49,--,52,18392,NJ
-54,Dover,,59,35,35,18157,NJ
-55,Rutherford,7070,69,53,47,18061,NJ
-56,Tinton Falls,,16,--,33,17892,NJ
-57,Colonia,7067,41,27,41,17795,NJ
-58,Lindenwold,,44,29,48,17613,NJ
-59,Dumont,7628,58,47,47,17479,NJ
-60,Avenel,7001,46,31,42,17011,NJ
-0,Albuquerque,87120,42,30,62,545852,NM
-1,Las Cruces,,35,--,46,97618,NM
-2,Rio Rancho,,16,--,32,87521,NM
-3,Santa Fe,,40,--,50,67947,NM
-4,Roswell,,32,--,48,48366,NM
-5,Farmington,,31,16,36,45877,NM
-6,South Valley,,22,--,44,40976,NM
-7,Clovis,,37,--,45,37775,NM
-8,Hobbs,,41,--,46,34122,NM
-9,Alamogordo,,26,--,41,30403,NM
-10,Carlsbad,,36,--,50,26138,NM
-11,Gallup,,28,--,33,21678,NM
-0,New York,11368,88,84,70,8175133,NY
-1,Buffalo,14213,68,49,65,261310,NY
-2,Rochester,14621,65,43,61,210565,NY
-3,Yonkers,10701,70,54,39,195976,NY
-4,Syracuse,13210,60,44,50,145170,NY
-5,Albany,12208,65,54,56,97856,NY
-6,New Rochelle,10801,65,44,48,77062,NY
-7,Cheektowaga,14225,34,28,44,75178,NY
-8,Mount Vernon,10550,74,56,44,67292,NY
-9,Schenectady,12308,65,37,51,66135,NY
-10,Utica,13501,58,--,49,62235,NY
-11,Brentwood,11717,38,--,42,60664,NY
-12,Tonawanda,14223,47,31,50,58144,NY
-13,White Plains,10605,62,51,40,56853,NY
-14,Hempstead,11550,74,53,55,53891,NY
-15,Levittown,11756,50,21,46,51881,NY
-16,Irondequoit,14617,32,33,40,51692,NY
-17,Niagara Falls,14301,49,30,55,50193,NY
-18,Troy,,56,39,44,50129,NY
-19,Binghamton,,56,--,51,47376,NY
-20,West Seneca,14224,25,--,37,44711,NY
-21,West Babylon,11704,46,--,44,43213,NY
-22,Freeport,11520,63,37,50,42860,NY
-23,Hicksville,11801,60,30,50,41547,NY
-24,Coram,11727,18,--,36,39113,NY
-25,East Meadow,11554,52,25,46,38132,NY
-26,Valley Stream,,66,51,51,37511,NY
-27,Brighton,,28,32,47,36609,NY
-28,Commack,11725,30,--,38,36124,NY
-29,Central Islip,11722,37,--,42,34450,NY
-30,Rome,,35,--,45,33725,NY
-31,New City,10956,21,--,29,33559,NY
-32,Long Beach,,70,29,53,33275,NY
-33,Elmont,11003,62,40,49,33198,NY
-34,Huntington Station,,51,--,50,33029,NY
-35,Poughkeepsie,,63,30,54,32736,NY
-36,Oceanside,11572,55,32,48,32109,NY
-37,Centereach,11720,22,--,36,31578,NY
-38,North Tonawanda,,38,--,51,31568,NY
-39,Spring Valley,,53,20,41,31347,NY
-40,Jamestown,,53,--,43,31146,NY
-41,Ithaca,14853,71,--,57,30014,NY
-42,Franklin Square,11010,67,38,51,29320,NY
-43,Elmira,,50,--,55,29200,NY
-44,Port Chester,,76,43,43,28967,NY
-45,Newburgh,,69,--,43,28866,NY
-46,West Islip,11795,33,--,39,28335,NY
-47,Middletown,,57,--,38,28086,NY
-48,Shirley,11967,23,--,37,27854,NY
-49,Deer Park,11729,45,--,43,27745,NY
-50,Auburn,,52,28,44,27687,NY
-51,Harrison,10528,37,32,31,27472,NY
-52,Lindenhurst,,53,--,46,27253,NY
-53,Holbrook,11741,32,--,40,27195,NY
-54,Watertown,,50,--,46,27023,NY
-55,Glen Cove,11542,52,22,37,26964,NY
-56,Dix Hills,,12,--,25,26892,NY
-57,Saratoga Springs,,42,24,42,26586,NY
-58,Smithtown,,23,--,31,26470,NY
-59,Bay Shore,,50,--,48,26337,NY
-60,Plainview,11803,48,15,46,26217,NY
-61,Ossining,,61,36,35,25060,NY
-62,Uniondale,11553,63,38,52,24759,NY
-63,Medford,,20,--,36,24142,NY
-64,Baldwin,,63,36,51,24033,NY
-65,Rockville Centre,11570,62,40,55,24023,NY
-66,Kingston,,57,--,53,23893,NY
-67,Peekskill,10566,61,33,30,23583,NY
-68,Copiague,11726,56,--,48,22993,NY
-69,East Patchogue,,24,--,38,22469,NY
-70,Garden City,,54,46,48,22371,NY
-71,Merrick,,55,25,47,22097,NY
-72,Massapequa,,48,23,47,21685,NY
-73,Lockport,,44,--,52,21165,NY
-74,Hauppauge,11788,26,--,36,20882,NY
-75,Rotterdam,,39,--,45,20652,NY
-76,East Northport,,39,--,39,20217,NY
-77,Kiryas Joel,,41,--,29,20175,NY
-78,Lake Ronkonkoma,,41,--,42,20155,NY
-79,Plattsburgh,12903,57,--,57,19989,NY
-80,North Bellmore,,53,18,46,19941,NY
-81,Selden,,35,--,40,19851,NY
-82,Holtsville,11742,22,--,36,19714,NY
-83,Eastchester,10709,61,41,44,19554,NY
-84,Lynbrook,11563,72,51,57,19427,NY
-85,Cortland,,54,--,48,19204,NY
-86,Ronkonkoma,,27,--,35,19082,NY
-87,East Massapequa,,47,24,47,19069,NY
-88,Melville,11747,20,--,31,18985,NY
-89,North Bay Shore,,39,--,48,18944,NY
-90,Mamaroneck,,64,41,50,18929,NY
-91,Wantagh,,49,28,47,18871,NY
-92,West Hempstead,,65,42,53,18862,NY
-93,Syosset,,44,--,42,18829,NY
-94,Mineola,11501,77,52,51,18799,NY
-95,Islip,11751,41,--,44,18689,NY
-96,Amsterdam,,34,--,29,18620,NY
-97,Monsey,,40,--,35,18412,NY
-98,Oswego,,58,--,44,18142,NY
-99,Lackawanna,14218,42,27,49,18141,NY
-100,Huntington,,36,--,30,18046,NY
-101,North Massapequa,,44,13,47,17886,NY
-102,Nanuet,,36,--,33,17882,NY
-103,North Amityville,,42,--,44,17862,NY
-104,North Babylon,11703,43,--,43,17509,NY
-105,Kings Park,11754,25,--,33,17282,NY
-106,Scarsdale,,40,37,38,17166,NY
-107,Woodmere,,46,--,45,17121,NY
-108,Massapequa Park,,43,28,50,17008,NY
-109,Sayville,,35,--,39,16853,NY
-110,North Valley Stream,,62,38,49,16628,NY
-0,Charlotte,28269,26,29,34,731424,NC
-1,Raleigh,27612,31,30,41,403892,NC
-2,Greensboro,27401,29,--,35,269666,NC
-3,Winston-Salem,27106,23,--,29,229617,NC
-4,Durham,27701,29,29,41,228330,NC
-5,Fayetteville,28314,21,--,33,200564,NC
-6,Cary,27511,27,18,40,135234,NC
-7,Wilmington,28403,35,20,52,106476,NC
-8,High Point,27260,24,--,31,104371,NC
-9,Greenville,,33,--,45,84554,NC
-10,Asheville,28801,36,26,33,83393,NC
-11,Concord,,18,11,24,79066,NC
-12,Gastonia,,24,--,27,71741,NC
-13,Jacksonville,28543,25,--,43,70145,NC
-14,Rocky Mount,,24,16,39,57477,NC
-15,Chapel Hill,,36,42,50,57233,NC
-16,Burlington,,33,--,39,49963,NC
-17,Wilson,,32,--,42,49167,NC
-18,Huntersville,,16,--,28,46773,NC
-19,Kannapolis,,22,20,26,42625,NC
-20,Hickory,,27,--,26,40010,NC
-21,Apex,,25,--,28,37476,NC
-22,Goldsboro,,27,--,41,36437,NC
-23,Salisbury,,27,--,34,33662,NC
-24,Indian Trail,,10,--,28,33518,NC
-25,Monroe,,25,--,33,32797,NC
-26,Mooresville,,20,--,26,32711,NC
-27,Wake Forest,,20,--,26,30117,NC
-28,New Bern,,27,--,45,29524,NC
-29,Sanford,,21,--,32,28094,NC
-30,Matthews,,15,--,28,27198,NC
-31,Thomasville,,24,--,29,26757,NC
-32,Garner,,22,--,27,25745,NC
-33,Asheboro,,26,--,26,25012,NC
-34,Cornelius,,27,--,34,24866,NC
-35,Holly Springs,,19,--,24,24661,NC
-36,Statesville,,30,--,31,24532,NC
-37,Kernersville,,20,--,26,23123,NC
-38,Mint Hill,,10,--,24,22722,NC
-39,Kinston,,32,--,43,21677,NC
-40,Lumberton,,29,--,43,21542,NC
-41,Havelock,,26,--,42,20735,NC
-42,Shelby,,28,--,31,20323,NC
-43,Carrboro,27510,28,--,59,19582,NC
-44,Lexington,,32,--,32,18931,NC
-45,Elizabeth City,,38,--,50,18683,NC
-46,Clemmons,,12,--,23,18627,NC
-47,Morrisville,,26,--,42,18576,NC
-48,Lenoir,,21,--,25,18228,NC
-49,Fuquay-Varina,,20,--,30,17937,NC
-50,Boone,,49,--,26,17122,NC
-51,Morganton,,25,--,24,16918,NC
-0,Fargo,58103,44,25,50,105549,ND
-1,Bismarck,,36,--,40,61272,ND
-2,Grand Forks,,48,--,61,52838,ND
-3,Minot,,39,--,38,40888,ND
-4,West Fargo,,28,--,39,25830,ND
-5,Mandan,,27,--,32,18331,ND
-6,Dickinson,,34,--,39,17787,ND
-0,Columbus,43229,40,33,50,787033,OH
-1,Cleveland,44102,60,45,55,396815,OH
-2,Cincinnati,45205,50,44,43,296943,OH
-3,Toledo,43613,45,--,50,287208,OH
-4,Akron,44310,46,32,46,199110,OH
-5,Dayton,45406,48,--,49,141527,OH
-6,Parma,44134,40,34,41,81601,OH
-7,Canton,44703,48,--,46,73007,OH
-8,Youngstown,44509,37,--,39,66982,OH
-9,Lorain,44052,37,--,42,64097,OH
-10,Hamilton,45015,39,13,41,62477,OH
-11,Springfield,,40,--,49,60608,OH
-12,Kettering,,39,--,46,56163,OH
-13,Elyria,,29,--,41,54533,OH
-14,Lakewood,44107,69,38,63,52131,OH
-15,Cuyahoga Falls,44221,45,--,41,49652,OH
-16,Euclid,44123,40,38,42,48920,OH
-17,Middletown,,33,16,41,48694,OH
-18,Mansfield,44902,32,--,36,47821,OH
-19,Newark,,31,--,44,47573,OH
-20,Mentor,,19,--,35,47159,OH
-21,Cleveland Heights,,54,38,53,46121,OH
-22,Beavercreek,45430,17,--,34,45193,OH
-23,Strongsville,44136,19,21,34,44750,OH
-24,Fairfield,45014,24,6,32,42510,OH
-25,Dublin,,17,--,46,41751,OH
-26,Warren,,35,--,45,41557,OH
-27,Findlay,,36,--,44,41202,OH
-28,Lancaster,,40,--,45,38780,OH
-29,Lima,,44,--,51,38771,OH
-30,Huber Heights,,25,--,36,38101,OH
-31,Marion,,35,--,45,36837,OH
-32,Westerville,,28,--,52,36120,OH
-33,Reynoldsburg,,29,22,40,35893,OH
-34,Grove City,,25,--,49,35575,OH
-35,Boardman,,29,--,38,35376,OH
-36,Stow,44224,21,--,37,34837,OH
-37,Delaware,,27,--,37,34753,OH
-38,Brunswick,,21,--,34,34255,OH
-39,Upper Arlington,,42,30,49,33771,OH
-40,Gahanna,,24,24,36,33248,OH
-41,Westlake,44145,23,24,36,32729,OH
-42,North Olmsted,44070,28,21,41,32718,OH
-43,Fairborn,,34,--,41,32352,OH
-44,Massillon,,39,--,42,32149,OH
-45,Mason,,18,--,45,30712,OH
-46,North Royalton,44133,15,--,29,30444,OH
-47,Bowling Green,,45,--,55,30028,OH
-48,Austintown,,23,--,36,29677,OH
-49,North Ridgeville,44039,14,--,33,29465,OH
-50,Kent,44243,41,--,50,28904,OH
-51,Garfield Heights,,44,32,40,28849,OH
-52,Shaker Heights,,43,48,47,28448,OH
-53,Hilliard,,22,--,42,28435,OH
-54,Medina,,27,--,37,26678,OH
-55,Barberton,,39,--,41,26550,OH
-56,Wooster,,33,--,35,26119,OH
-57,Sandusky,,44,--,48,25793,OH
-58,Xenia,,29,--,49,25719,OH
-59,Green,,8,--,27,25699,OH
-60,Zanesville,,39,--,37,25487,OH
-61,Riverside,,33,--,43,25201,OH
-62,Troy,,33,--,46,25058,OH
-63,Trotwood,45426,17,--,35,24431,OH
-64,Centerville,,27,--,42,23999,OH
-65,Athens,,55,--,63,23832,OH
-66,Solon,44139,11,--,35,23348,OH
-67,Maple Heights,44137,38,31,42,23138,OH
-68,Avon Lake,44012,20,--,41,22581,OH
-69,Alliance,,45,--,47,22322,OH
-70,South Euclid,,45,31,45,22295,OH
-71,Willoughby,,27,--,36,22268,OH
-72,Hudson,,11,--,36,22262,OH
-73,Marysville,,23,--,41,22094,OH
-74,Chillicothe,,37,--,42,21901,OH
-75,Wadsworth,,31,--,37,21567,OH
-76,Oxford,,48,31,53,21371,OH
-77,Sidney,,31,--,39,21229,OH
-78,Avon,44011,12,--,32,21193,OH
-79,Parma Heights,,42,40,45,20718,OH
-80,Perrysburg,,24,--,39,20623,OH
-81,Piqua,,37,--,54,20522,OH
-82,Ashland,,41,--,43,20362,OH
-83,Oregon,43616,20,--,40,20291,OH
-84,Portsmouth,,42,--,37,20226,OH
-85,Rocky River,44116,44,34,44,20213,OH
-86,Miamisburg,,24,--,34,20181,OH
-87,Lebanon,,24,--,36,20033,OH
-88,Painesville,,39,22,45,19563,OH
-89,Broadview Heights,44147,8,20,25,19400,OH
-90,Niles,,34,--,40,19266,OH
-91,Brook Park,,31,--,39,19212,OH
-92,Norwood,,64,44,46,19207,OH
-93,White Oak,,30,22,27,19167,OH
-94,Mayfield Heights,,46,24,45,19155,OH
-95,Ashtabula,,35,--,43,19124,OH
-96,Berea,44017,35,12,51,19093,OH
-97,Sylvania,,26,--,42,18965,OH
-98,Twinsburg,,16,--,30,18795,OH
-99,Forest Park,,28,19,36,18720,OH
-100,Steubenville,,37,--,28,18659,OH
-101,Eastlake,,23,--,43,18577,OH
-102,Pickerington,,16,--,31,18291,OH
-103,Whitehall,,50,36,46,18062,OH
-104,Tiffin,,48,--,52,17963,OH
-105,East Cleveland,,59,54,47,17843,OH
-106,Tallmadge,44278,16,--,32,17537,OH
-107,North Canton,,37,--,39,17488,OH
-108,Springboro,,18,--,34,17409,OH
-109,New Philadelphia,,46,--,47,17288,OH
-110,Norwalk,,35,--,42,17012,OH
-111,Mount Vernon,,41,--,44,16990,OH
-112,Fairview Park,44126,39,28,42,16826,OH
-113,Fremont,,44,--,50,16734,OH
-0,Oklahoma City,73170,34,16,43,579999,OK
-1,Tulsa,74133,39,23,47,391906,OK
-2,Norman,73071,31,--,58,110925,OK
-3,Broken Arrow,74012,22,10,35,98850,OK
-4,Lawton,,34,--,43,96867,OK
-5,Edmond,,30,--,35,81405,OK
-6,Moore,73160,29,--,37,55081,OK
-7,Midwest City,73110,28,--,40,54371,OK
-8,Enid,,31,--,43,49379,OK
-9,Stillwater,,36,--,62,45688,OK
-10,Muskogee,,31,--,46,39223,OK
-11,Bartlesville,,24,--,35,35750,OK
-12,Shawnee,,34,--,39,29857,OK
-13,Owasso,,28,--,37,28915,OK
-14,Ponca City,,33,--,44,25387,OK
-15,Ardmore,,30,--,42,24283,OK
-16,Duncan,,27,--,40,23431,OK
-17,Yukon,,35,--,41,22709,OK
-18,Del City,73115,34,--,44,21332,OK
-19,Bixby,,15,--,35,20884,OK
-20,Sapulpa,,24,--,33,20544,OK
-21,Altus,,30,--,42,19813,OK
-22,Bethany,,46,8,47,19051,OK
-23,Sand Springs,,18,5,32,18906,OK
-24,Claremore,,26,--,39,18581,OK
-25,McAlester,,23,--,35,18383,OK
-26,Mustang,,19,--,35,17395,OK
-27,Jenks,74037,15,4,39,16924,OK
-28,Ada,,32,--,38,16810,OK
-29,El Reno,,29,--,38,16749,OK
-0,Portland,97206,67,52,82,583776,OR
-1,Eugene,97401,45,36,72,156185,OR
-2,Salem,,42,31,62,154637,OR
-3,Gresham,97030,45,40,65,105594,OR
-4,Hillsboro,,44,39,72,91611,OR
-5,Beaverton,97008,50,37,68,89803,OR
-6,Bend,,33,24,53,76639,OR
-7,Medford,,37,25,54,74907,OR
-8,Springfield,,47,33,63,59403,OR
-9,Corvallis,97331,48,28,84,54462,OR
-10,Albany,,34,17,53,50158,OR
-11,Aloha,,40,37,64,49425,OR
-12,Tigard,,41,31,63,48035,OR
-13,Lake Oswego,,37,26,48,36619,OR
-14,Keizer,,35,32,58,36478,OR
-15,Grants Pass,,40,19,45,34533,OR
-16,McMinnville,,40,18,53,32187,OR
-17,Oregon City,,37,29,52,31859,OR
-18,Redmond,,30,4,48,26215,OR
-19,Tualatin,,27,29,54,26054,OR
-20,West Linn,,34,23,42,25109,OR
-21,Woodburn,,47,21,56,24080,OR
-22,Newberg,,45,--,68,22068,OR
-23,Roseburg,,42,18,44,21181,OR
-24,Forest Grove,,42,30,66,21083,OR
-25,Klamath Falls,,39,23,44,20840,OR
-26,Bethany,,36,27,56,20646,OR
-27,Milwaukie,,51,43,71,20291,OR
-28,Ashland,,53,18,59,20078,OR
-29,Hayesville,,36,35,61,19936,OR
-30,Wilsonville,,28,27,55,19509,OR
-31,Altamont,,29,21,48,19257,OR
-32,Sherwood,,38,23,55,18194,OR
-33,Central Point,,33,21,49,17169,OR
-34,Hermiston,,43,--,43,16745,OR
-35,Oak Grove,,48,38,65,16629,OR
-36,Pendleton,,35,--,32,16612,OR
-0,Philadelphia,19120,79,67,67,1526006,PA
-1,Pittsburgh,15213,63,56,57,305704,PA
-2,Allentown,18102,70,36,44,118032,PA
-3,Erie,16504,59,--,54,101786,PA
-4,Reading,,75,--,48,88082,PA
-5,Scranton,18503,57,--,38,76089,PA
-6,Bethlehem,18018,63,32,45,74982,PA
-7,Lancaster,,81,--,59,59322,PA
-8,Levittown,19055,36,20,42,52983,PA
-9,Harrisburg,17104,74,39,58,49528,PA
-10,Altoona,,54,--,35,46320,PA
-11,York,17401,74,40,63,43718,PA
-12,State College,,68,52,75,42034,PA
-13,Wilkes-Barre,18701,62,--,47,41498,PA
-14,Norristown,,69,42,48,34324,PA
-15,Chester,19013,65,44,52,33972,PA
-16,Bethel Park,15102,28,31,18,32313,PA
-17,Williamsport,,54,--,55,29381,PA
-18,Monroeville,15146,19,--,15,28386,PA
-19,Drexel Hill,19026,57,46,40,28043,PA
-20,Plum,15239,13,--,10,27126,PA
-21,Easton,,66,30,48,26800,PA
-22,Lebanon,,68,--,56,25477,PA
-23,Hazleton,,65,--,41,25340,PA
-24,New Castle,,46,--,37,23273,PA
-25,Pottstown,,59,--,46,22377,PA
-26,Allison Park,,16,--,12,21552,PA
-27,Johnstown,15901,46,--,36,20978,PA
-28,West Mifflin,15122,22,31,17,20313,PA
-29,Chambersburg,,49,--,56,20268,PA
-30,Murrysville,15668,9,--,10,20079,PA
-31,King of Prussia,,34,31,34,19936,PA
-32,Baldwin,,26,25,18,19767,PA
-33,McKeesport,15132,44,32,34,19731,PA
-34,Upper St. Clair,15241,14,--,10,19229,PA
-35,Carlisle,,60,--,62,18682,PA
-36,West Chester,,76,--,50,18461,PA
-0,Providence,2909,78,48,62,178042,RI
-1,Warwick,2886,34,26,40,82672,RI
-2,Cranston,2920,49,30,46,80387,RI
-3,Pawtucket,2860,69,37,52,71148,RI
-4,East Providence,2914,48,30,46,47037,RI
-5,Woonsocket,2895,52,26,37,41186,RI
-6,Newport,2840,65,31,54,24672,RI
-7,Central Falls,2863,79,34,52,19376,RI
-8,Westerly,,34,4,34,17936,RI
-0,Columbia,29205,38,0,38,129272,SC
-1,Charleston,29407,40,23,52,120083,SC
-2,North Charleston,29405,27,--,41,97471,SC
-3,Mount Pleasant,,20,--,39,67843,SC
-4,Rock Hill,,29,--,33,66154,SC
-5,Greenville,29601,43,19,41,58409,SC
-6,Summerville,,19,--,38,43392,SC
-7,Sumter,29152,26,--,42,40524,SC
-8,Hilton Head Island,29928,12,--,48,37099,SC
-9,Florence,,29,--,43,37056,SC
-10,Spartanburg,,31,--,36,37013,SC
-11,Goose Creek,,16,--,37,35938,SC
-12,Aiken,,23,--,32,29524,SC
-13,Myrtle Beach,,43,--,55,27109,SC
-14,Anderson,,33,--,34,26686,SC
-15,Greer,,26,--,24,25515,SC
-16,Greenwood,,32,--,40,23222,SC
-17,Mauldin,29662,19,--,25,22889,SC
-18,Taylors,,12,--,19,21617,SC
-19,North Augusta,,22,--,34,21348,SC
-20,Wade Hampton,,31,--,29,20622,SC
-21,St. Andrews,,27,--,34,20493,SC
-22,Easley,,24,--,29,19993,SC
-23,Socastee,,21,--,35,19952,SC
-24,Simpsonville,,22,--,26,18238,SC
-25,Hanahan,,20,--,37,17997,SC
-26,Lexington,,23,--,26,17870,SC
-27,Conway,,28,--,42,17103,SC
-0,Sioux Falls,,37,17,46,153888,SD
-1,Rapid City,,29,--,36,67956,SD
-2,Aberdeen,,35,--,66,26091,SD
-3,Brookings,,39,--,58,22056,SD
-4,Watertown,,35,--,50,21482,SD
-0,Memphis,38109,36,--,44,646889,TN
-1,Nashville-Davidson,37013,28,24,30,601222,TN
-2,Knoxville,37917,31,28,30,178874,TN
-3,Chattanooga,37411,29,25,35,167674,TN
-4,Clarksville,,18,--,27,132929,TN
-5,Murfreesboro,,25,--,40,108755,TN
-6,Jackson,,25,--,37,65211,TN
-7,Johnson City,,26,--,26,63152,TN
-8,Franklin,,23,--,30,62487,TN
-9,Bartlett,,15,--,35,54613,TN
-10,Hendersonville,,14,--,24,51372,TN
-11,Kingsport,37665,24,14,26,48205,TN
-12,Collierville,,12,--,32,43965,TN
-13,Cleveland,,30,--,29,41285,TN
-14,Smyrna,,19,5,32,39974,TN
-15,Germantown,38138,16,--,33,38844,TN
-16,Brentwood,,4,--,18,37060,TN
-17,Columbia,,24,--,27,34681,TN
-18,La Vergne,37086,11,--,25,32588,TN
-19,Cookeville,,29,--,37,30435,TN
-20,Gallatin,,24,--,36,30278,TN
-21,Oak Ridge,37830,18,--,23,29330,TN
-22,Morristown,,28,--,26,29137,TN
-23,Spring Hill,,12,--,25,29036,TN
-24,Maryville,,26,--,30,27465,TN
-25,Bristol,,26,--,24,26702,TN
-26,Lebanon,,22,--,37,26190,TN
-27,Mount Juliet,,13,--,22,23671,TN
-28,East Ridge,37412,32,--,34,20979,TN
-29,Farragut,,13,--,21,20676,TN
-30,Shelbyville,,24,--,36,20335,TN
-31,Tullahoma,,20,--,37,18655,TN
-32,Dyersburg,,28,--,38,17145,TN
-0,Houston,77036,48,37,51,2099451,TX
-1,San Antonio,78228,35,36,45,1327407,TX
-2,Dallas,75217,46,40,51,1197816,TX
-3,Austin,78745,41,34,54,790390,TX
-4,Fort Worth,76106,35,21,41,741206,TX
-5,El Paso,79936,41,31,42,649121,TX
-6,Arlington,76010,38,0,41,365438,TX
-7,Corpus Christi,78413,41,30,49,305215,TX
-8,Plano,75025,39,17,55,259841,TX
-9,Laredo,78041,41,--,45,236091,TX
-10,Lubbock,79413,38,22,49,229573,TX
-11,Garland,75040,40,29,45,226876,TX
-12,Irving,75061,44,31,46,216290,TX
-13,Amarillo,79109,40,--,46,190695,TX
-14,Grand Prairie,75052,32,--,37,175396,TX
-15,Brownsville,,39,--,46,175023,TX
-16,Pasadena,77502,43,--,48,149043,TX
-17,Mesquite,75150,35,--,42,139824,TX
-18,McKinney,75070,27,--,43,131117,TX
-19,McAllen,78501,42,--,48,129877,TX
-20,Killeen,76541,33,--,38,127921,TX
-21,Waco,76710,36,--,43,124805,TX
-22,Carrollton,75007,35,22,40,119097,TX
-23,Beaumont,77706,33,--,43,118296,TX
-24,Abilene,79605,30,--,41,117063,TX
-25,Frisco,75035,24,--,40,116989,TX
-26,Denton,76209,33,--,46,113383,TX
-27,Midland,79701,42,--,45,111147,TX
-28,Wichita Falls,76301,29,--,44,104553,TX
-29,Odessa,79761,40,--,45,99940,TX
-30,Round Rock,,24,--,36,99887,TX
-31,Richardson,75080,43,34,53,99223,TX
-32,Tyler,75701,36,--,39,96900,TX
-33,Lewisville,75067,38,--,41,95290,TX
-34,College Station,77840,33,--,62,93857,TX
-35,The Woodlands,77381,18,--,47,93847,TX
-36,San Angelo,76908,32,--,42,93200,TX
-37,Pearland,77581,20,--,38,91252,TX
-38,Allen,75013,34,--,59,84246,TX
-39,League City,77573,22,--,36,83560,TX
-40,Longview,75601,29,--,39,80455,TX
-41,Sugar Land,,27,--,39,78817,TX
-42,Edinburg,,28,--,39,77100,TX
-43,Mission,,33,--,40,77058,TX
-44,Bryan,77803,33,--,46,76201,TX
-45,Baytown,,32,--,42,71802,TX
-46,Pharr,,37,--,43,70400,TX
-47,Missouri City,,25,--,36,67358,TX
-48,Temple,,31,--,38,66102,TX
-49,Atascocita,77346,25,--,36,65844,TX
-50,Harlingen,,36,--,46,64849,TX
-51,Flower Mound,75028,26,--,34,64669,TX
-52,North Richland Hills,76180,33,--,44,63343,TX
-53,Victoria,77901,35,--,43,62592,TX
-54,New Braunfels,,25,--,34,57740,TX
-55,Mansfield,,25,--,36,56368,TX
-56,Conroe,77301,26,--,39,56207,TX
-57,Rowlett,75089,18,13,33,56199,TX
-58,Spring,77373,20,--,37,54298,TX
-59,Port Arthur,,35,--,45,53818,TX
-60,Euless,76039,37,--,38,51277,TX
-61,DeSoto,75115,24,--,32,49047,TX
-62,Cedar Park,,23,--,41,48937,TX
-63,Galveston,77550,54,--,57,47743,TX
-64,Georgetown,,22,--,35,47400,TX
-65,Bedford,76021,43,--,43,46979,TX
-66,Pflugerville,,22,--,39,46936,TX
-67,Grapevine,76051,29,--,39,46334,TX
-68,Texas City,77590,35,--,45,45099,TX
-69,Cedar Hill,75104,19,--,31,45028,TX
-70,San Marcos,,39,--,43,44894,TX
-71,Haltom City,,38,--,40,42409,TX
-72,Wylie,,18,--,34,41427,TX
-73,Keller,,23,--,36,39627,TX
-74,Coppell,,28,--,37,38659,TX
-75,Huntsville,77341,33,--,35,38548,TX
-76,Duncanville,75116,44,12,44,38524,TX
-77,Sherman,,30,--,38,38521,TX
-78,Channelview,77530,23,--,37,38289,TX
-79,Rockwall,,25,--,30,37490,TX
-80,Hurst,76054,47,--,44,37337,TX
-81,Burleson,,27,--,38,36690,TX
-82,Mission Bend,,26,13,36,36501,TX
-83,Texarkana,,29,--,42,36411,TX
-84,Lancaster,75134,22,--,37,36361,TX
-85,The Colony,,27,--,40,36328,TX
-86,Friendswood,,22,--,36,35805,TX
-87,Weslaco,,35,--,41,35670,TX
-88,Del Rio,,35,--,44,35591,TX
-89,Lufkin,,26,--,41,35067,TX
-90,San Juan,,33,--,40,33856,TX
-91,La Porte,,25,--,39,33800,TX
-92,Nacogdoches,,28,--,37,32996,TX
-93,Copperas Cove,,26,--,30,32032,TX
-94,Socorro,,23,--,37,32013,TX
-95,Deer Park,77536,32,--,41,32010,TX
-96,Schertz,,21,--,32,31465,TX
-97,Rosenberg,,35,--,41,30618,TX
-98,Waxahachie,,25,--,38,29621,TX
-99,Fort Hood,,19,--,38,29589,TX
-100,Cleburne,,26,--,39,29337,TX
-101,Farmers Branch,75234,43,30,53,28616,TX
-102,Kyle,,15,--,30,28016,TX
-103,Big Spring,,24,--,38,27282,TX
-104,Lake Jackson,,23,--,40,26849,TX
-105,Harker Heights,76548,31,--,36,26700,TX
-106,Southlake,76092,15,--,31,26575,TX
-107,Leander,,24,--,41,26521,TX
-108,Eagle Pass,,40,--,43,26248,TX
-109,Kingsville,,39,--,47,26213,TX
-110,Little Elm,,23,--,34,25898,TX
-111,Greenville,,26,--,40,25557,TX
-112,Weatherford,,23,--,31,25250,TX
-113,Seguin,,35,--,47,25175,TX
-114,Paris,,37,--,47,25171,TX
-115,San Benito,,42,--,48,24250,TX
-116,Alvin,,30,--,43,24236,TX
-117,Corsicana,,29,--,42,23770,TX
-118,Balch Springs,75180,32,--,40,23728,TX
-119,Marshall,,26,--,39,23523,TX
-120,Watauga,,39,--,43,23497,TX
-121,University Park,,60,38,61,23068,TX
-122,Cloverleaf,,49,--,50,22942,TX
-123,Colleyville,76034,17,--,34,22807,TX
-124,West Odessa,,7,--,33,22707,TX
-125,Denison,,27,--,34,22682,TX
-126,Kerrville,,33,--,40,22347,TX
-127,Plainview,,32,--,43,22194,TX
-128,Brushy Creek,,15,--,32,21764,TX
-129,Canyon Lake,78133,3,--,14,21262,TX
-130,Benbrook,,23,--,41,21234,TX
-131,Sachse,75048,19,--,32,20329,TX
-132,Corinth,,12,--,32,19935,TX
-133,Saginaw,,27,--,38,19806,TX
-134,Brownwood,,29,--,41,19288,TX
-135,Alice,,37,--,43,19104,TX
-136,Fresno,77545,11,--,32,19069,TX
-137,Angleton,,29,--,40,18862,TX
-138,Palestine,,25,--,35,18712,TX
-139,Dickinson,,25,--,38,18680,TX
-140,Orange,,23,--,42,18595,TX
-141,Universal City,,34,--,42,18530,TX
-142,Ennis,,33,--,39,18513,TX
-143,Alamo,,36,--,43,18353,TX
-144,Cinco Ranch,,41,--,44,18274,TX
-145,Belton,,31,--,36,18216,TX
-146,Converse,,23,21,33,18198,TX
-147,Midlothian,,13,--,30,18037,TX
-148,Pampa,,33,--,44,17994,TX
-149,Murphy,75094,15,--,33,17708,TX
-150,Stafford,,36,--,41,17693,TX
-151,Bay City,,30,--,45,17614,TX
-152,Nederland,,41,--,46,17547,TX
-153,Stephenville,,31,--,41,17123,TX
-154,South Houston,77587,60,10,55,16983,TX
-155,Bellaire,77401,52,46,50,16855,TX
-156,Mineral Wells,,19,--,39,16788,TX
-157,Horizon City,,23,--,35,16735,TX
-0,Salt Lake City,84116,59,44,73,186440,UT
-1,West Valley City,84120,35,36,43,129480,UT
-2,Provo,84601,47,34,63,112488,UT
-3,West Jordan,84088,27,29,40,103712,UT
-4,Orem,84057,43,33,58,88328,UT
-5,Sandy,84094,34,27,37,87461,UT
-6,Ogden,,46,36,45,82825,UT
-7,St. George,,30,16,45,72897,UT
-8,Layton,84041,30,22,40,67311,UT
-9,Millcreek,,46,39,48,62139,UT
-10,Taylorsville,,34,35,44,58652,UT
-11,South Jordan,84095,25,22,44,50418,UT
-12,Logan,,41,--,51,48174,UT
-13,Lehi,,22,14,40,47407,UT
-14,Murray,84107,39,38,51,46746,UT
-15,Bountiful,,36,26,34,42552,UT
-16,Draper,84020,18,16,33,42274,UT
-17,Riverton,,25,19,43,38753,UT
-18,Roy,84067,28,28,47,36884,UT
-19,Kearns,,33,35,39,35731,UT
-20,Spanish Fork,,32,12,44,34691,UT
-21,Pleasant Grove,,28,18,45,33509,UT
-22,Cottonwood Heights,,39,30,40,33433,UT
-23,Tooele,,25,18,33,31605,UT
-24,Clearfield,,33,29,50,30112,UT
-25,Springville,,29,15,38,29466,UT
-26,Cedar City,,32,--,40,28857,UT
-27,Midvale,84047,52,41,48,27964,UT
-28,Kaysville,,19,21,39,27300,UT
-29,Magna,,31,31,36,26505,UT
-30,Holladay,,37,33,45,26472,UT
-31,American Fork,,34,19,45,26263,UT
-32,Syracuse,,23,9,42,24331,UT
-33,South Salt Lake,,58,48,58,23617,UT
-34,Herriman,,13,15,28,21785,UT
-35,Eagle Mountain,,18,5,30,21415,UT
-36,Clinton,,27,23,47,20426,UT
-37,Washington,,14,2,31,18761,UT
-38,Payson,,38,20,40,18294,UT
-39,Farmington,,18,26,39,18275,UT
-40,Brigham City,,39,20,49,17899,UT
-41,Saratoga Springs,,8,4,27,17781,UT
-42,North Ogden,,20,28,25,17357,UT
-43,South Ogden,,40,34,39,16532,UT
-0,Burlington,,59,37,78,42417,VT
-1,South Burlington,,27,--,53,17904,VT
-0,Virginia Beach,23464,32,21,44,437994,VA
-1,Norfolk,23503,45,36,51,242803,VA
-2,Chesapeake,23322,21,13,40,222209,VA
-3,Arlington,22204,69,62,72,207627,VA
-4,Richmond,23220,52,--,52,204214,VA
-5,Newport News,23608,33,27,42,180719,VA
-6,Alexandria,22304,60,55,61,139966,VA
-7,Hampton,23666,31,27,42,137436,VA
-8,Roanoke,24017,42,28,39,97032,VA
-9,Portsmouth,23703,36,24,44,95535,VA
-10,Suffolk,23434,15,--,35,84585,VA
-11,Lynchburg,,29,21,24,75568,VA
-12,Centreville,,32,22,48,71135,VA
-13,Dale City,22193,19,--,26,65969,VA
-14,Reston,20191,40,40,54,58404,VA
-15,Harrisonburg,,45,31,40,48914,VA
-16,McLean,22101,24,26,30,48115,VA
-17,Tuckahoe,23229,31,--,33,44990,VA
-18,Ashburn,,36,--,41,43511,VA
-19,Charlottesville,,59,38,56,43475,VA
-20,Danville,,27,--,25,43055,VA
-21,Blacksburg,,42,40,63,42620,VA
-22,Leesburg,,36,--,45,42616,VA
-23,Lake Ridge,,23,--,25,41058,VA
-24,Burke,,25,24,34,41055,VA
-25,Annandale,,41,38,44,41008,VA
-26,Manassas,,43,21,47,37821,VA
-27,Mechanicsville,,14,--,28,36348,VA
-28,Linton Hall,,11,--,34,35725,VA
-29,Marumsco,,31,--,26,35036,VA
-30,Oakton,,30,36,46,34166,VA
-31,Petersburg,,31,--,36,32420,VA
-32,Springfield,22150,35,42,44,30484,VA
-33,Fair Oaks,,46,35,55,30223,VA
-34,West Falls Church,22042,50,35,45,29207,VA
-35,Sterling,,39,--,40,27822,VA
-36,Winchester,22601,49,--,43,26203,VA
-37,Cave Spring,,24,--,18,24922,VA
-38,Salem,,28,16,30,24802,VA
-39,Short Pump,,28,--,34,24729,VA
-40,Fredericksburg,22401,45,--,46,24286,VA
-41,South Riding,,19,--,40,24256,VA
-42,Staunton,,36,--,24,23746,VA
-43,Bailey's Crossroads,,63,50,53,23643,VA
-44,Herndon,,51,35,57,23292,VA
-45,Chantilly,,28,25,44,23039,VA
-46,Lincolnia,22312,39,39,35,22855,VA
-47,Hopewell,,37,--,38,22591,VA
-48,Fairfax,,53,38,56,22565,VA
-49,West Springfield,,21,26,29,22460,VA
-50,Christiansburg,,24,16,26,21041,VA
-51,Waynesboro,,31,--,30,21006,VA
-52,Chester,,10,--,23,20987,VA
-53,Woodlawn,,48,40,45,20804,VA
-54,Rose Hill,,27,41,32,20226,VA
-55,Tysons Corner,,49,56,45,19627,VA
-56,Montclair,,13,17,25,19570,VA
-57,Franklin Farm,,20,24,50,19288,VA
-58,Lorton,,25,34,39,18610,VA
-59,Meadowbrook,,17,--,30,18312,VA
-60,Franconia,,33,41,47,18245,VA
-61,Bristol,24201,30,--,27,17835,VA
-62,McNair,,53,36,44,17513,VA
-63,Colonial Heights,,33,--,36,17411,VA
-64,Burke Centre,,38,22,38,17326,VA
-65,Idylwood,,42,37,43,17288,VA
-66,Laurel,,31,--,37,16713,VA
-0,Seattle,98115,74,60,70,608660,WA
-1,Spokane,99205,49,36,52,208916,WA
-2,Tacoma,98406,53,--,49,198397,WA
-3,Vancouver,98683,40,34,61,161791,WA
-4,Bellevue,98006,40,38,44,122363,WA
-5,Everett,98203,48,39,55,103019,WA
-6,Kent,98032,39,35,46,92411,WA
-7,Yakima,98902,50,27,50,91067,WA
-8,Renton,98055,38,33,37,90927,WA
-9,Spokane Valley,99216,30,28,47,89755,WA
-10,Federal Way,98023,36,32,39,89306,WA
-11,Bellingham,98225,49,37,58,80885,WA
-12,Kennewick,99336,34,--,40,73917,WA
-13,Auburn,98002,31,24,41,70180,WA
-14,Marysville,98270,22,--,41,60020,WA
-15,Pasco,,36,31,46,59781,WA
-16,Lakewood,98499,38,--,45,58163,WA
-17,Redmond,,31,39,51,54144,WA
-18,Shoreline,,48,43,50,53007,WA
-19,South Hill,,17,--,29,52431,WA
-20,Kirkland,98033,48,40,50,48787,WA
-21,Richland,,33,28,51,48058,WA
-22,Olympia,,39,35,57,46478,WA
-23,Sammamish,98075,13,17,29,45780,WA
-24,Lacey,,27,30,53,42393,WA
-25,Edmonds,,45,34,42,39709,WA
-26,Bremerton,98337,49,31,38,37729,WA
-27,Puyallup,,31,--,36,37022,WA
-28,Longview,,38,21,49,36648,WA
-29,Lynnwood,,53,--,50,35836,WA
-30,Parkland,,37,--,43,35803,WA
-31,Bothell,,29,32,37,33505,WA
-32,Burien,,51,39,46,33313,WA
-33,Wenatchee,,47,33,47,31925,WA
-34,Mount Vernon,,34,4,42,31743,WA
-35,Walla Walla,,47,25,63,31731,WA
-36,University Place,98467,34,--,45,31144,WA
-37,Issaquah,,30,26,37,30434,WA
-38,East Hill-Meridian,,23,21,33,29878,WA
-39,Pullman,,41,--,39,29799,WA
-40,Des Moines,,39,37,41,29673,WA
-41,Lake Stevens,,23,--,34,28069,WA
-42,Spanaway,,23,--,36,27227,WA
-43,SeaTac,,38,49,39,26909,WA
-44,Graham,,6,--,26,23491,WA
-45,Bainbridge Island,98110,18,20,39,23025,WA
-46,Inglewood-Finn Hill,,27,26,33,22707,WA
-47,Mercer Island,98040,31,26,35,22699,WA
-48,Maple Valley,,22,20,33,22684,WA
-49,Cottage Lake,,6,--,23,22494,WA
-50,Oak Harbor,,27,20,37,22075,WA
-51,Silver Firs,,18,--,34,20891,WA
-52,Kenmore,98028,28,32,35,20460,WA
-53,Moses Lake,,29,--,38,20366,WA
-54,Mukilteo,98275,25,--,31,20254,WA
-55,Eastmont,,21,--,37,20101,WA
-56,Mountlake Terrace,98043,50,--,43,19909,WA
-57,Salmon Creek,,29,--,49,19686,WA
-58,Orchards,,29,--,57,19556,WA
-59,Hazel Dell,,39,--,62,19435,WA
-60,Camas,,18,--,36,19355,WA
-61,Silverdale,,17,21,28,19204,WA
-62,Tukwila,,43,47,41,19107,WA
-63,Fairwood,,18,24,30,19102,WA
-64,Port Angeles,,35,--,39,19038,WA
-65,Union Hill-Novelty Hill,,12,--,31,18805,WA
-66,Frederickson,,6,--,27,18719,WA
-67,Mill Creek,,28,--,48,18244,WA
-68,Ellensburg,,43,--,55,18174,WA
-69,Five Corners,,25,--,55,18159,WA
-70,Arlington,,26,18,38,17926,WA
-71,Covington,,21,20,35,17575,WA
-72,Battle Ground,,33,--,52,17571,WA
-73,Bonney Lake,,15,--,24,17374,WA
-74,Tumwater,,29,29,38,17371,WA
-75,Monroe,,29,--,43,17304,WA
-76,Aberdeen,,47,--,43,16896,WA
-77,Bothell West,,14,--,27,16607,WA
-78,North Lynnwood,,38,--,44,16574,WA
-0,Charleston,25301,32,--,28,51400,WV
-1,Huntington,25703,48,--,44,49138,WV
-2,Parkersburg,,45,--,37,31492,WV
-3,Morgantown,,54,--,41,29660,WV
-4,Wheeling,,36,--,35,28486,WV
-5,Weirton,,26,--,20,19746,WV
-6,Fairmont,,42,--,26,18704,WV
-7,Beckley,,34,--,27,17614,WV
-8,Martinsburg,,48,--,39,17227,WV
-9,Clarksburg,,40,--,28,16578,WV
-0,Milwaukee,53215,63,48,59,594833,WI
-1,Madison,53703,48,39,65,233209,WI
-2,Green Bay,54302,41,28,49,104057,WI
-3,Kenosha,53143,45,--,49,99218,WI
-4,Racine,,56,34,57,78860,WI
-5,Appleton,,42,--,52,72623,WI
-6,Waukesha,,35,28,40,70718,WI
-7,Oshkosh,,42,28,52,66083,WI
-8,Eau Claire,,35,--,49,65883,WI
-9,Janesville,,35,21,48,63575,WI
-10,West Allis,53227,60,43,53,60411,WI
-11,La Crosse,,53,27,65,51320,WI
-12,Sheboygan,,52,27,59,49288,WI
-13,Wauwatosa,53213,58,43,58,46396,WI
-14,Fond du Lac,,44,--,52,43021,WI
-15,New Berlin,53151,17,--,37,39584,WI
-16,Wausau,,41,--,52,39106,WI
-17,Brookfield,53005,20,8,37,37920,WI
-18,Beloit,,43,--,50,36966,WI
-19,Greenfield,53228,37,35,43,36720,WI
-20,Menomonee Falls,53051,26,14,38,35626,WI
-21,Franklin,53132,15,--,33,35451,WI
-22,Oak Creek,53154,21,19,40,34451,WI
-23,Manitowoc,,37,--,47,33736,WI
-24,West Bend,,33,--,42,31078,WI
-25,Sun Prairie,,32,--,56,29364,WI
-26,Superior,,42,24,50,27244,WI
-27,Stevens Point,,45,--,64,26717,WI
-28,Mount Pleasant,,18,--,37,26197,WI
-29,Neenah,,42,--,51,25501,WI
-30,Fitchburg,,29,21,57,25260,WI
-31,Caledonia,53402,8,--,33,24705,WI
-32,Muskego,53150,14,--,41,24135,WI
-33,Watertown,,37,--,42,23861,WI
-34,De Pere,,30,17,43,23800,WI
-35,Mequon,53092,10,--,34,23132,WI
-36,South Milwaukee,53172,41,33,52,21156,WI
-37,Germantown,53022,21,3,35,19749,WI
-38,Pleasant Prairie,53158,9,--,36,19719,WI
-39,Marshfield,,37,--,56,19118,WI
-40,Wisconsin Rapids,,39,--,53,18367,WI
-41,Cudahy,53110,49,34,54,18267,WI
-42,Onalaska,,28,10,42,17736,WI
-43,Middleton,,44,25,57,17442,WI
-44,Howard,,16,--,39,17399,WI
-45,Menasha,,40,--,55,17353,WI
-46,Ashwaubenon,,29,20,42,16963,WI
-0,Cheyenne,,37,--,51,59466,WY
-1,Casper,,39,--,44,55316,WY
-2,Laramie,,34,--,67,30816,WY
-3,Gillette,,21,--,34,29087,WY
-4,Rock Springs,,29,--,32,23036,WY
-5,Sheridan,,30,--,45,17444,WY
+,Walk Score,Transit Score,Bike Score,city_state
+0,35,25,31,"Birmingham, Alabama"
+1,26,16,38,"Montgomery, Alabama"
+2,32,0,39,"Mobile, Alabama"
+3,24,13,40,"Huntsville, Alabama"
+4,33,0,37,"Tuscaloosa, Alabama"
+5,17,0,12,"Hoover, Alabama"
+6,23,0,35,"Dothan, Alabama"
+7,25,0,40,"Decatur, Alabama"
+8,27,0,38,"Auburn, Alabama"
+9,17,0,34,"Madison, Alabama"
+10,32,0,36,"Florence, Alabama"
+11,25,0,33,"Gadsden, Alabama"
+12,22,0,15,"Vestavia Hills, Alabama"
+13,17,0,28,"Prattville, Alabama"
+14,23,0,24,"Phenix City, Alabama"
+15,9,0,20,"Alabaster, Alabama"
+16,26,0,31,"Bessemer, Alabama"
+17,19,0,28,"Enterprise, Alabama"
+18,17,0,29,"Opelika, Alabama"
+19,41,22,27,"Homewood, Alabama"
+20,26,0,30,"Northport, Alabama"
+21,23,0,26,"Anniston, Alabama"
+22,25,0,39,"Prichard, Alabama"
+23,21,0,37,"Athens, Alabama"
+24,16,0,32,"Daphne, Alabama"
+25,13,0,16,"Pelham, Alabama"
+26,10,0,23,"Oxford, Alabama"
+27,21,0,34,"Albertville, Alabama"
+28,33,0,48,"Selma, Alabama"
+29,22,0,16,"Mountain Brook, Alabama"
+30,10,0,12,"Trussville, Alabama"
+31,21,0,24,"Troy, Alabama"
+32,13,0,31,"Tillmans Corner, Alabama"
+33,24,0,19,"Center Point, Alabama"
+34,12,0,18,"Helena, Alabama"
+35,28,21,52,"Anchorage, Alaska"
+36,33,24,57,"Fairbanks, Alaska"
+37,22,18,35,"Juneau, Alaska"
+38,2,0,35,"Badger, Alaska"
+39,41,36,56,"Phoenix, Arizona"
+40,42,35,67,"Tucson, Arizona"
+41,37,27,61,"Mesa, Arizona"
+42,35,24,57,"Chandler, Arizona"
+43,40,34,59,"Glendale, Arizona"
+44,31,26,56,"Scottsdale, Arizona"
+45,28,15,54,"Gilbert, Arizona"
+46,53,47,74,"Tempe, Arizona"
+47,29,14,47,"Peoria, Arizona"
+48,21,0,47,"Surprise, Arizona"
+49,31,19,55,"Yuma, Arizona"
+50,13,0,35,"San Tan Valley, Arizona"
+51,28,0,52,"Avondale, Arizona"
+52,24,0,46,"Casas Adobes, Arizona"
+53,38,35,65,"Flagstaff, Arizona"
+54,18,0,42,"Goodyear, Arizona"
+55,15,0,29,"Lake Havasu City, Arizona"
+56,13,0,33,"Buckeye, Arizona"
+57,13,0,30,"Catalina Foothills, Arizona"
+58,26,0,45,"Casa Grande, Arizona"
+59,25,0,53,"Sierra Vista, Arizona"
+60,14,0,39,"Maricopa, Arizona"
+61,12,0,41,"Oro Valley, Arizona"
+62,25,0,27,"Prescott, Arizona"
+63,23,0,32,"Bullhead City, Arizona"
+64,17,0,36,"Prescott Valley, Arizona"
+65,25,0,43,"Sun City, Arizona"
+66,18,0,42,"Apache Junction, Arizona"
+67,12,0,38,"Marana, Arizona"
+68,27,0,43,"El Mirage, Arizona"
+69,24,0,36,"Kingman, Arizona"
+70,15,0,32,"Drexel Heights, Arizona"
+71,16,0,44,"Queen Creek, Arizona"
+72,13,0,36,"Fortuna Foothills, Arizona"
+73,19,0,39,"Florence, Arizona"
+74,27,0,43,"San Luis, Arizona"
+75,9,0,31,"Sahuarita, Arizona"
+76,11,0,40,"Sun City West, Arizona"
+77,19,0,26,"Fountain Hills, Arizona"
+78,18,0,42,"Anthem, Arizona"
+79,12,0,31,"Green Valley, Arizona"
+80,34,0,27,"Nogales, Arizona"
+81,6,0,17,"Rio Rico, Arizona"
+82,41,0,49,"Douglas, Arizona"
+83,4,0,29,"Tanque Verde, Arizona"
+84,14,0,35,"Eloy, Arizona"
+85,32,19,32,"Little Rock, Arkansas"
+86,35,0,38,"Fort Smith, Arkansas"
+87,32,0,50,"Fayetteville, Arkansas"
+88,26,0,39,"Springdale, Arkansas"
+89,21,0,34,"Jonesboro, Arkansas"
+90,30,19,34,"North Little Rock, Arkansas"
+91,25,0,37,"Conway, Arkansas"
+92,20,0,43,"Rogers, Arkansas"
+93,28,0,39,"Pine Bluff, Arkansas"
+94,25,0,41,"Bentonville, Arkansas"
+95,31,0,27,"Hot Springs, Arkansas"
+96,18,0,27,"Benton, Arkansas"
+97,25,0,40,"Texarkana, Arkansas"
+98,20,7,29,"Sherwood, Arkansas"
+99,23,3,37,"Jacksonville, Arkansas"
+100,27,0,38,"Russellville, Arkansas"
+101,3,0,9,"Bella Vista, Arkansas"
+102,33,0,43,"West Memphis, Arkansas"
+103,22,0,35,"Paragould, Arkansas"
+104,17,0,31,"Cabot, Arkansas"
+105,39,0,45,"Searcy, Arkansas"
+106,23,0,27,"Van Buren, Arkansas"
+107,31,0,38,"El Dorado, Arkansas"
+108,15,0,44,"Maumelle, Arkansas"
+109,16,0,31,"Bryant, Arkansas"
+110,68,53,59,"Los Angeles, California"
+111,51,37,43,"San Diego, California"
+112,49,41,62,"San Jose, California"
+113,87,80,72,"San Francisco, California"
+114,45,32,59,"Fresno, California"
+115,45,34,68,"Sacramento, California"
+116,72,52,69,"Long Beach, California"
+117,74,56,65,"Oakland, California"
+118,34,27,44,"Bakersfield, California"
+119,55,37,52,"Anaheim, California"
+120,66,45,61,"Santa Ana, California"
+121,42,33,49,"Riverside, California"
+122,43,28,57,"Stockton, California"
+123,43,36,41,"Chula Vista, California"
+124,48,36,54,"Fremont, California"
+125,43,27,69,"Irvine, California"
+126,43,35,44,"San Bernardino, California"
+127,45,30,50,"Modesto, California"
+128,55,32,52,"Oxnard, California"
+129,36,29,41,"Fontana, California"
+130,32,29,37,"Moreno Valley, California"
+131,71,45,52,"Glendale, California"
+132,55,32,71,"Huntington Beach, California"
+133,35,0,33,"Santa Clarita, California"
+134,61,39,58,"Garden Grove, California"
+135,44,27,51,"Santa Rosa, California"
+136,36,33,33,"Oceanside, California"
+137,40,25,46,"Rancho Cucamonga, California"
+138,46,26,47,"Ontario, California"
+139,29,0,42,"Lancaster, California"
+140,32,0,46,"Elk Grove, California"
+141,24,0,35,"Palmdale, California"
+142,38,18,35,"Corona, California"
+143,47,33,51,"Salinas, California"
+144,52,35,48,"Pomona, California"
+145,67,39,55,"Torrance, California"
+146,55,40,54,"Hayward, California"
+147,44,31,40,"Escondido, California"
+148,59,41,76,"Sunnyvale, California"
+149,69,51,70,"Pasadena, California"
+150,51,34,55,"Orange, California"
+151,53,34,48,"Fullerton, California"
+152,32,17,27,"Thousand Oaks, California"
+153,75,56,50,"East Los Angeles, California"
+154,35,0,49,"Visalia, California"
+155,36,21,47,"Simi Valley, California"
+156,46,30,53,"Concord, California"
+157,36,20,61,"Roseville, California"
+158,58,41,74,"Santa Clara, California"
+159,40,31,36,"Vallejo, California"
+160,19,23,34,"Victorville, California"
+161,62,46,58,"El Monte, California"
+162,83,59,82,"Berkeley, California"
+163,60,0,54,"Downey, California"
+164,64,39,66,"Costa Mesa, California"
+165,72,49,55,"Inglewood, California"
+166,46,0,57,"San Buenaventura (Ventura), California"
+167,44,0,37,"West Covina, California"
+168,60,43,53,"Norwalk, California"
+169,30,23,29,"Carlsbad, California"
+170,32,25,42,"Fairfield, California"
+171,57,43,53,"Richmond, California"
+172,27,20,24,"Murrieta, California"
+173,70,39,62,"Burbank, California"
+174,36,0,42,"Antioch, California"
+175,61,52,35,"Daly City, California"
+176,29,16,29,"Temecula, California"
+177,47,0,55,"Santa Maria, California"
+178,57,38,47,"El Cajon, California"
+179,39,30,45,"Rialto, California"
+180,65,40,65,"San Mateo, California"
+181,65,0,61,"Compton, California"
+182,36,0,51,"Clovis, California"
+183,70,0,56,"South Gate, California"
+184,44,34,31,"Vista, California"
+185,35,0,37,"Mission Viejo, California"
+186,33,24,46,"Vacaville, California"
+187,50,32,65,"Arden-Arcade, California"
+188,55,0,51,"Carson, California"
+189,15,0,32,"Hesperia, California"
+190,26,18,42,"Redding, California"
+191,82,62,86,"Santa Monica, California"
+192,63,0,58,"Westminster, California"
+193,61,0,66,"Santa Barbara, California"
+194,45,0,69,"Chico, California"
+195,63,0,52,"Whittier, California"
+196,47,29,53,"Newport Beach, California"
+197,63,45,62,"San Leandro, California"
+198,71,45,59,"Hawthorne, California"
+199,33,0,30,"San Marcos, California"
+200,43,0,47,"Citrus Heights, California"
+201,71,0,50,"Alhambra, California"
+202,42,0,47,"Tracy, California"
+203,40,0,66,"Livermore, California"
+204,55,39,55,"Buena Park, California"
+205,56,0,62,"Lakewood, California"
+206,38,0,53,"Merced, California"
+207,30,0,43,"Hemet, California"
+208,43,24,48,"Chino, California"
+209,16,0,29,"Menifee, California"
+210,39,0,46,"Lake Forest, California"
+211,42,0,60,"Napa, California"
+212,61,0,67,"Redwood City, California"
+213,65,0,61,"Bellflower, California"
+214,31,0,43,"Indio, California"
+215,51,34,59,"Tustin, California"
+216,53,0,50,"Baldwin Park, California"
+217,23,0,20,"Chino Hills, California"
+218,65,43,90,"Mountain View, California"
+219,66,41,76,"Alameda, California"
+220,47,29,49,"Upland, California"
+221,30,0,55,"Folsom, California"
+222,24,0,37,"San Ramon, California"
+223,40,0,58,"Pleasanton, California"
+224,69,0,57,"Lynwood, California"
+225,47,0,53,"Union City, California"
+226,12,20,31,"Apple Valley, California"
+227,39,0,53,"Redlands, California"
+228,41,29,46,"Turlock, California"
+229,24,0,33,"Perris, California"
+230,41,0,46,"Manteca, California"
+231,52,39,66,"Milpitas, California"
+232,74,0,64,"Redondo Beach, California"
+233,44,34,90,"Davis, California"
+234,42,0,46,"Camarillo, California"
+235,41,0,56,"Yuba City, California"
+236,41,33,60,"Rancho Cordova, California"
+237,60,39,91,"Palo Alto, California"
+238,28,0,34,"Yorba Linda, California"
+239,39,26,49,"Walnut Creek, California"
+240,57,0,43,"South San Francisco, California"
+241,34,0,31,"San Clemente, California"
+242,75,59,57,"Florence-Graham, California"
+243,34,0,40,"Pittsburg, California"
+244,32,0,32,"Laguna Niguel, California"
+245,58,0,60,"Pico Rivera, California"
+246,65,0,53,"Montebello, California"
+247,55,13,53,"Lodi, California"
+248,44,0,56,"Carmichael, California"
+249,44,0,46,"Madera, California"
+250,39,26,31,"Castro Valley, California"
+251,63,0,39,"Monterey Park, California"
+252,62,0,47,"La Habra, California"
+253,62,37,84,"Santa Cruz, California"
+254,41,0,36,"Encinitas, California"
+255,40,0,57,"Tulare, California"
+256,75,46,57,"Gardena, California"
+257,66,47,48,"National City, California"
+258,48,35,66,"Cupertino, California"
+259,82,53,60,"Huntington Park, California"
+260,47,30,56,"Petaluma, California"
+261,51,37,46,"San Rafael, California"
+262,53,0,48,"South Whittier, California"
+263,59,42,36,"La Mesa, California"
+264,32,0,51,"Rocklin, California"
+265,54,0,47,"Arcadia, California"
+266,29,0,18,"Diamond Bar, California"
+267,48,28,67,"Woodland, California"
+268,55,34,66,"Fountain Valley, California"
+269,40,0,47,"Porterville, California"
+270,63,0,57,"Paramount, California"
+271,34,0,30,"Hacienda Heights, California"
+272,35,21,47,"Hanford, California"
+273,64,40,52,"Rosemead, California"
+274,24,0,34,"Eastvale, California"
+275,33,0,31,"Santee, California"
+276,33,28,36,"Highland, California"
+277,34,0,40,"Delano, California"
+278,41,29,45,"Colton, California"
+279,33,30,37,"Novato, California"
+280,21,0,24,"Lake Elsinore, California"
+281,35,0,50,"Brentwood, California"
+282,24,0,27,"Yucaipa, California"
+283,36,0,43,"Cathedral City, California"
+284,65,32,71,"Watsonville, California"
+285,50,31,47,"Placentia, California"
+286,45,31,42,"Glendora, California"
+287,53,0,57,"Cerritos, California"
+288,43,0,34,"Rowland Heights, California"
+289,42,0,63,"Gilroy, California"
+290,33,24,62,"West Sacramento, California"
+291,47,0,52,"La Mirada, California"
+292,27,0,40,"Palm Desert, California"
+293,33,0,34,"Rancho Santa Margarita, California"
+294,36,0,36,"Aliso Viejo, California"
+295,29,0,31,"Poway, California"
+296,52,32,63,"Cypress, California"
+297,57,35,49,"Covina, California"
+298,42,0,46,"Florin, California"
+299,56,41,50,"Azusa, California"
+300,37,0,56,"Dublin, California"
+301,33,0,44,"Antelope, California"
+302,39,19,45,"Ceres, California"
+303,54,30,68,"San Luis Obispo, California"
+304,35,29,46,"Palm Springs, California"
+305,28,0,42,"San Jacinto, California"
+306,22,0,49,"Lincoln, California"
+307,50,0,44,"Altadena, California"
+308,48,31,57,"North Highlands, California"
+309,49,0,49,"El Centro, California"
+310,54,31,48,"Newark, California"
+311,51,0,65,"Lompoc, California"
+312,12,0,18,"El Dorado Hills, California"
+313,70,0,62,"Bell Gardens, California"
+314,23,0,35,"Danville, California"
+315,28,0,21,"Rancho Palos Verdes, California"
+316,52,0,36,"San Bruno, California"
+317,42,0,56,"Rohnert Park, California"
+318,38,0,43,"Coachella, California"
+319,57,0,47,"La Puente, California"
+320,73,37,51,"San Gabriel, California"
+321,54,39,71,"Campbell, California"
+322,49,0,47,"Brea, California"
+323,75,51,71,"Culver City, California"
+324,53,0,49,"Calexico, California"
+325,61,39,57,"Stanton, California"
+326,30,23,50,"Morgan Hill, California"
+327,22,0,34,"La Quinta, California"
+328,40,0,26,"Pacifica, California"
+329,22,0,31,"Beaumont, California"
+330,55,36,54,"Montclair, California"
+331,61,33,47,"Monrovia, California"
+332,57,0,53,"Willowbrook, California"
+333,32,0,40,"Los Banos, California"
+334,38,0,39,"Martinez, California"
+335,56,40,56,"Temple City, California"
+336,77,0,61,"Bell, California"
+337,25,0,50,"Oakley, California"
+338,72,0,52,"Manhattan Beach, California"
+339,42,20,49,"Hollister, California"
+340,46,0,50,"Claremont, California"
+341,34,0,46,"San Juan Capistrano, California"
+342,30,0,32,"Moorpark, California"
+343,91,61,57,"West Hollywood, California"
+344,30,0,32,"Rubidoux, California"
+345,41,32,33,"La Presa, California"
+346,75,60,53,"Beverly Hills, California"
+347,32,0,41,"Orangevale, California"
+348,35,0,33,"San Dimas, California"
+349,52,27,43,"Dana Point, California"
+350,51,29,60,"Pleasant Hill, California"
+351,41,0,56,"Foothill Farms, California"
+352,51,0,48,"Seaside, California"
+353,81,0,59,"Lawndale, California"
+354,44,33,48,"Oildale, California"
+355,10,0,22,"Wildomar, California"
+356,57,0,79,"Menlo Park, California"
+357,60,56,56,"Westmont, California"
+358,12,0,31,"Adelanto, California"
+359,40,0,39,"La Verne, California"
+360,37,23,40,"Fair Oaks, California"
+361,44,0,65,"Foster City, California"
+362,38,0,26,"Fallbrook, California"
+363,40,28,41,"Laguna Hills, California"
+364,28,0,45,"Saratoga, California"
+365,42,0,71,"Goleta, California"
+366,40,0,31,"El Paso de Robles (Paso Robles), California"
+367,29,0,32,"Banning, California"
+368,43,0,51,"Los Gatos, California"
+369,55,0,47,"Santa Paula, California"
+370,30,36,29,"Walnut, California"
+371,70,44,51,"San Pablo, California"
+372,45,30,72,"Los Altos, California"
+373,23,0,40,"Orcutt, California"
+374,65,0,65,"Burlingame, California"
+375,45,0,41,"San Carlos, California"
+376,26,0,29,"Atascadero, California"
+377,33,28,25,"Spring Valley, California"
+378,39,0,43,"Atwater, California"
+379,58,0,70,"East Palo Alto, California"
+380,33,0,51,"Suisun City, California"
+381,54,39,47,"Monterey, California"
+382,33,0,50,"Ridgecrest, California"
+383,78,43,63,"Maywood, California"
+384,64,0,70,"Eureka, California"
+385,22,0,29,"Norco, California"
+386,29,0,24,"Benicia, California"
+387,37,0,48,"Windsor, California"
+388,67,37,62,"Imperial Beach, California"
+389,20,0,28,"Paradise, California"
+390,34,29,33,"Desert Hot Springs, California"
+391,46,11,37,"Belmont, California"
+392,27,0,40,"Soledad, California"
+393,67,46,50,"South Pasadena, California"
+394,35,0,40,"Wasco, California"
+395,60,0,58,"West Whittier-Los Nietos, California"
+396,49,39,35,"Lemon Grove, California"
+397,18,0,31,"Twentynine Palms, California"
+398,45,0,49,"Brawley, California"
+399,23,0,34,"North Tustin, California"
+400,14,0,33,"Vineyard, California"
+401,23,0,38,"Corcoran, California"
+402,40,0,46,"Lemoore, California"
+403,49,0,48,"Sanger, California"
+404,50,0,54,"Reedley, California"
+405,41,33,60,"Seal Beach, California"
+406,25,0,26,"Hercules, California"
+407,25,16,28,"Lafayette, California"
+408,31,0,37,"Bloomington, California"
+409,60,45,62,"Cudahy, California"
+410,31,0,39,"Galt, California"
+411,78,48,58,"San Fernando, California"
+412,64,51,60,"El Cerrito, California"
+413,56,34,56,"San Lorenzo, California"
+414,36,31,42,"Loma Linda, California"
+415,46,0,44,"Selma, California"
+416,59,0,91,"Isla Vista, California"
+417,8,0,25,"French Valley, California"
+418,22,0,15,"Calabasas, California"
+419,27,0,26,"Ladera Ranch, California"
+420,49,0,48,"Valinda, California"
+421,74,53,58,"Lennox, California"
+422,43,26,24,"Laguna Beach, California"
+423,40,32,57,"Rosemont, California"
+424,36,0,44,"Riverbank, California"
+425,39,29,37,"Barstow, California"
+426,53,0,51,"West Puente Valley, California"
+427,9,0,12,"Temescal Valley, California"
+428,28,0,35,"Mira Loma, California"
+429,63,52,52,"Ashland, California"
+430,58,26,60,"Port Hueneme, California"
+431,57,0,53,"West Carson, California"
+432,52,0,41,"Millbrae, California"
+433,54,0,50,"Dinuba, California"
+434,40,0,65,"South Lake Tahoe, California"
+435,35,0,49,"Bay Point, California"
+436,45,0,48,"Duarte, California"
+437,22,0,18,"Rancho San Diego, California"
+438,22,0,37,"Blythe, California"
+439,19,0,30,"Yucca Valley, California"
+440,50,16,53,"Oakdale, California"
+441,24,0,29,"Lakeside, California"
+442,30,0,19,"Winter Gardens, California"
+443,37,39,40,"South San Jose Hills, California"
+444,41,0,41,"Patterson, California"
+445,12,0,32,"Granite Bay, California"
+446,34,0,26,"Agoura Hills, California"
+447,31,0,34,"Ramona, California"
+448,73,38,59,"Lomita, California"
+449,33,0,25,"La Cañada Flintridge, California"
+450,26,0,33,"Glen Avon, California"
+451,62,0,56,"South El Monte, California"
+452,44,0,57,"Marina, California"
+453,53,0,29,"La Crescenta-Montrose, California"
+454,87,0,70,"Hermosa Beach, California"
+455,30,0,49,"American Canyon, California"
+456,35,0,39,"Arvin, California"
+457,23,0,16,"Castaic, California"
+458,51,33,72,"Coronado, California"
+459,26,0,19,"Casa de Oro-Mount Helix, California"
+460,23,0,42,"Chowchilla, California"
+461,82,55,90,"Albany, California"
+462,6,0,27,"Mead Valley, California"
+463,41,0,30,"Pinole, California"
+464,43,0,44,"Dixon, California"
+465,19,0,22,"Cameron Park, California"
+466,18,0,33,"Rosamond, California"
+467,27,0,41,"Lathrop, California"
+468,25,0,33,"Susanville, California"
+469,24,0,48,"Linda, California"
+470,9,0,18,"Orinda, California"
+471,5,0,11,"Prunedale, California"
+472,19,0,20,"Stevenson Ranch, California"
+473,21,0,38,"East Hemet, California"
+474,41,0,41,"Arroyo Grande, California"
+475,47,0,64,"Arcata, California"
+476,16,0,34,"Rancho Mirage, California"
+477,53,29,80,"Live Oak, California"
+478,43,0,46,"Shafter, California"
+479,24,0,31,"Nipomo, California"
+480,65,0,49,"El Segundo, California"
+481,78,38,60,"Artesia, California"
+482,61,47,73,"Denver, Colorado"
+483,35,19,45,"Colorado Springs, Colorado"
+484,43,38,55,"Aurora, Colorado"
+485,37,29,78,"Fort Collins, Colorado"
+486,42,38,58,"Lakewood, Colorado"
+487,31,24,50,"Thornton, Colorado"
+488,35,0,50,"Pueblo, Colorado"
+489,34,29,52,"Arvada, Colorado"
+490,35,33,53,"Westminster, Colorado"
+491,36,25,47,"Centennial, Colorado"
+492,57,49,86,"Boulder, Colorado"
+493,27,0,50,"Highlands Ranch, Colorado"
+494,36,0,49,"Greeley, Colorado"
+495,39,29,59,"Longmont, Colorado"
+496,26,0,48,"Loveland, Colorado"
+497,33,0,57,"Grand Junction, Colorado"
+498,32,18,59,"Broomfield, Colorado"
+499,12,0,40,"Castle Rock, Colorado"
+500,30,24,45,"Commerce City, Colorado"
+501,22,0,46,"Parker, Colorado"
+502,39,35,46,"Littleton, Colorado"
+503,46,32,57,"Northglenn, Colorado"
+504,36,20,50,"Brighton, Colorado"
+505,19,0,34,"Security-Widefield, Colorado"
+506,36,18,54,"Ken Caryl, Colorado"
+507,24,21,44,"Dakota Ridge, Colorado"
+508,62,44,62,"Englewood, Colorado"
+509,44,37,62,"Wheat Ridge, Colorado"
+510,7,0,36,"Pueblo West, Colorado"
+511,18,0,30,"Fountain, Colorado"
+512,41,36,52,"Lafayette, Colorado"
+513,29,13,49,"Columbine, Colorado"
+514,14,19,38,"Clifton, Colorado"
+515,29,0,43,"Montrose, Colorado"
+516,41,0,56,"Golden, Colorado"
+517,24,0,40,"Windsor, Colorado"
+518,29,0,39,"Evans, Colorado"
+519,40,32,70,"Louisville, Colorado"
+520,40,33,39,"Sherrelwood, Colorado"
+521,11,0,44,"Erie, Colorado"
+522,38,0,51,"Durango, Colorado"
+523,67,40,52,"Bridgeport, Connecticut"
+524,68,48,68,"New Haven, Connecticut"
+525,71,54,57,"Hartford, Connecticut"
+526,54,46,46,"Stamford, Connecticut"
+527,48,34,29,"Waterbury, Connecticut"
+528,48,36,42,"Norwalk, Connecticut"
+529,39,0,28,"Danbury, Connecticut"
+530,48,38,47,"New Britain, Connecticut"
+531,42,0,44,"West Hartford, Connecticut"
+532,40,23,33,"Meriden, Connecticut"
+533,33,0,30,"Bristol, Connecticut"
+534,48,0,41,"West Haven, Connecticut"
+535,40,0,41,"Stratford, Connecticut"
+536,31,0,37,"Milford, Connecticut"
+537,32,0,42,"East Hartford, Connecticut"
+538,30,0,28,"Middletown, Connecticut"
+539,34,0,25,"Norwich, Connecticut"
+540,18,1,19,"Shelton, Connecticut"
+541,35,0,29,"Torrington, Connecticut"
+542,15,0,24,"Trumbull, Connecticut"
+543,30,0,21,"Naugatuck, Connecticut"
+544,54,34,44,"Manchester, Connecticut"
+545,28,0,33,"Newington, Connecticut"
+546,33,0,33,"East Haven, Connecticut"
+547,53,0,43,"New London, Connecticut"
+548,31,0,39,"Wethersfield, Connecticut"
+549,21,0,30,"Westport, Connecticut"
+550,18,0,29,"North Haven, Connecticut"
+551,28,37,34,"Darien, Connecticut"
+552,39,0,27,"Ansonia, Connecticut"
+553,45,0,38,"Wallingford Center, Connecticut"
+554,53,0,46,"Willimantic, Connecticut"
+555,75,50,53,"Wilmington, Delaware"
+556,34,29,48,"Dover, Delaware"
+557,40,27,60,"Newark, Delaware"
+558,27,0,37,"Bear, Delaware"
+559,29,0,42,"Middletown, Delaware"
+560,76,71,69,"Washington D.C., District of Columbia"
+561,26,23,43,"Jacksonville, Florida"
+562,78,57,65,"Miami, Florida"
+563,49,34,57,"Tampa, Florida"
+564,44,35,61,"St. Petersburg, Florida"
+565,41,33,60,"Orlando, Florida"
+566,69,39,58,"Hialeah, Florida"
+567,32,31,47,"Tallahassee, Florida"
+568,57,39,57,"Fort Lauderdale, Florida"
+569,13,0,37,"Port St. Lucie, Florida"
+570,32,24,43,"Pembroke Pines, Florida"
+571,17,0,39,"Cape Coral, Florida"
+572,54,34,54,"Hollywood, Florida"
+573,36,0,68,"Gainesville, Florida"
+574,28,24,43,"Miramar, Florida"
+575,37,29,46,"Coral Springs, Florida"
+576,43,29,57,"Clearwater, Florida"
+577,40,42,46,"Miami Gardens, Florida"
+578,23,0,42,"Brandon, Florida"
+579,13,0,39,"Palm Bay, Florida"
+580,43,0,52,"West Palm Beach, Florida"
+581,44,34,54,"Pompano Beach, Florida"
+582,16,0,36,"Spring Hill, Florida"
+583,37,0,52,"Lakeland, Florida"
+584,27,16,45,"Davie, Florida"
+585,75,51,70,"Miami Beach, Florida"
+586,7,0,32,"Lehigh Acres, Florida"
+587,15,0,32,"Deltona, Florida"
+588,29,34,44,"Plantation, Florida"
+589,37,33,46,"Sunrise, Florida"
+590,38,0,57,"Boca Raton, Florida"
+591,33,27,47,"Town 'n' Country, Florida"
+592,17,0,43,"Alafaya, Florida"
+593,43,31,53,"Largo, Florida"
+594,34,20,47,"Melbourne, Florida"
+595,44,35,49,"Kendall, Florida"
+596,6,0,35,"Palm Coast, Florida"
+597,39,27,51,"Deerfield Beach, Florida"
+598,14,0,38,"Riverview, Florida"
+599,35,0,46,"Boynton Beach, Florida"
+600,41,36,49,"Lauderhill, Florida"
+601,17,0,41,"Weston, Florida"
+602,36,0,51,"Fort Myers, Florida"
+603,37,29,52,"Daytona Beach, Florida"
+604,37,0,50,"Delray Beach, Florida"
+605,34,25,47,"Homestead, Florida"
+606,31,30,53,"Tamarac, Florida"
+607,28,31,40,"Pine Hills, Florida"
+608,49,43,53,"Fountainebleau, Florida"
+609,30,27,50,"Kissimmee, Florida"
+610,63,43,54,"North Miami, Florida"
+611,29,20,48,"Palm Harbor, Florida"
+612,6,12,33,"North Port, Florida"
+613,20,12,37,"Wellington, Florida"
+614,28,19,44,"Ocala, Florida"
+615,45,34,53,"Kendale Lakes, Florida"
+616,21,0,40,"Port Orange, Florida"
+617,39,32,45,"Tamiami, Florida"
+618,27,0,47,"Jupiter, Florida"
+619,17,0,39,"Port Charlotte, Florida"
+620,26,20,42,"Sanford, Florida"
+621,38,33,48,"Margate, Florida"
+622,3,0,29,"Poinciana, Florida"
+623,25,30,43,"Coconut Creek, Florida"
+624,35,0,50,"Pensacola, Florida"
+625,53,35,59,"Sarasota, Florida"
+626,8,0,49,"The Villages, Florida"
+627,44,35,47,"The Hammocks, Florida"
+628,41,27,45,"Bradenton, Florida"
+629,39,31,52,"Pinellas Park, Florida"
+630,20,0,38,"Palm Beach Gardens, Florida"
+631,42,39,44,"Country Club, Florida"
+632,57,38,58,"Coral Gables, Florida"
+633,39,35,55,"Doral, Florida"
+634,9,0,35,"Wesley Chapel, Florida"
+635,19,0,45,"Bonita Springs, Florida"
+636,25,0,43,"Titusville, Florida"
+637,38,0,52,"Fort Pierce, Florida"
+638,18,18,38,"Apopka, Florida"
+639,64,49,61,"North Miami Beach, Florida"
+640,35,25,46,"Altamonte Springs, Florida"
+641,54,37,58,"Oakland Park, Florida"
+642,48,41,64,"University, Florida"
+643,41,28,48,"North Lauderdale, Florida"
+644,27,26,49,"Cutler Bay, Florida"
+645,15,0,37,"North Fort Myers, Florida"
+646,4,0,30,"The Acreage, Florida"
+647,21,0,43,"Ormond Beach, Florida"
+648,34,0,44,"Greenacres, Florida"
+649,56,37,62,"Hallandale Beach, Florida"
+650,34,0,47,"Panama City, Florida"
+651,51,36,48,"Kendall West, Florida"
+652,45,45,58,"Aventura, Florida"
+653,41,35,51,"South Miami Heights, Florida"
+654,21,0,39,"Ocoee, Florida"
+655,11,0,33,"Valrico, Florida"
+656,42,25,55,"Dunedin, Florida"
+657,46,29,49,"Egypt Lake-Leto, Florida"
+658,27,0,46,"St. Cloud, Florida"
+659,58,0,65,"Lake Worth, Florida"
+660,23,0,37,"Merritt Island, Florida"
+661,31,0,42,"Plant City, Florida"
+662,53,46,51,"West Little River, Florida"
+663,29,0,43,"Winter Garden, Florida"
+664,21,0,38,"Royal Palm Beach, Florida"
+665,26,0,43,"Winter Haven, Florida"
+666,29,23,47,"Carrollwood, Florida"
+667,16,0,37,"Oviedo, Florida"
+668,17,0,38,"Winter Springs, Florida"
+669,50,43,48,"Golden Glades, Florida"
+670,43,39,44,"Lauderdale Lakes, Florida"
+671,35,0,52,"Riviera Beach, Florida"
+672,12,0,35,"Land O' Lakes, Florida"
+673,25,24,45,"Richmond West, Florida"
+674,13,0,37,"Navarre, Florida"
+675,26,21,53,"University - Central, Florida"
+676,10,0,38,"East Lake, Florida"
+677,20,0,40,"Lakeside, Florida"
+678,62,38,55,"Westchester, Florida"
+679,52,35,61,"Dania Beach, Florida"
+680,8,0,32,"Fruit Cove, Florida"
+681,36,28,40,"Miami Lakes, Florida"
+682,23,0,45,"Ferry Pass, Florida"
+683,23,0,34,"Clermont, Florida"
+684,26,15,41,"Cooper City, Florida"
+685,26,21,40,"Lake Magdalene, Florida"
+686,44,28,53,"Winter Park, Florida"
+687,11,0,36,"Fleming Island, Florida"
+688,35,0,51,"DeLand, Florida"
+689,57,39,58,"University Park, Florida"
+690,34,22,49,"Casselberry, Florida"
+691,12,0,32,"Four Corners, Florida"
+692,17,23,32,"Buenaventura Lakes, Florida"
+693,13,22,33,"Meadow Woods, Florida"
+694,20,22,37,"Rockledge, Florida"
+695,63,0,86,"Key West, Florida"
+696,37,32,48,"Temple Terrace, Florida"
+697,60,36,52,"Coral Terrace, Florida"
+698,20,14,45,"Citrus Park, Florida"
+699,26,0,44,"Immokalee, Florida"
+700,7,0,33,"Keystone, Florida"
+701,13,0,36,"Parkland, Florida"
+702,34,0,49,"Golden Gate, Florida"
+703,30,18,45,"Tarpon Springs, Florida"
+704,25,0,43,"Bayonet Point, Florida"
+705,30,27,44,"Palmetto Bay, Florida"
+706,15,0,36,"Bellview, Florida"
+707,37,0,45,"Wright, Florida"
+708,13,0,37,"Palm City, Florida"
+709,20,0,38,"Vero Beach South, Florida"
+710,49,32,47,"The Crossings, Florida"
+711,26,28,45,"East Lake-Orient Park, Florida"
+712,17,0,37,"Bloomingdale, Florida"
+713,40,39,55,"Oak Ridge, Florida"
+714,41,32,46,"Leisure City, Florida"
+715,13,0,41,"Estero, Florida"
+716,23,0,46,"New Smyrna Beach, Florida"
+717,25,0,41,"Holiday, Florida"
+718,43,31,46,"South Bradenton, Florida"
+719,14,0,40,"Northdale, Florida"
+720,29,29,38,"Princeton, Florida"
+721,17,0,36,"Wekiwa Springs, Florida"
+722,14,0,32,"Sebastian, Florida"
+723,23,0,42,"Brent, Florida"
+724,22,0,44,"Westchase, Florida"
+725,52,26,46,"Hialeah Gardens, Florida"
+726,51,0,55,"Jacksonville Beach, Florida"
+727,35,0,49,"West Pensacola, Florida"
+728,28,24,45,"Palm River-Clair Mel, Florida"
+729,17,0,29,"Crestview, Florida"
+730,59,45,59,"Sunny Isles Beach, Florida"
+731,15,0,43,"Edgewater, Florida"
+732,33,19,55,"Venice, Florida"
+733,16,0,38,"Ensley, Florida"
+734,26,0,38,"Haines City, Florida"
+735,6,0,30,"Oakleaf Plantation, Florida"
+736,27,0,43,"Leesburg, Florida"
+737,13,0,35,"Pace, Florida"
+738,16,0,40,"Palm Valley, Florida"
+739,47,32,55,"Lealman, Florida"
+740,36,0,47,"Naples, Florida"
+741,42,31,44,"Ives Estates, Florida"
+742,39,0,47,"Fort Walton Beach, Florida"
+743,9,0,33,"Lutz, Florida"
+744,15,0,38,"DeBary, Florida"
+745,10,0,36,"Sun City Center, Florida"
+746,41,0,48,"Jasmine Estates, Florida"
+747,44,31,46,"Palm Springs, Florida"
+748,28,0,37,"Eustis, Florida"
+749,25,0,41,"Lynn Haven, Florida"
+750,22,0,43,"West Melbourne, Florida"
+751,29,33,47,"Pinecrest, Florida"
+752,10,0,33,"Florida Ridge, Florida"
+753,40,45,46,"Ojus, Florida"
+754,38,0,43,"Belle Glade, Florida"
+755,28,0,45,"Bartow, Florida"
+756,38,29,53,"Seminole, Florida"
+757,13,0,37,"Ruskin, Florida"
+758,35,26,46,"Cocoa, Florida"
+759,45,39,52,"Glenvar Heights, Florida"
+760,22,19,44,"Safety Harbor, Florida"
+761,14,0,37,"San Carlos Park, Florida"
+762,15,0,42,"Punta Gorda, Florida"
+763,48,47,45,"Atlanta, Georgia"
+764,22,0,33,"Augusta-Richmond County, Georgia"
+765,26,0,31,"Columbus, Georgia"
+766,43,0,53,"Savannah, Georgia"
+767,27,0,34,"Athens-Clarke County, Georgia"
+768,27,27,20,"Sandy Springs, Georgia"
+769,31,0,32,"Macon, Georgia"
+770,22,14,22,"Roswell, Georgia"
+771,25,0,40,"Albany, Georgia"
+772,18,0,21,"Johns Creek, Georgia"
+773,22,0,37,"Warner Robins, Georgia"
+774,21,16,26,"Alpharetta, Georgia"
+775,35,20,30,"Marietta, Georgia"
+776,30,0,47,"Valdosta, Georgia"
+777,34,21,28,"Smyrna, Georgia"
+778,32,27,28,"Dunwoody, Georgia"
+779,46,37,29,"North Atlanta, Georgia"
+780,15,16,19,"Mableton, Georgia"
+781,27,0,38,"Rome, Georgia"
+782,20,0,27,"Martinez, Georgia"
+783,19,0,26,"Peachtree City, Georgia"
+784,31,0,23,"Gainesville, Georgia"
+785,31,43,28,"East Point, Georgia"
+786,18,0,37,"Hinesville, Georgia"
+787,31,0,34,"Dalton, Georgia"
+788,25,0,27,"Newnan, Georgia"
+789,17,29,24,"Redan, Georgia"
+790,12,10,20,"Milton, Georgia"
+791,18,0,20,"Douglasville, Georgia"
+792,25,0,25,"Kennesaw, Georgia"
+793,26,0,28,"LaGrange, Georgia"
+794,9,0,19,"Evans, Georgia"
+795,29,16,30,"Lawrenceville, Georgia"
+796,31,0,49,"Statesboro, Georgia"
+797,22,31,25,"Tucker, Georgia"
+798,30,0,24,"Duluth, Georgia"
+799,21,0,24,"Stockbridge, Georgia"
+800,24,0,38,"Carrollton, Georgia"
+801,21,0,22,"Woodstock, Georgia"
+802,32,0,36,"Griffin, Georgia"
+803,26,39,23,"Candler-McAfee, Georgia"
+804,22,0,14,"Canton, Georgia"
+805,21,0,30,"McDonough, Georgia"
+806,24,0,32,"Acworth, Georgia"
+807,27,0,29,"Cartersville, Georgia"
+808,10,22,20,"Union City, Georgia"
+809,60,49,69,"Decatur, Georgia"
+810,12,0,33,"Pooler, Georgia"
+811,43,35,28,"North Druid Hills, Georgia"
+812,9,0,13,"Sugar Hill, Georgia"
+813,35,28,39,"Forest Park, Georgia"
+814,29,0,44,"Thomasville, Georgia"
+815,17,0,26,"Snellville, Georgia"
+816,25,0,30,"Milledgeville, Georgia"
+817,11,0,36,"St. Marys, Georgia"
+818,25,0,36,"Americus, Georgia"
+819,43,34,41,"North Decatur, Georgia"
+820,65,57,51,"Honolulu, Hawaii"
+821,20,34,22,"East Honolulu, Hawaii"
+822,26,37,23,"Pearl City, Hawaii"
+823,23,0,31,"Hilo, Hawaii"
+824,39,32,43,"Kailua, Hawaii"
+825,48,53,42,"Waipahu, Hawaii"
+826,36,33,29,"Kaneohe, Hawaii"
+827,33,38,32,"Mililani Town, Hawaii"
+828,29,0,40,"Kahului, Hawaii"
+829,34,39,43,"Ewa Gentry, Hawaii"
+830,17,29,18,"Mililani Mauka, Hawaii"
+831,42,0,47,"Kihei, Hawaii"
+832,12,33,7,"Makakilo, Hawaii"
+833,40,36,34,"Wahiawa, Hawaii"
+834,39,23,62,"Boise City, Idaho"
+835,30,0,46,"Nampa, Idaho"
+836,26,0,41,"Meridian, Idaho"
+837,40,0,51,"Idaho Falls, Idaho"
+838,38,0,42,"Pocatello, Idaho"
+839,26,0,39,"Caldwell, Idaho"
+840,36,0,50,"Coeur d'Alene, Idaho"
+841,38,0,55,"Twin Falls, Idaho"
+842,35,0,41,"Lewiston, Idaho"
+843,22,0,41,"Post Falls, Idaho"
+844,44,0,56,"Rexburg, Idaho"
+845,47,0,55,"Moscow, Idaho"
+846,18,0,38,"Eagle, Idaho"
+847,77,65,73,"Chicago, Illinois"
+848,40,22,54,"Aurora, Illinois"
+849,42,0,46,"Rockford, Illinois"
+850,35,17,46,"Joliet, Illinois"
+851,34,21,47,"Naperville, Illinois"
+852,35,0,48,"Springfield, Illinois"
+853,39,0,44,"Peoria, Illinois"
+854,42,29,53,"Elgin, Illinois"
+855,49,30,45,"Waukegan, Illinois"
+856,73,52,57,"Cicero, Illinois"
+857,50,47,65,"Champaign, Illinois"
+858,35,27,49,"Bloomington, Illinois"
+859,32,0,43,"Decatur, Illinois"
+860,46,0,60,"Arlington Heights, Illinois"
+861,74,50,88,"Evanston, Illinois"
+862,42,0,67,"Schaumburg, Illinois"
+863,33,0,48,"Bolingbrook, Illinois"
+864,39,0,53,"Palatine, Illinois"
+865,66,42,70,"Skokie, Illinois"
+866,53,36,57,"Des Plaines, Illinois"
+867,28,0,44,"Orland Park, Illinois"
+868,33,0,44,"Tinley Park, Illinois"
+869,57,35,51,"Oak Lawn, Illinois"
+870,73,45,58,"Berwyn, Illinois"
+871,51,28,61,"Mount Prospect, Illinois"
+872,40,24,53,"Wheaton, Illinois"
+873,38,37,50,"Normal, Illinois"
+874,34,0,56,"Hoffman Estates, Illinois"
+875,78,62,66,"Oak Park, Illinois"
+876,44,27,50,"Downers Grove, Illinois"
+877,37,31,44,"Glenview, Illinois"
+878,38,30,45,"Belleville, Illinois"
+879,48,25,53,"Elmhurst, Illinois"
+880,37,0,60,"DeKalb, Illinois"
+881,43,37,43,"Moline, Illinois"
+882,44,21,53,"Lombard, Illinois"
+883,39,0,56,"Buffalo Grove, Illinois"
+884,51,52,70,"Urbana, Illinois"
+885,21,0,50,"Bartlett, Illinois"
+886,29,0,46,"Crystal Lake, Illinois"
+887,42,0,46,"Quincy, Illinois"
+888,34,0,49,"Streamwood, Illinois"
+889,35,0,53,"Carol Stream, Illinois"
+890,24,0,41,"Romeoville, Illinois"
+891,20,4,46,"Plainfield, Illinois"
+892,45,0,47,"Rock Island, Illinois"
+893,44,0,57,"Hanover Park, Illinois"
+894,30,0,41,"Carpentersville, Illinois"
+895,42,23,50,"Wheeling, Illinois"
+896,53,40,55,"Park Ridge, Illinois"
+897,55,30,52,"Calumet City, Illinois"
+898,46,0,52,"Addison, Illinois"
+899,38,0,47,"Glendale Heights, Illinois"
+900,39,0,46,"Pekin, Illinois"
+901,35,21,46,"Northbrook, Illinois"
+902,40,0,53,"Elk Grove Village, Illinois"
+903,32,0,42,"Danville, Illinois"
+904,36,0,51,"St. Charles, Illinois"
+905,31,0,53,"Woodridge, Illinois"
+906,38,28,46,"North Chicago, Illinois"
+907,37,0,47,"Galesburg, Illinois"
+908,22,21,37,"Gurnee, Illinois"
+909,37,0,51,"Mundelein, Illinois"
+910,23,0,51,"Oswego, Illinois"
+911,49,33,55,"Chicago Heights, Illinois"
+912,25,0,50,"Algonquin, Illinois"
+913,33,0,47,"Granite City, Illinois"
+914,62,42,57,"Niles, Illinois"
+915,41,29,53,"Highland Park, Illinois"
+916,20,0,49,"Lake in the Hills, Illinois"
+917,58,35,50,"Burbank, Illinois"
+918,47,16,53,"Lansing, Illinois"
+919,23,0,36,"O'Fallon, Illinois"
+920,39,0,45,"Round Lake Beach, Illinois"
+921,35,21,40,"Oak Forest, Illinois"
+922,39,0,30,"Alton, Illinois"
+923,51,0,47,"Kankakee, Illinois"
+924,50,26,52,"Glen Ellyn, Illinois"
+925,56,35,57,"Wilmette, Illinois"
+926,37,0,49,"West Chicago, Illinois"
+927,34,42,45,"East St. Louis, Illinois"
+928,27,0,43,"McHenry, Illinois"
+929,30,0,53,"Batavia, Illinois"
+930,41,0,53,"Carbondale, Illinois"
+931,41,0,47,"Freeport, Illinois"
+932,35,0,46,"Belvidere, Illinois"
+933,30,0,26,"Collinsville, Illinois"
+934,68,38,54,"Melrose Park, Illinois"
+935,52,44,49,"Harvey, Illinois"
+936,26,0,47,"Vernon Hills, Illinois"
+937,69,52,56,"Elmwood Park, Illinois"
+938,24,0,37,"Lockport, Illinois"
+939,30,0,41,"Woodstock, Illinois"
+940,51,25,49,"Westmont, Illinois"
+941,38,0,48,"Zion, Illinois"
+942,23,0,44,"New Lenox, Illinois"
+943,30,0,46,"Edwardsville, Illinois"
+944,13,0,45,"Huntley, Illinois"
+945,14,0,36,"Homer Glen, Illinois"
+946,43,0,60,"Rolling Meadows, Illinois"
+947,62,40,57,"Maywood, Illinois"
+948,30,0,43,"Loves Park, Illinois"
+949,62,45,48,"Blue Island, Illinois"
+950,21,0,44,"Machesney Park, Illinois"
+951,15,0,25,"East Peoria, Illinois"
+952,57,37,57,"Morton Grove, Illinois"
+953,50,29,45,"Dolton, Illinois"
+954,34,16,59,"Roselle, Illinois"
+955,36,24,43,"Lisle, Illinois"
+956,34,0,47,"Darien, Illinois"
+957,43,31,42,"South Holland, Illinois"
+958,41,0,59,"Bloomingdale, Illinois"
+959,29,0,51,"South Elgin, Illinois"
+960,33,27,47,"Park Forest, Illinois"
+961,50,17,51,"Villa Park, Illinois"
+962,39,0,50,"Charleston, Illinois"
+963,37,0,57,"Geneva, Illinois"
+964,35,0,41,"East Moline, Illinois"
+965,26,22,45,"Grayslake, Illinois"
+966,25,0,44,"Crest Hill, Illinois"
+967,37,0,52,"Libertyville, Illinois"
+968,62,46,55,"Evergreen Park, Illinois"
+969,32,0,41,"Lake Zurich, Illinois"
+970,34,0,46,"Jacksonville, Illinois"
+971,19,0,42,"Lake Forest, Illinois"
+972,43,36,43,"Homewood, Illinois"
+973,37,0,43,"Macomb, Illinois"
+974,44,27,50,"Alsip, Illinois"
+975,60,37,58,"Bellwood, Illinois"
+976,21,0,43,"Matteson, Illinois"
+977,59,32,57,"Brookfield, Illinois"
+978,40,0,45,"Ottawa, Illinois"
+979,21,0,39,"Mokena, Illinois"
+980,38,0,43,"Bourbonnais, Illinois"
+981,36,0,51,"Mattoon, Illinois"
+982,15,0,53,"Montgomery, Illinois"
+983,46,25,50,"Bensenville, Illinois"
+984,60,35,48,"Franklin Park, Illinois"
+985,18,0,40,"Round Lake, Illinois"
+986,24,7,47,"Cary, Illinois"
+987,37,26,43,"Deerfield, Illinois"
+988,11,0,25,"Godfrey, Illinois"
+989,19,0,46,"Frankfort, Illinois"
+990,27,0,47,"Sycamore, Illinois"
+991,37,33,43,"Palos Hills, Illinois"
+992,37,0,44,"Marion, Illinois"
+993,25,26,30,"Fairview Heights, Illinois"
+994,18,0,42,"Yorkville, Illinois"
+995,43,26,42,"Hinsdale, Illinois"
+996,19,0,44,"North Aurora, Illinois"
+997,41,31,47,"Westchester, Illinois"
+998,31,0,39,"Country Club Hills, Illinois"
+999,31,23,45,"Indianapolis, Indiana"
+1000,30,22,47,"Fort Wayne, Indiana"
+1001,42,0,47,"Evansville, Indiana"
+1002,43,0,60,"South Bend, Indiana"
+1003,52,0,57,"Hammond, Indiana"
+1004,43,28,57,"Bloomington, Indiana"
+1005,34,0,45,"Gary, Indiana"
+1006,17,0,55,"Carmel, Indiana"
+1007,18,0,53,"Fishers, Indiana"
+1008,37,0,55,"Muncie, Indiana"
+1009,36,32,45,"Lafayette, Indiana"
+1010,37,19,52,"Terre Haute, Indiana"
+1011,31,0,43,"Anderson, Indiana"
+1012,15,0,45,"Noblesville, Indiana"
+1013,37,0,49,"Elkhart, Indiana"
+1014,23,0,43,"Greenwood, Indiana"
+1015,41,0,50,"Mishawaka, Indiana"
+1016,24,10,40,"Lawrence, Indiana"
+1017,38,0,51,"Kokomo, Indiana"
+1018,23,0,37,"Jeffersonville, Indiana"
+1019,25,0,49,"Columbus, Indiana"
+1020,17,0,43,"Portage, Indiana"
+1021,39,0,50,"Richmond, Indiana"
+1022,36,0,41,"New Albany, Indiana"
+1023,24,0,42,"Merrillville, Indiana"
+1024,40,0,47,"Valparaiso, Indiana"
+1025,31,0,51,"Goshen, Indiana"
+1026,39,0,45,"Michigan City, Indiana"
+1027,8,0,32,"Granger, Indiana"
+1028,15,0,52,"Westfield, Indiana"
+1029,38,0,49,"Marion, Indiana"
+1030,59,0,57,"East Chicago, Indiana"
+1031,49,45,62,"West Lafayette, Indiana"
+1032,21,0,42,"Schererville, Indiana"
+1033,23,0,42,"Hobart, Indiana"
+1034,20,1,49,"Plainfield, Indiana"
+1035,28,0,42,"Crown Point, Indiana"
+1036,44,2,59,"Highland, Indiana"
+1037,26,0,44,"Franklin, Indiana"
+1038,36,0,54,"Munster, Indiana"
+1039,41,0,52,"La Porte, Indiana"
+1040,30,0,46,"Clarksville, Indiana"
+1041,21,0,38,"Brownsburg, Indiana"
+1042,30,0,44,"Greenfield, Indiana"
+1043,37,0,46,"Shelbyville, Indiana"
+1044,44,0,47,"Vincennes, Indiana"
+1045,51,0,48,"Logansport, Indiana"
+1046,37,0,43,"New Castle, Indiana"
+1047,39,0,48,"Seymour, Indiana"
+1048,41,0,43,"Huntington, Indiana"
+1049,40,0,50,"Griffith, Indiana"
+1050,45,30,42,"Des Moines , Iowa"
+1051,34,20,41,"Cedar Rapids, Iowa"
+1052,41,0,43,"Davenport, Iowa"
+1053,41,24,36,"Sioux City, Iowa"
+1054,37,0,48,"Waterloo, Iowa"
+1055,44,0,64,"Iowa City, Iowa"
+1056,35,0,45,"Council Bluffs, Iowa"
+1057,43,0,68,"Ames, Iowa"
+1058,40,25,34,"Dubuque, Iowa"
+1059,32,0,37,"West Des Moines, Iowa"
+1060,32,0,40,"Ankeny, Iowa"
+1061,31,0,40,"Urbandale, Iowa"
+1062,38,20,57,"Cedar Falls, Iowa"
+1063,29,0,41,"Marion, Iowa"
+1064,31,0,42,"Bettendorf, Iowa"
+1065,38,20,54,"Mason City, Iowa"
+1066,44,16,49,"Marshalltown, Iowa"
+1067,39,22,42,"Clinton, Iowa"
+1068,38,13,41,"Burlington, Iowa"
+1069,34,19,46,"Fort Dodge, Iowa"
+1070,35,0,37,"Ottumwa, Iowa"
+1071,38,22,41,"Muscatine, Iowa"
+1072,32,21,47,"Coralville, Iowa"
+1073,19,0,32,"Johnston, Iowa"
+1074,35,20,48,"Wichita, Kansas"
+1075,35,16,48,"Overland Park, Kansas"
+1076,33,22,28,"Kansas City, Kansas"
+1077,36,24,56,"Topeka, Kansas"
+1078,27,11,50,"Olathe, Kansas"
+1079,39,35,59,"Lawrence, Kansas"
+1080,24,0,33,"Shawnee, Kansas"
+1081,39,0,54,"Manhattan, Kansas"
+1082,33,0,44,"Lenexa, Kansas"
+1083,38,0,47,"Salina, Kansas"
+1084,33,0,45,"Hutchinson, Kansas"
+1085,29,0,35,"Leavenworth, Kansas"
+1086,20,0,34,"Leawood, Kansas"
+1087,37,0,43,"Dodge City, Kansas"
+1088,41,0,53,"Garden City, Kansas"
+1089,45,0,48,"Emporia, Kansas"
+1090,33,0,35,"Junction City, Kansas"
+1091,31,0,39,"Derby, Kansas"
+1092,41,0,39,"Prairie Village, Kansas"
+1093,44,0,47,"Liberal, Kansas"
+1094,42,0,48,"Hays, Kansas"
+1095,36,0,52,"Pittsburg, Kansas"
+1096,34,0,49,"Newton, Kansas"
+1097,23,0,39,"Gardner, Kansas"
+1098,34,28,43,"Louisville-Jefferson, Kentucky"
+1099,34,24,46,"Lexington-Fayette, Kentucky"
+1100,39,0,42,"Bowling Green, Kentucky"
+1101,36,0,50,"Owensboro, Kentucky"
+1102,45,33,40,"Covington, Kentucky"
+1103,25,0,37,"Hopkinsville, Kentucky"
+1104,32,0,32,"Richmond, Kentucky"
+1105,33,21,34,"Florence, Kentucky"
+1106,23,0,30,"Georgetown, Kentucky"
+1107,28,0,42,"Henderson, Kentucky"
+1108,27,0,32,"Elizabethtown, Kentucky"
+1109,29,0,34,"Nicholasville, Kentucky"
+1110,30,22,39,"Jeffersontown, Kentucky"
+1111,30,0,25,"Frankfort, Kentucky"
+1112,33,0,44,"Paducah, Kentucky"
+1113,10,10,13,"Independence, Kentucky"
+1114,19,0,29,"Radcliff, Kentucky"
+1115,31,0,28,"Ashland, Kentucky"
+1116,19,0,33,"Madisonville, Kentucky"
+1117,37,0,33,"Winchester, Kentucky"
+1118,22,16,23,"Erlanger, Kentucky"
+1119,33,0,43,"Murray, Kentucky"
+1120,48,36,49,"St. Matthews, Kentucky"
+1121,59,44,66,"New Orleans, Louisiana"
+1122,41,0,47,"Baton Rouge, Louisiana"
+1123,31,0,41,"Shreveport, Louisiana"
+1124,54,0,50,"Metairie, Louisiana"
+1125,42,0,49,"Lafayette, Louisiana"
+1126,37,0,47,"Lake Charles, Louisiana"
+1127,45,0,47,"Kenner, Louisiana"
+1128,28,0,42,"Bossier City, Louisiana"
+1129,34,0,45,"Monroe, Louisiana"
+1130,33,0,45,"Alexandria, Louisiana"
+1131,42,0,47,"Houma, Louisiana"
+1132,46,0,47,"Marrero, Louisiana"
+1133,42,0,52,"New Iberia, Louisiana"
+1134,23,0,39,"Laplace, Louisiana"
+1135,37,0,47,"Slidell, Louisiana"
+1136,12,0,32,"Prairieville, Louisiana"
+1137,7,0,31,"Central, Louisiana"
+1138,52,0,47,"Terrytown, Louisiana"
+1139,24,0,34,"Ruston, Louisiana"
+1140,30,0,43,"Sulphur, Louisiana"
+1141,45,0,45,"Harvey, Louisiana"
+1142,35,0,46,"Hammond, Louisiana"
+1143,38,0,47,"Bayou Cane, Louisiana"
+1144,22,0,35,"Shenandoah, Louisiana"
+1145,33,0,43,"Natchitoches, Louisiana"
+1146,64,0,56,"Gretna, Louisiana"
+1147,46,0,46,"Chalmette, Louisiana"
+1148,46,0,53,"Opelousas, Louisiana"
+1149,61,4,68,"Portland, Maine"
+1150,45,0,42,"Lewiston, Maine"
+1151,41,0,39,"Bangor, Maine"
+1152,41,0,62,"South Portland, Maine"
+1153,33,0,31,"Auburn, Maine"
+1154,39,0,44,"Biddeford, Maine"
+1155,25,0,30,"Augusta, Maine"
+1156,23,0,40,"Saco, Maine"
+1157,32,0,47,"Westbrook, Maine"
+1158,65,57,56,"Baltimore, Maryland"
+1159,32,27,34,"Columbia, Maryland"
+1160,36,37,47,"Germantown, Maryland"
+1161,61,64,59,"Silver Spring, Maryland"
+1162,17,0,35,"Waldorf, Maryland"
+1163,35,23,43,"Glen Burnie, Maryland"
+1164,23,11,23,"Ellicott City, Maryland"
+1165,46,0,47,"Frederick, Maryland"
+1166,49,34,46,"Dundalk, Maryland"
+1167,54,53,58,"Rockville, Maryland"
+1168,45,46,56,"Bethesda, Maryland"
+1169,49,41,52,"Gaithersburg, Maryland"
+1170,49,40,38,"Towson, Maryland"
+1171,25,23,40,"Bowie, Maryland"
+1172,27,42,40,"Aspen Hill, Maryland"
+1173,48,57,45,"Wheaton, Maryland"
+1174,21,13,24,"Bel Air South, Maryland"
+1175,16,0,26,"Potomac, Maryland"
+1176,17,17,32,"Severn, Maryland"
+1177,49,54,55,"North Bethesda, Maryland"
+1178,39,38,38,"Catonsville, Maryland"
+1179,52,0,52,"Hagerstown, Maryland"
+1180,39,35,41,"Essex, Maryland"
+1181,50,34,57,"Annapolis, Maryland"
+1182,38,39,35,"Woodlawn, Maryland"
+1183,18,11,32,"Severna Park, Maryland"
+1184,25,0,39,"Odenton, Maryland"
+1185,14,5,24,"Clinton, Maryland"
+1186,23,26,46,"Olney, Maryland"
+1187,53,53,56,"Chillum, Maryland"
+1188,23,23,29,"Randallstown, Maryland"
+1189,36,39,35,"Montgomery Village, Maryland"
+1190,34,29,31,"Pikesville, Maryland"
+1191,57,39,44,"Parkville, Maryland"
+1192,35,23,26,"Owings Mills, Maryland"
+1193,17,0,27,"Bel Air North, Maryland"
+1194,13,0,18,"Eldersburg, Maryland"
+1195,52,48,67,"College Park, Maryland"
+1196,45,0,46,"Salisbury, Maryland"
+1197,39,23,28,"Carney, Maryland"
+1198,37,37,35,"Milford Mill, Maryland"
+1199,28,13,27,"Perry Hall, Maryland"
+1200,27,0,33,"Crofton, Maryland"
+1201,28,26,32,"South Laurel, Maryland"
+1202,37,22,33,"Reisterstown, Maryland"
+1203,35,43,32,"Suitland, Maryland"
+1204,21,21,29,"Edgewood, Maryland"
+1205,28,39,30,"Lochearn, Maryland"
+1206,35,26,39,"Middle River, Maryland"
+1207,53,34,41,"Laurel, Maryland"
+1208,21,24,33,"North Potomac, Maryland"
+1209,24,0,26,"Scaggsville, Maryland"
+1210,24,0,33,"Pasadena, Maryland"
+1211,14,22,21,"Fort Washington, Maryland"
+1212,22,38,43,"Fairland, Maryland"
+1213,19,0,23,"Ilchester, Maryland"
+1214,15,9,21,"Arnold, Maryland"
+1215,48,41,32,"Landover, Maryland"
+1216,42,39,49,"Greenbelt, Maryland"
+1217,49,19,34,"Cumberland, Maryland"
+1218,33,23,26,"Cockeysville, Maryland"
+1219,43,37,35,"Arbutus, Maryland"
+1220,15,0,28,"Lake Shore, Maryland"
+1221,35,32,30,"Rosedale, Maryland"
+1222,21,28,29,"Camp Springs, Maryland"
+1223,66,57,53,"Langley Park, Maryland"
+1224,40,9,35,"Westminster, Maryland"
+1225,25,0,40,"Ballenger Creek, Maryland"
+1226,27,34,38,"Calverton, Maryland"
+1227,20,27,27,"Oxon Hill, Maryland"
+1228,66,59,74,"Hyattsville, Maryland"
+1229,39,48,31,"White Oak, Maryland"
+1230,33,47,23,"Glassmanor, Maryland"
+1231,30,30,42,"Seabrook, Maryland"
+1232,22,41,35,"Redland, Maryland"
+1233,39,29,43,"Beltsville, Maryland"
+1234,36,35,39,"Ferndale, Maryland"
+1235,69,61,68,"Takoma Park, Maryland"
+1236,82,72,70,"Boston, Massachusetts"
+1237,56,33,38,"Worcester, Massachusetts"
+1238,59,43,50,"Springfield, Massachusetts"
+1239,64,39,46,"Lowell, Massachusetts"
+1240,88,74,96,"Cambridge, Massachusetts"
+1241,66,33,52,"New Bedford, Massachusetts"
+1242,51,36,46,"Brockton, Massachusetts"
+1243,60,49,44,"Quincy, Massachusetts"
+1244,67,40,47,"Lynn, Massachusetts"
+1245,65,34,50,"Fall River, Massachusetts"
+1246,55,42,48,"Newton, Massachusetts"
+1247,72,36,46,"Lawrence, Massachusetts"
+1248,89,64,89,"Somerville, Massachusetts"
+1249,42,21,39,"Framingham, Massachusetts"
+1250,41,22,33,"Haverhill, Massachusetts"
+1251,55,33,48,"Waltham, Massachusetts"
+1252,72,53,52,"Malden, Massachusetts"
+1253,80,69,72,"Brookline, Massachusetts"
+1254,67,50,60,"Medford, Massachusetts"
+1255,28,0,37,"Taunton, Massachusetts"
+1256,43,35,41,"Chicopee, Massachusetts"
+1257,35,27,37,"Weymouth Town, Massachusetts"
+1258,62,54,46,"Revere, Massachusetts"
+1259,41,0,37,"Peabody, Massachusetts"
+1260,36,0,34,"Methuen Town, Massachusetts"
+1261,23,14,36,"Barnstable Town, Massachusetts"
+1262,38,21,39,"Pittsfield, Massachusetts"
+1263,31,23,41,"Attleboro, Massachusetts"
+1264,67,48,65,"Arlington, Massachusetts"
+1265,83,49,52,"Everett, Massachusetts"
+1266,67,32,54,"Salem, Massachusetts"
+1267,29,16,36,"Westfield, Massachusetts"
+1268,37,23,33,"Leominster, Massachusetts"
+1269,42,28,33,"Fitchburg, Massachusetts"
+1270,54,36,41,"Holyoke, Massachusetts"
+1271,48,0,39,"Beverly, Massachusetts"
+1272,40,0,31,"Marlborough, Massachusetts"
+1273,45,27,36,"Woburn, Massachusetts"
+1274,37,33,35,"Braintree Town, Massachusetts"
+1275,81,57,47,"Chelsea, Massachusetts"
+1276,35,31,42,"Randolph, Massachusetts"
+1277,74,47,68,"Watertown Town, Massachusetts"
+1278,21,0,28,"Franklin Town, Massachusetts"
+1279,32,0,44,"Lexington, Massachusetts"
+1280,38,22,37,"Needham, Massachusetts"
+1281,42,32,31,"Gloucester, Massachusetts"
+1282,48,26,42,"Norwood, Massachusetts"
+1283,42,27,60,"Northampton, Massachusetts"
+1284,22,0,35,"Agawam Town, Massachusetts"
+1285,35,28,39,"West Springfield Town, Massachusetts"
+1286,37,0,36,"Wellesley, Massachusetts"
+1287,37,39,50,"Milton, Massachusetts"
+1288,60,37,40,"Melrose, Massachusetts"
+1289,39,28,31,"Saugus, Massachusetts"
+1290,34,0,35,"Danvers, Massachusetts"
+1291,41,0,42,"Milford, Massachusetts"
+1292,47,26,40,"Wakefield, Massachusetts"
+1293,33,0,37,"Reading, Massachusetts"
+1294,59,41,60,"Belmont, Massachusetts"
+1295,40,29,37,"Dedham, Massachusetts"
+1296,28,0,31,"Burlington, Massachusetts"
+1297,20,0,33,"Wilmington, Massachusetts"
+1298,48,25,40,"Stoneham, Massachusetts"
+1299,38,29,43,"Winchester, Massachusetts"
+1300,38,0,29,"Gardner, Massachusetts"
+1301,50,27,39,"Marblehead, Massachusetts"
+1302,54,0,57,"Amherst Center, Massachusetts"
+1303,28,0,36,"Somerset, Massachusetts"
+1304,60,0,43,"Winthrop Town, Massachusetts"
+1305,39,0,38,"Greenfield Town, Massachusetts"
+1306,50,0,45,"Newburyport, Massachusetts"
+1307,41,0,29,"Southbridge Town, Massachusetts"
+1308,53,39,55,"Detroit, Michigan"
+1309,57,40,53,"Grand Rapids, Michigan"
+1310,43,0,46,"Warren, Michigan"
+1311,32,0,40,"Sterling Heights, Michigan"
+1312,43,34,59,"Lansing, Michigan"
+1313,50,48,69,"Ann Arbor, Michigan"
+1314,43,31,49,"Flint, Michigan"
+1315,59,0,50,"Dearborn, Michigan"
+1316,34,0,48,"Livonia, Michigan"
+1317,36,0,48,"Westland, Michigan"
+1318,27,0,43,"Troy, Michigan"
+1319,23,0,39,"Farmington Hills, Michigan"
+1320,48,0,52,"Kalamazoo, Michigan"
+1321,37,0,44,"Wyoming, Michigan"
+1322,35,0,42,"Southfield, Michigan"
+1323,18,0,35,"Rochester Hills, Michigan"
+1324,32,0,41,"Taylor, Michigan"
+1325,41,0,45,"St. Clair Shores, Michigan"
+1326,41,0,46,"Pontiac, Michigan"
+1327,45,0,51,"Dearborn Heights, Michigan"
+1328,52,0,54,"Royal Oak, Michigan"
+1329,17,0,46,"Novi, Michigan"
+1330,37,0,42,"Battle Creek, Michigan"
+1331,39,0,48,"Saginaw, Michigan"
+1332,24,0,43,"Kentwood, Michigan"
+1333,53,0,77,"East Lansing, Michigan"
+1334,43,0,47,"Roseville, Michigan"
+1335,18,0,47,"Portage, Michigan"
+1336,30,0,50,"Midland, Michigan"
+1337,44,0,52,"Muskegon, Michigan"
+1338,60,0,52,"Lincoln Park, Michigan"
+1339,51,0,59,"Bay City, Michigan"
+1340,46,0,60,"Jackson, Michigan"
+1341,43,0,61,"Holland, Michigan"
+1342,56,0,49,"Eastpointe, Michigan"
+1343,45,0,49,"Port Huron, Michigan"
+1344,49,0,47,"Southgate, Michigan"
+1345,22,0,37,"Burton, Michigan"
+1346,55,0,50,"Madison Heights, Michigan"
+1347,43,0,46,"Oak Park, Michigan"
+1348,49,0,46,"Allen Park, Michigan"
+1349,43,0,47,"Garden City, Michigan"
+1350,52,0,58,"Mount Pleasant, Michigan"
+1351,60,0,51,"Wyandotte, Michigan"
+1352,8,0,26,"Forest Hills, Michigan"
+1353,29,0,41,"Inkster, Michigan"
+1354,13,0,35,"Norton Shores, Michigan"
+1355,15,0,36,"Romulus, Michigan"
+1356,17,0,44,"Holt, Michigan"
+1357,27,0,46,"Waverly, Michigan"
+1358,18,0,36,"Walker, Michigan"
+1359,82,0,56,"Hamtramck, Michigan"
+1360,27,0,46,"Auburn Hills, Michigan"
+1361,21,0,41,"Okemos, Michigan"
+1362,46,0,60,"Marquette, Michigan"
+1363,49,0,54,"Adrian, Michigan"
+1364,46,0,49,"Monroe, Michigan"
+1365,59,0,49,"Birmingham, Michigan"
+1366,63,13,68,"Ferndale, Michigan"
+1367,59,43,67,"Ypsilanti, Michigan"
+1368,18,0,43,"Haslett, Michigan"
+1369,38,0,43,"Trenton, Michigan"
+1370,42,0,45,"Wayne, Michigan"
+1371,20,0,36,"Allendale, Michigan"
+1372,19,0,40,"Jenison, Michigan"
+1373,70,57,84,"Minneapolis, Minnesota"
+1374,60,48,67,"St. Paul, Minnesota"
+1375,30,0,57,"Rochester, Minnesota"
+1376,35,34,43,"Duluth, Minnesota"
+1377,28,0,44,"Bloomington, Minnesota"
+1378,26,28,46,"Brooklyn Park, Minnesota"
+1379,19,0,43,"Plymouth, Minnesota"
+1380,33,0,50,"St. Cloud, Minnesota"
+1381,22,23,37,"Eagan, Minnesota"
+1382,18,0,37,"Woodbury, Minnesota"
+1383,13,0,46,"Maple Grove, Minnesota"
+1384,24,23,48,"Coon Rapids, Minnesota"
+1385,17,0,50,"Eden Prairie, Minnesota"
+1386,31,25,40,"Burnsville, Minnesota"
+1387,22,0,41,"Blaine, Minnesota"
+1388,14,0,39,"Lakeville, Minnesota"
+1389,21,22,38,"Minnetonka, Minnesota"
+1390,20,27,39,"Apple Valley, Minnesota"
+1391,36,35,50,"Edina, Minnesota"
+1392,47,37,65,"St. Louis Park, Minnesota"
+1393,38,0,51,"Mankato, Minnesota"
+1394,30,0,56,"Moorhead, Minnesota"
+1395,22,33,40,"Maplewood, Minnesota"
+1396,26,0,54,"Shakopee, Minnesota"
+1397,55,49,68,"Richfield, Minnesota"
+1398,14,9,33,"Cottage Grove, Minnesota"
+1399,16,26,28,"Inver Grove Heights, Minnesota"
+1400,33,33,49,"Roseville, Minnesota"
+1401,11,0,42,"Andover, Minnesota"
+1402,31,40,52,"Brooklyn Center, Minnesota"
+1403,39,0,54,"Winona, Minnesota"
+1404,18,20,37,"Oakdale, Minnesota"
+1405,36,36,48,"Fridley, Minnesota"
+1406,22,0,47,"Savage, Minnesota"
+1407,26,0,39,"Owatonna, Minnesota"
+1408,16,21,39,"Shoreview, Minnesota"
+1409,35,0,57,"Austin, Minnesota"
+1410,34,0,46,"White Bear Lake, Minnesota"
+1411,21,0,42,"Chaska, Minnesota"
+1412,8,0,42,"Ramsey, Minnesota"
+1413,28,0,45,"Faribault, Minnesota"
+1414,19,0,51,"Champlin, Minnesota"
+1415,15,0,33,"Elk River, Minnesota"
+1416,15,0,48,"Chanhassen, Minnesota"
+1417,14,0,43,"Prior Lake, Minnesota"
+1418,31,0,43,"Hastings, Minnesota"
+1419,43,30,52,"Crystal, Minnesota"
+1420,21,0,43,"Rosemount, Minnesota"
+1421,32,31,45,"New Brighton, Minnesota"
+1422,19,0,41,"Farmington, Minnesota"
+1423,28,31,53,"Golden Valley, Minnesota"
+1424,42,28,51,"New Hope, Minnesota"
+1425,8,0,38,"Lino Lakes, Minnesota"
+1426,38,34,40,"South St. Paul, Minnesota"
+1427,29,0,51,"Northfield, Minnesota"
+1428,34,0,53,"Willmar, Minnesota"
+1429,45,37,47,"West St. Paul, Minnesota"
+1430,53,39,51,"Columbia Heights, Minnesota"
+1431,17,0,38,"Forest Lake, Minnesota"
+1432,33,0,43,"Stillwater, Minnesota"
+1433,29,0,43,"Albert Lea, Minnesota"
+1434,57,34,71,"Hopkins, Minnesota"
+1435,40,25,55,"Anoka, Minnesota"
+1436,28,20,38,"Jackson, Mississippi"
+1437,23,0,41,"Gulfport, Mississippi"
+1438,17,0,30,"Southaven, Mississippi"
+1439,36,0,51,"Hattiesburg, Mississippi"
+1440,31,0,44,"Biloxi, Mississippi"
+1441,29,0,33,"Meridian, Mississippi"
+1442,21,0,35,"Tupelo, Mississippi"
+1443,33,0,47,"Greenville, Mississippi"
+1444,14,0,29,"Olive Branch, Mississippi"
+1445,23,0,33,"Horn Lake, Mississippi"
+1446,21,0,34,"Clinton, Mississippi"
+1447,20,0,35,"Pearl, Mississippi"
+1448,8,0,29,"Madison, Mississippi"
+1449,31,0,45,"Ridgeland, Mississippi"
+1450,28,0,38,"Starkville, Mississippi"
+1451,21,0,25,"Vicksburg, Mississippi"
+1452,36,0,45,"Columbus, Mississippi"
+1453,34,0,46,"Pascagoula, Mississippi"
+1454,11,0,29,"Brandon, Mississippi"
+1455,24,0,37,"Oxford, Mississippi"
+1456,10,0,34,"Gautier, Mississippi"
+1457,34,0,41,"Laurel, Mississippi"
+1458,33,0,46,"Clarksdale, Mississippi"
+1459,25,0,41,"Ocean Springs, Mississippi"
+1460,35,29,35,"Kansas City, Missouri"
+1461,65,45,62,"St. Louis, Missouri"
+1462,38,0,53,"Springfield, Missouri"
+1463,26,20,28,"Independence, Missouri"
+1464,31,0,40,"Columbia, Missouri"
+1465,20,0,29,"Lee's Summit, Missouri"
+1466,21,0,29,"O'Fallon, Missouri"
+1467,33,0,31,"St. Joseph, Missouri"
+1468,32,0,32,"St. Charles, Missouri"
+1469,26,0,37,"St. Peters, Missouri"
+1470,27,0,33,"Blue Springs, Missouri"
+1471,38,29,41,"Florissant, Missouri"
+1472,36,0,44,"Joplin, Missouri"
+1473,19,20,23,"Chesterfield, Missouri"
+1474,26,0,23,"Jefferson City, Missouri"
+1475,31,0,31,"Cape Girardeau, Missouri"
+1476,14,9,20,"Oakville, Missouri"
+1477,10,0,17,"Wildwood, Missouri"
+1478,59,40,53,"University City, Missouri"
+1479,20,17,24,"Ballwin, Missouri"
+1480,28,13,31,"Raytown, Missouri"
+1481,22,0,25,"Liberty, Missouri"
+1482,11,0,23,"Wentzville, Missouri"
+1483,31,28,31,"Mehlville, Missouri"
+1484,38,27,35,"Kirkwood, Missouri"
+1485,23,20,28,"Maryland Heights, Missouri"
+1486,26,25,32,"Hazelwood, Missouri"
+1487,34,21,35,"Gladstone, Missouri"
+1488,20,0,31,"Grandview, Missouri"
+1489,22,0,32,"Belton, Missouri"
+1490,46,31,41,"Webster Groves, Missouri"
+1491,43,0,51,"Sedalia, Missouri"
+1492,37,34,35,"Ferguson, Missouri"
+1493,20,12,20,"Arnold, Missouri"
+1494,36,24,36,"Affton, Missouri"
+1495,21,30,32,"Spanish Lake, Missouri"
+1496,37,0,48,"Rolla, Missouri"
+1497,16,0,28,"Raymore, Missouri"
+1498,11,17,25,"Old Jamestown, Missouri"
+1499,19,0,31,"Nixa, Missouri"
+1500,37,0,46,"Warrensburg, Missouri"
+1501,24,14,23,"Manchester, Missouri"
+1502,31,0,28,"Hannibal, Missouri"
+1503,25,24,27,"Creve Coeur, Missouri"
+1504,17,0,24,"Ozark, Missouri"
+1505,41,0,53,"Kirksville, Missouri"
+1506,34,0,37,"Poplar Bluff, Missouri"
+1507,44,29,44,"Lemay, Missouri"
+1508,35,0,47,"Billings, Montana"
+1509,46,34,60,"Missoula, Montana"
+1510,44,0,47,"Great Falls, Montana"
+1511,48,20,62,"Bozeman, Montana"
+1512,40,17,45,"Butte-Silver Bow, Montana"
+1513,50,0,44,"Helena, Montana"
+1514,41,0,48,"Kalispell, Montana"
+1515,47,27,44,"Omaha, Nebraska"
+1516,43,24,61,"Lincoln, Nebraska"
+1517,31,0,30,"Bellevue, Nebraska"
+1518,40,0,52,"Grand Island, Nebraska"
+1519,41,0,49,"Kearney, Nebraska"
+1520,45,0,50,"Fremont, Nebraska"
+1521,41,0,50,"Hastings, Nebraska"
+1522,36,0,44,"North Platte, Nebraska"
+1523,43,0,45,"Norfolk, Nebraska"
+1524,43,0,48,"Columbus, Nebraska"
+1525,39,0,45,"Papillion, Nebraska"
+1526,41,34,46,"Las Vegas, Nevada"
+1527,29,24,44,"Henderson, Nevada"
+1528,38,28,52,"Reno, Nevada"
+1529,48,38,54,"Paradise, Nevada"
+1530,33,32,48,"North Las Vegas, Nevada"
+1531,36,40,48,"Sunrise Manor, Nevada"
+1532,43,38,45,"Spring Valley, Nevada"
+1533,24,0,38,"Enterprise, Nevada"
+1534,40,0,52,"Sparks, Nevada"
+1535,35,0,57,"Carson City, Nevada"
+1536,28,37,47,"Whitney, Nevada"
+1537,4,0,31,"Pahrump, Nevada"
+1538,52,45,56,"Winchester, Nevada"
+1539,21,28,34,"Summerlin South, Nevada"
+1540,16,0,37,"Fernley, Nevada"
+1541,20,21,34,"Sun Valley, Nevada"
+1542,36,0,40,"Elko, Nevada"
+1543,49,0,42,"Manchester, New Hampshire"
+1544,38,0,38,"Nashua, New Hampshire"
+1545,36,0,37,"Concord, New Hampshire"
+1546,32,0,36,"Dover, New Hampshire"
+1547,22,0,33,"Rochester, New Hampshire"
+1548,43,0,51,"Keene, New Hampshire"
+1549,29,0,38,"Derry, New Hampshire"
+1550,47,0,48,"Portsmouth, New Hampshire"
+1551,79,65,61,"Newark, New Jersey"
+1552,87,71,70,"Jersey City, New Jersey"
+1553,78,48,48,"Paterson, New Jersey"
+1554,81,43,56,"Elizabeth, New Jersey"
+1555,28,0,39,"Toms River, New Jersey"
+1556,70,45,58,"Trenton, New Jersey"
+1557,61,45,47,"Clifton, New Jersey"
+1558,70,47,59,"Camden, New Jersey"
+1559,82,54,52,"Passaic, New Jersey"
+1560,94,81,56,"Union City, New Jersey"
+1561,73,56,50,"East Orange, New Jersey"
+1562,80,62,52,"Bayonne, New Jersey"
+1563,26,0,38,"Vineland, New Jersey"
+1564,74,34,62,"New Brunswick, New Jersey"
+1565,54,0,48,"Lakewood, New Jersey"
+1566,76,43,51,"Perth Amboy, New Jersey"
+1567,96,75,80,"Hoboken, New Jersey"
+1568,59,42,50,"Plainfield, New Jersey"
+1569,94,73,51,"West New York, New Jersey"
+1570,73,56,51,"Hackensack, New Jersey"
+1571,30,0,33,"Sayreville, New Jersey"
+1572,75,42,47,"Kearny, New Jersey"
+1573,67,42,52,"Linden, New Jersey"
+1574,73,48,61,"Atlantic City, New Jersey"
+1575,79,54,50,"Fort Lee, New Jersey"
+1576,58,42,47,"Fair Lawn, New Jersey"
+1577,63,26,58,"Long Branch, New Jersey"
+1578,76,45,49,"Garfield, New Jersey"
+1579,44,32,43,"Westfield, New Jersey"
+1580,31,0,42,"Millville, New Jersey"
+1581,64,39,58,"Rahway, New Jersey"
+1582,60,46,45,"Englewood, New Jersey"
+1583,62,46,50,"Bergenfield, New Jersey"
+1584,36,41,38,"Paramus, New Jersey"
+1585,43,0,43,"Bridgeton, New Jersey"
+1586,42,42,41,"Ridgewood, New Jersey"
+1587,70,45,47,"Lodi, New Jersey"
+1588,30,36,37,"Old Bridge, New Jersey"
+1589,83,55,45,"Cliffside Park, New Jersey"
+1590,43,24,43,"South Plainfield, New Jersey"
+1591,56,32,47,"Carteret, New Jersey"
+1592,26,0,41,"Somerset, New Jersey"
+1593,58,38,44,"North Plainfield, New Jersey"
+1594,47,33,33,"Summit, New Jersey"
+1595,66,44,50,"Roselle, New Jersey"
+1596,51,37,56,"Pleasantville, New Jersey"
+1597,81,52,42,"Palisades Park, New Jersey"
+1598,55,42,45,"Elmwood Park, New Jersey"
+1599,52,38,44,"Woodbridge, New Jersey"
+1600,53,26,37,"Hawthorne, New Jersey"
+1601,60,35,47,"Iselin, New Jersey"
+1602,38,0,48,"Glassboro, New Jersey"
+1603,70,32,42,"Morristown, New Jersey"
+1604,49,0,52,"Point Pleasant, New Jersey"
+1605,59,35,35,"Dover, New Jersey"
+1606,69,53,47,"Rutherford, New Jersey"
+1607,16,0,33,"Tinton Falls, New Jersey"
+1608,41,27,41,"Colonia, New Jersey"
+1609,44,29,48,"Lindenwold, New Jersey"
+1610,58,47,47,"Dumont, New Jersey"
+1611,46,31,42,"Avenel, New Jersey"
+1612,42,30,62,"Albuquerque, New Mexico"
+1613,35,0,46,"Las Cruces, New Mexico"
+1614,16,0,32,"Rio Rancho, New Mexico"
+1615,40,0,50,"Santa Fe, New Mexico"
+1616,32,0,48,"Roswell, New Mexico"
+1617,31,16,36,"Farmington, New Mexico"
+1618,22,0,44,"South Valley, New Mexico"
+1619,37,0,45,"Clovis, New Mexico"
+1620,41,0,46,"Hobbs, New Mexico"
+1621,26,0,41,"Alamogordo, New Mexico"
+1622,36,0,50,"Carlsbad, New Mexico"
+1623,28,0,33,"Gallup, New Mexico"
+1624,88,84,70,"New York, New York"
+1625,68,49,65,"Buffalo, New York"
+1626,65,43,61,"Rochester, New York"
+1627,70,54,39,"Yonkers, New York"
+1628,60,44,50,"Syracuse, New York"
+1629,65,54,56,"Albany, New York"
+1630,65,44,48,"New Rochelle, New York"
+1631,34,28,44,"Cheektowaga, New York"
+1632,74,56,44,"Mount Vernon, New York"
+1633,65,37,51,"Schenectady, New York"
+1634,58,0,49,"Utica, New York"
+1635,38,0,42,"Brentwood, New York"
+1636,47,31,50,"Tonawanda, New York"
+1637,62,51,40,"White Plains, New York"
+1638,74,53,55,"Hempstead, New York"
+1639,50,21,46,"Levittown, New York"
+1640,32,33,40,"Irondequoit, New York"
+1641,49,30,55,"Niagara Falls, New York"
+1642,56,39,44,"Troy, New York"
+1643,56,0,51,"Binghamton, New York"
+1644,25,0,37,"West Seneca, New York"
+1645,46,0,44,"West Babylon, New York"
+1646,63,37,50,"Freeport, New York"
+1647,60,30,50,"Hicksville, New York"
+1648,18,0,36,"Coram, New York"
+1649,52,25,46,"East Meadow, New York"
+1650,66,51,51,"Valley Stream, New York"
+1651,28,32,47,"Brighton, New York"
+1652,30,0,38,"Commack, New York"
+1653,37,0,42,"Central Islip, New York"
+1654,35,0,45,"Rome, New York"
+1655,21,0,29,"New City, New York"
+1656,70,29,53,"Long Beach, New York"
+1657,62,40,49,"Elmont, New York"
+1658,51,0,50,"Huntington Station, New York"
+1659,63,30,54,"Poughkeepsie, New York"
+1660,55,32,48,"Oceanside, New York"
+1661,22,0,36,"Centereach, New York"
+1662,38,0,51,"North Tonawanda, New York"
+1663,53,20,41,"Spring Valley, New York"
+1664,53,0,43,"Jamestown, New York"
+1665,71,0,57,"Ithaca, New York"
+1666,67,38,51,"Franklin Square, New York"
+1667,50,0,55,"Elmira, New York"
+1668,76,43,43,"Port Chester, New York"
+1669,69,0,43,"Newburgh, New York"
+1670,33,0,39,"West Islip, New York"
+1671,57,0,38,"Middletown, New York"
+1672,23,0,37,"Shirley, New York"
+1673,45,0,43,"Deer Park, New York"
+1674,52,28,44,"Auburn, New York"
+1675,37,32,31,"Harrison, New York"
+1676,53,0,46,"Lindenhurst, New York"
+1677,32,0,40,"Holbrook, New York"
+1678,50,0,46,"Watertown, New York"
+1679,52,22,37,"Glen Cove, New York"
+1680,12,0,25,"Dix Hills, New York"
+1681,42,24,42,"Saratoga Springs, New York"
+1682,23,0,31,"Smithtown, New York"
+1683,50,0,48,"Bay Shore, New York"
+1684,48,15,46,"Plainview, New York"
+1685,61,36,35,"Ossining, New York"
+1686,63,38,52,"Uniondale, New York"
+1687,20,0,36,"Medford, New York"
+1688,63,36,51,"Baldwin, New York"
+1689,62,40,55,"Rockville Centre, New York"
+1690,57,0,53,"Kingston, New York"
+1691,61,33,30,"Peekskill, New York"
+1692,56,0,48,"Copiague, New York"
+1693,24,0,38,"East Patchogue, New York"
+1694,54,46,48,"Garden City, New York"
+1695,55,25,47,"Merrick, New York"
+1696,48,23,47,"Massapequa, New York"
+1697,44,0,52,"Lockport, New York"
+1698,26,0,36,"Hauppauge, New York"
+1699,39,0,45,"Rotterdam, New York"
+1700,39,0,39,"East Northport, New York"
+1701,41,0,29,"Kiryas Joel, New York"
+1702,41,0,42,"Lake Ronkonkoma, New York"
+1703,57,0,57,"Plattsburgh, New York"
+1704,53,18,46,"North Bellmore, New York"
+1705,35,0,40,"Selden, New York"
+1706,22,0,36,"Holtsville, New York"
+1707,61,41,44,"Eastchester, New York"
+1708,72,51,57,"Lynbrook, New York"
+1709,54,0,48,"Cortland, New York"
+1710,27,0,35,"Ronkonkoma, New York"
+1711,47,24,47,"East Massapequa, New York"
+1712,20,0,31,"Melville, New York"
+1713,39,0,48,"North Bay Shore, New York"
+1714,64,41,50,"Mamaroneck, New York"
+1715,49,28,47,"Wantagh, New York"
+1716,65,42,53,"West Hempstead, New York"
+1717,44,0,42,"Syosset, New York"
+1718,77,52,51,"Mineola, New York"
+1719,41,0,44,"Islip, New York"
+1720,34,0,29,"Amsterdam, New York"
+1721,40,0,35,"Monsey, New York"
+1722,58,0,44,"Oswego, New York"
+1723,42,27,49,"Lackawanna, New York"
+1724,36,0,30,"Huntington, New York"
+1725,44,13,47,"North Massapequa, New York"
+1726,36,0,33,"Nanuet, New York"
+1727,42,0,44,"North Amityville, New York"
+1728,43,0,43,"North Babylon, New York"
+1729,25,0,33,"Kings Park, New York"
+1730,40,37,38,"Scarsdale, New York"
+1731,46,0,45,"Woodmere, New York"
+1732,43,28,50,"Massapequa Park, New York"
+1733,35,0,39,"Sayville, New York"
+1734,62,38,49,"North Valley Stream, New York"
+1735,26,29,34,"Charlotte, North Carolina"
+1736,31,30,41,"Raleigh, North Carolina"
+1737,29,0,35,"Greensboro, North Carolina"
+1738,23,0,29,"Winston-Salem, North Carolina"
+1739,29,29,41,"Durham, North Carolina"
+1740,21,0,33,"Fayetteville, North Carolina"
+1741,27,18,40,"Cary, North Carolina"
+1742,35,20,52,"Wilmington, North Carolina"
+1743,24,0,31,"High Point, North Carolina"
+1744,33,0,45,"Greenville, North Carolina"
+1745,36,26,33,"Asheville, North Carolina"
+1746,18,11,24,"Concord, North Carolina"
+1747,24,0,27,"Gastonia, North Carolina"
+1748,25,0,43,"Jacksonville, North Carolina"
+1749,24,16,39,"Rocky Mount, North Carolina"
+1750,36,42,50,"Chapel Hill, North Carolina"
+1751,33,0,39,"Burlington, North Carolina"
+1752,32,0,42,"Wilson, North Carolina"
+1753,16,0,28,"Huntersville, North Carolina"
+1754,22,20,26,"Kannapolis, North Carolina"
+1755,27,0,26,"Hickory, North Carolina"
+1756,25,0,28,"Apex, North Carolina"
+1757,27,0,41,"Goldsboro, North Carolina"
+1758,27,0,34,"Salisbury, North Carolina"
+1759,10,0,28,"Indian Trail, North Carolina"
+1760,25,0,33,"Monroe, North Carolina"
+1761,20,0,26,"Mooresville, North Carolina"
+1762,20,0,26,"Wake Forest, North Carolina"
+1763,27,0,45,"New Bern, North Carolina"
+1764,21,0,32,"Sanford, North Carolina"
+1765,15,0,28,"Matthews, North Carolina"
+1766,24,0,29,"Thomasville, North Carolina"
+1767,22,0,27,"Garner, North Carolina"
+1768,26,0,26,"Asheboro, North Carolina"
+1769,27,0,34,"Cornelius, North Carolina"
+1770,19,0,24,"Holly Springs, North Carolina"
+1771,30,0,31,"Statesville, North Carolina"
+1772,20,0,26,"Kernersville, North Carolina"
+1773,10,0,24,"Mint Hill, North Carolina"
+1774,32,0,43,"Kinston, North Carolina"
+1775,29,0,43,"Lumberton, North Carolina"
+1776,26,0,42,"Havelock, North Carolina"
+1777,28,0,31,"Shelby, North Carolina"
+1778,28,0,59,"Carrboro, North Carolina"
+1779,32,0,32,"Lexington, North Carolina"
+1780,38,0,50,"Elizabeth City, North Carolina"
+1781,12,0,23,"Clemmons, North Carolina"
+1782,26,0,42,"Morrisville, North Carolina"
+1783,21,0,25,"Lenoir, North Carolina"
+1784,20,0,30,"Fuquay-Varina, North Carolina"
+1785,49,0,26,"Boone, North Carolina"
+1786,25,0,24,"Morganton, North Carolina"
+1787,44,25,50,"Fargo, North Dakota"
+1788,36,0,40,"Bismarck, North Dakota"
+1789,48,0,61,"Grand Forks, North Dakota"
+1790,39,0,38,"Minot, North Dakota"
+1791,28,0,39,"West Fargo, North Dakota"
+1792,27,0,32,"Mandan, North Dakota"
+1793,34,0,39,"Dickinson, North Dakota"
+1794,40,33,50,"Columbus, Ohio"
+1795,60,45,55,"Cleveland, Ohio"
+1796,50,44,43,"Cincinnati, Ohio"
+1797,45,0,50,"Toledo, Ohio"
+1798,46,32,46,"Akron, Ohio"
+1799,48,0,49,"Dayton, Ohio"
+1800,40,34,41,"Parma, Ohio"
+1801,48,0,46,"Canton, Ohio"
+1802,37,0,39,"Youngstown, Ohio"
+1803,37,0,42,"Lorain, Ohio"
+1804,39,13,41,"Hamilton, Ohio"
+1805,40,0,49,"Springfield, Ohio"
+1806,39,0,46,"Kettering, Ohio"
+1807,29,0,41,"Elyria, Ohio"
+1808,69,38,63,"Lakewood, Ohio"
+1809,45,0,41,"Cuyahoga Falls, Ohio"
+1810,40,38,42,"Euclid, Ohio"
+1811,33,16,41,"Middletown, Ohio"
+1812,32,0,36,"Mansfield, Ohio"
+1813,31,0,44,"Newark, Ohio"
+1814,19,0,35,"Mentor, Ohio"
+1815,54,38,53,"Cleveland Heights, Ohio"
+1816,17,0,34,"Beavercreek, Ohio"
+1817,19,21,34,"Strongsville, Ohio"
+1818,24,6,32,"Fairfield, Ohio"
+1819,17,0,46,"Dublin, Ohio"
+1820,35,0,45,"Warren, Ohio"
+1821,36,0,44,"Findlay, Ohio"
+1822,40,0,45,"Lancaster, Ohio"
+1823,44,0,51,"Lima, Ohio"
+1824,25,0,36,"Huber Heights, Ohio"
+1825,35,0,45,"Marion, Ohio"
+1826,28,0,52,"Westerville, Ohio"
+1827,29,22,40,"Reynoldsburg, Ohio"
+1828,25,0,49,"Grove City, Ohio"
+1829,29,0,38,"Boardman, Ohio"
+1830,21,0,37,"Stow, Ohio"
+1831,27,0,37,"Delaware, Ohio"
+1832,21,0,34,"Brunswick, Ohio"
+1833,42,30,49,"Upper Arlington, Ohio"
+1834,24,24,36,"Gahanna, Ohio"
+1835,23,24,36,"Westlake, Ohio"
+1836,28,21,41,"North Olmsted, Ohio"
+1837,34,0,41,"Fairborn, Ohio"
+1838,39,0,42,"Massillon, Ohio"
+1839,18,0,45,"Mason, Ohio"
+1840,15,0,29,"North Royalton, Ohio"
+1841,45,0,55,"Bowling Green, Ohio"
+1842,23,0,36,"Austintown, Ohio"
+1843,14,0,33,"North Ridgeville, Ohio"
+1844,41,0,50,"Kent, Ohio"
+1845,44,32,40,"Garfield Heights, Ohio"
+1846,43,48,47,"Shaker Heights, Ohio"
+1847,22,0,42,"Hilliard, Ohio"
+1848,27,0,37,"Medina, Ohio"
+1849,39,0,41,"Barberton, Ohio"
+1850,33,0,35,"Wooster, Ohio"
+1851,44,0,48,"Sandusky, Ohio"
+1852,29,0,49,"Xenia, Ohio"
+1853,8,0,27,"Green, Ohio"
+1854,39,0,37,"Zanesville, Ohio"
+1855,33,0,43,"Riverside, Ohio"
+1856,33,0,46,"Troy, Ohio"
+1857,17,0,35,"Trotwood, Ohio"
+1858,27,0,42,"Centerville, Ohio"
+1859,55,0,63,"Athens, Ohio"
+1860,11,0,35,"Solon, Ohio"
+1861,38,31,42,"Maple Heights, Ohio"
+1862,20,0,41,"Avon Lake, Ohio"
+1863,45,0,47,"Alliance, Ohio"
+1864,45,31,45,"South Euclid, Ohio"
+1865,27,0,36,"Willoughby, Ohio"
+1866,11,0,36,"Hudson, Ohio"
+1867,23,0,41,"Marysville, Ohio"
+1868,37,0,42,"Chillicothe, Ohio"
+1869,31,0,37,"Wadsworth, Ohio"
+1870,48,31,53,"Oxford, Ohio"
+1871,31,0,39,"Sidney, Ohio"
+1872,12,0,32,"Avon, Ohio"
+1873,42,40,45,"Parma Heights, Ohio"
+1874,24,0,39,"Perrysburg, Ohio"
+1875,37,0,54,"Piqua, Ohio"
+1876,41,0,43,"Ashland, Ohio"
+1877,20,0,40,"Oregon, Ohio"
+1878,42,0,37,"Portsmouth, Ohio"
+1879,44,34,44,"Rocky River, Ohio"
+1880,24,0,34,"Miamisburg, Ohio"
+1881,24,0,36,"Lebanon, Ohio"
+1882,39,22,45,"Painesville, Ohio"
+1883,8,20,25,"Broadview Heights, Ohio"
+1884,34,0,40,"Niles, Ohio"
+1885,31,0,39,"Brook Park, Ohio"
+1886,64,44,46,"Norwood, Ohio"
+1887,30,22,27,"White Oak, Ohio"
+1888,46,24,45,"Mayfield Heights, Ohio"
+1889,35,0,43,"Ashtabula, Ohio"
+1890,35,12,51,"Berea, Ohio"
+1891,26,0,42,"Sylvania, Ohio"
+1892,16,0,30,"Twinsburg, Ohio"
+1893,28,19,36,"Forest Park, Ohio"
+1894,37,0,28,"Steubenville, Ohio"
+1895,23,0,43,"Eastlake, Ohio"
+1896,16,0,31,"Pickerington, Ohio"
+1897,50,36,46,"Whitehall, Ohio"
+1898,48,0,52,"Tiffin, Ohio"
+1899,59,54,47,"East Cleveland, Ohio"
+1900,16,0,32,"Tallmadge, Ohio"
+1901,37,0,39,"North Canton, Ohio"
+1902,18,0,34,"Springboro, Ohio"
+1903,46,0,47,"New Philadelphia, Ohio"
+1904,35,0,42,"Norwalk, Ohio"
+1905,41,0,44,"Mount Vernon, Ohio"
+1906,39,28,42,"Fairview Park, Ohio"
+1907,44,0,50,"Fremont, Ohio"
+1908,34,16,43,"Oklahoma City, Oklahoma"
+1909,39,23,47,"Tulsa, Oklahoma"
+1910,31,0,58,"Norman, Oklahoma"
+1911,22,10,35,"Broken Arrow, Oklahoma"
+1912,34,0,43,"Lawton, Oklahoma"
+1913,30,0,35,"Edmond, Oklahoma"
+1914,29,0,37,"Moore, Oklahoma"
+1915,28,0,40,"Midwest City, Oklahoma"
+1916,31,0,43,"Enid, Oklahoma"
+1917,36,0,62,"Stillwater, Oklahoma"
+1918,31,0,46,"Muskogee, Oklahoma"
+1919,24,0,35,"Bartlesville, Oklahoma"
+1920,34,0,39,"Shawnee, Oklahoma"
+1921,28,0,37,"Owasso, Oklahoma"
+1922,33,0,44,"Ponca City, Oklahoma"
+1923,30,0,42,"Ardmore, Oklahoma"
+1924,27,0,40,"Duncan, Oklahoma"
+1925,35,0,41,"Yukon, Oklahoma"
+1926,34,0,44,"Del City, Oklahoma"
+1927,15,0,35,"Bixby, Oklahoma"
+1928,24,0,33,"Sapulpa, Oklahoma"
+1929,30,0,42,"Altus, Oklahoma"
+1930,46,8,47,"Bethany, Oklahoma"
+1931,18,5,32,"Sand Springs, Oklahoma"
+1932,26,0,39,"Claremore, Oklahoma"
+1933,23,0,35,"McAlester, Oklahoma"
+1934,19,0,35,"Mustang, Oklahoma"
+1935,15,4,39,"Jenks, Oklahoma"
+1936,32,0,38,"Ada, Oklahoma"
+1937,29,0,38,"El Reno, Oklahoma"
+1938,67,52,82,"Portland, Oregon"
+1939,45,36,72,"Eugene, Oregon"
+1940,42,31,62,"Salem, Oregon"
+1941,45,40,65,"Gresham, Oregon"
+1942,44,39,72,"Hillsboro, Oregon"
+1943,50,37,68,"Beaverton, Oregon"
+1944,33,24,53,"Bend, Oregon"
+1945,37,25,54,"Medford, Oregon"
+1946,47,33,63,"Springfield, Oregon"
+1947,48,28,84,"Corvallis, Oregon"
+1948,34,17,53,"Albany, Oregon"
+1949,40,37,64,"Aloha, Oregon"
+1950,41,31,63,"Tigard, Oregon"
+1951,37,26,48,"Lake Oswego, Oregon"
+1952,35,32,58,"Keizer, Oregon"
+1953,40,19,45,"Grants Pass, Oregon"
+1954,40,18,53,"McMinnville, Oregon"
+1955,37,29,52,"Oregon City, Oregon"
+1956,30,4,48,"Redmond, Oregon"
+1957,27,29,54,"Tualatin, Oregon"
+1958,34,23,42,"West Linn, Oregon"
+1959,47,21,56,"Woodburn, Oregon"
+1960,45,0,68,"Newberg, Oregon"
+1961,42,18,44,"Roseburg, Oregon"
+1962,42,30,66,"Forest Grove, Oregon"
+1963,39,23,44,"Klamath Falls, Oregon"
+1964,36,27,56,"Bethany, Oregon"
+1965,51,43,71,"Milwaukie, Oregon"
+1966,53,18,59,"Ashland, Oregon"
+1967,36,35,61,"Hayesville, Oregon"
+1968,28,27,55,"Wilsonville, Oregon"
+1969,29,21,48,"Altamont, Oregon"
+1970,38,23,55,"Sherwood, Oregon"
+1971,33,21,49,"Central Point, Oregon"
+1972,43,0,43,"Hermiston, Oregon"
+1973,48,38,65,"Oak Grove, Oregon"
+1974,35,0,32,"Pendleton, Oregon"
+1975,79,67,67,"Philadelphia, Pennsylvania"
+1976,63,56,57,"Pittsburgh, Pennsylvania"
+1977,70,36,44,"Allentown, Pennsylvania"
+1978,59,0,54,"Erie, Pennsylvania"
+1979,75,0,48,"Reading, Pennsylvania"
+1980,57,0,38,"Scranton, Pennsylvania"
+1981,63,32,45,"Bethlehem, Pennsylvania"
+1982,81,0,59,"Lancaster, Pennsylvania"
+1983,36,20,42,"Levittown, Pennsylvania"
+1984,74,39,58,"Harrisburg, Pennsylvania"
+1985,54,0,35,"Altoona, Pennsylvania"
+1986,74,40,63,"York, Pennsylvania"
+1987,68,52,75,"State College, Pennsylvania"
+1988,62,0,47,"Wilkes-Barre, Pennsylvania"
+1989,69,42,48,"Norristown, Pennsylvania"
+1990,65,44,52,"Chester, Pennsylvania"
+1991,28,31,18,"Bethel Park, Pennsylvania"
+1992,54,0,55,"Williamsport, Pennsylvania"
+1993,19,0,15,"Monroeville, Pennsylvania"
+1994,57,46,40,"Drexel Hill, Pennsylvania"
+1995,13,0,10,"Plum, Pennsylvania"
+1996,66,30,48,"Easton, Pennsylvania"
+1997,68,0,56,"Lebanon, Pennsylvania"
+1998,65,0,41,"Hazleton, Pennsylvania"
+1999,46,0,37,"New Castle, Pennsylvania"
+2000,59,0,46,"Pottstown, Pennsylvania"
+2001,16,0,12,"Allison Park, Pennsylvania"
+2002,46,0,36,"Johnstown, Pennsylvania"
+2003,22,31,17,"West Mifflin, Pennsylvania"
+2004,49,0,56,"Chambersburg, Pennsylvania"
+2005,9,0,10,"Murrysville, Pennsylvania"
+2006,34,31,34,"King of Prussia, Pennsylvania"
+2007,26,25,18,"Baldwin, Pennsylvania"
+2008,44,32,34,"McKeesport, Pennsylvania"
+2009,14,0,10,"Upper St. Clair, Pennsylvania"
+2010,60,0,62,"Carlisle, Pennsylvania"
+2011,76,0,50,"West Chester, Pennsylvania"
+2012,78,48,62,"Providence, Rhode Island"
+2013,34,26,40,"Warwick, Rhode Island"
+2014,49,30,46,"Cranston, Rhode Island"
+2015,69,37,52,"Pawtucket, Rhode Island"
+2016,48,30,46,"East Providence, Rhode Island"
+2017,52,26,37,"Woonsocket, Rhode Island"
+2018,65,31,54,"Newport, Rhode Island"
+2019,79,34,52,"Central Falls, Rhode Island"
+2020,34,4,34,"Westerly, Rhode Island"
+2021,38,0,38,"Columbia, South Carolina"
+2022,40,23,52,"Charleston, South Carolina"
+2023,27,0,41,"North Charleston, South Carolina"
+2024,20,0,39,"Mount Pleasant, South Carolina"
+2025,29,0,33,"Rock Hill, South Carolina"
+2026,43,19,41,"Greenville, South Carolina"
+2027,19,0,38,"Summerville, South Carolina"
+2028,26,0,42,"Sumter, South Carolina"
+2029,12,0,48,"Hilton Head Island, South Carolina"
+2030,29,0,43,"Florence, South Carolina"
+2031,31,0,36,"Spartanburg, South Carolina"
+2032,16,0,37,"Goose Creek, South Carolina"
+2033,23,0,32,"Aiken, South Carolina"
+2034,43,0,55,"Myrtle Beach, South Carolina"
+2035,33,0,34,"Anderson, South Carolina"
+2036,26,0,24,"Greer, South Carolina"
+2037,32,0,40,"Greenwood, South Carolina"
+2038,19,0,25,"Mauldin, South Carolina"
+2039,12,0,19,"Taylors, South Carolina"
+2040,22,0,34,"North Augusta, South Carolina"
+2041,31,0,29,"Wade Hampton, South Carolina"
+2042,27,0,34,"St. Andrews, South Carolina"
+2043,24,0,29,"Easley, South Carolina"
+2044,21,0,35,"Socastee, South Carolina"
+2045,22,0,26,"Simpsonville, South Carolina"
+2046,20,0,37,"Hanahan, South Carolina"
+2047,23,0,26,"Lexington, South Carolina"
+2048,28,0,42,"Conway, South Carolina"
+2049,37,17,46,"Sioux Falls, South Dakota"
+2050,29,0,36,"Rapid City, South Dakota"
+2051,35,0,66,"Aberdeen, South Dakota"
+2052,39,0,58,"Brookings, South Dakota"
+2053,35,0,50,"Watertown, South Dakota"
+2054,36,0,44,"Memphis, Tennessee"
+2055,28,24,30,"Nashville-Davidson, Tennessee"
+2056,31,28,30,"Knoxville, Tennessee"
+2057,29,25,35,"Chattanooga, Tennessee"
+2058,18,0,27,"Clarksville, Tennessee"
+2059,25,0,40,"Murfreesboro, Tennessee"
+2060,25,0,37,"Jackson, Tennessee"
+2061,26,0,26,"Johnson City, Tennessee"
+2062,23,0,30,"Franklin, Tennessee"
+2063,15,0,35,"Bartlett, Tennessee"
+2064,14,0,24,"Hendersonville, Tennessee"
+2065,24,14,26,"Kingsport, Tennessee"
+2066,12,0,32,"Collierville, Tennessee"
+2067,30,0,29,"Cleveland, Tennessee"
+2068,19,5,32,"Smyrna, Tennessee"
+2069,16,0,33,"Germantown, Tennessee"
+2070,4,0,18,"Brentwood, Tennessee"
+2071,24,0,27,"Columbia, Tennessee"
+2072,11,0,25,"La Vergne, Tennessee"
+2073,29,0,37,"Cookeville, Tennessee"
+2074,24,0,36,"Gallatin, Tennessee"
+2075,18,0,23,"Oak Ridge, Tennessee"
+2076,28,0,26,"Morristown, Tennessee"
+2077,12,0,25,"Spring Hill, Tennessee"
+2078,26,0,30,"Maryville, Tennessee"
+2079,26,0,24,"Bristol, Tennessee"
+2080,22,0,37,"Lebanon, Tennessee"
+2081,13,0,22,"Mount Juliet, Tennessee"
+2082,32,0,34,"East Ridge, Tennessee"
+2083,13,0,21,"Farragut, Tennessee"
+2084,24,0,36,"Shelbyville, Tennessee"
+2085,20,0,37,"Tullahoma, Tennessee"
+2086,28,0,38,"Dyersburg, Tennessee"
+2087,48,37,51,"Houston, Texas"
+2088,35,36,45,"San Antonio, Texas"
+2089,46,40,51,"Dallas, Texas"
+2090,41,34,54,"Austin, Texas"
+2091,35,21,41,"Fort Worth, Texas"
+2092,41,31,42,"El Paso, Texas"
+2093,38,0,41,"Arlington, Texas"
+2094,41,30,49,"Corpus Christi, Texas"
+2095,39,17,55,"Plano, Texas"
+2096,41,0,45,"Laredo, Texas"
+2097,38,22,49,"Lubbock, Texas"
+2098,40,29,45,"Garland, Texas"
+2099,44,31,46,"Irving, Texas"
+2100,40,0,46,"Amarillo, Texas"
+2101,32,0,37,"Grand Prairie, Texas"
+2102,39,0,46,"Brownsville, Texas"
+2103,43,0,48,"Pasadena, Texas"
+2104,35,0,42,"Mesquite, Texas"
+2105,27,0,43,"McKinney, Texas"
+2106,42,0,48,"McAllen, Texas"
+2107,33,0,38,"Killeen, Texas"
+2108,36,0,43,"Waco, Texas"
+2109,35,22,40,"Carrollton, Texas"
+2110,33,0,43,"Beaumont, Texas"
+2111,30,0,41,"Abilene, Texas"
+2112,24,0,40,"Frisco, Texas"
+2113,33,0,46,"Denton, Texas"
+2114,42,0,45,"Midland, Texas"
+2115,29,0,44,"Wichita Falls, Texas"
+2116,40,0,45,"Odessa, Texas"
+2117,24,0,36,"Round Rock, Texas"
+2118,43,34,53,"Richardson, Texas"
+2119,36,0,39,"Tyler, Texas"
+2120,38,0,41,"Lewisville, Texas"
+2121,33,0,62,"College Station, Texas"
+2122,18,0,47,"The Woodlands, Texas"
+2123,32,0,42,"San Angelo, Texas"
+2124,20,0,38,"Pearland, Texas"
+2125,34,0,59,"Allen, Texas"
+2126,22,0,36,"League City, Texas"
+2127,29,0,39,"Longview, Texas"
+2128,27,0,39,"Sugar Land, Texas"
+2129,28,0,39,"Edinburg, Texas"
+2130,33,0,40,"Mission, Texas"
+2131,33,0,46,"Bryan, Texas"
+2132,32,0,42,"Baytown, Texas"
+2133,37,0,43,"Pharr, Texas"
+2134,25,0,36,"Missouri City, Texas"
+2135,31,0,38,"Temple, Texas"
+2136,25,0,36,"Atascocita, Texas"
+2137,36,0,46,"Harlingen, Texas"
+2138,26,0,34,"Flower Mound, Texas"
+2139,33,0,44,"North Richland Hills, Texas"
+2140,35,0,43,"Victoria, Texas"
+2141,25,0,34,"New Braunfels, Texas"
+2142,25,0,36,"Mansfield, Texas"
+2143,26,0,39,"Conroe, Texas"
+2144,18,13,33,"Rowlett, Texas"
+2145,20,0,37,"Spring, Texas"
+2146,35,0,45,"Port Arthur, Texas"
+2147,37,0,38,"Euless, Texas"
+2148,24,0,32,"DeSoto, Texas"
+2149,23,0,41,"Cedar Park, Texas"
+2150,54,0,57,"Galveston, Texas"
+2151,22,0,35,"Georgetown, Texas"
+2152,43,0,43,"Bedford, Texas"
+2153,22,0,39,"Pflugerville, Texas"
+2154,29,0,39,"Grapevine, Texas"
+2155,35,0,45,"Texas City, Texas"
+2156,19,0,31,"Cedar Hill, Texas"
+2157,39,0,43,"San Marcos, Texas"
+2158,38,0,40,"Haltom City, Texas"
+2159,18,0,34,"Wylie, Texas"
+2160,23,0,36,"Keller, Texas"
+2161,28,0,37,"Coppell, Texas"
+2162,33,0,35,"Huntsville, Texas"
+2163,44,12,44,"Duncanville, Texas"
+2164,30,0,38,"Sherman, Texas"
+2165,23,0,37,"Channelview, Texas"
+2166,25,0,30,"Rockwall, Texas"
+2167,47,0,44,"Hurst, Texas"
+2168,27,0,38,"Burleson, Texas"
+2169,26,13,36,"Mission Bend, Texas"
+2170,29,0,42,"Texarkana, Texas"
+2171,22,0,37,"Lancaster, Texas"
+2172,27,0,40,"The Colony, Texas"
+2173,22,0,36,"Friendswood, Texas"
+2174,35,0,41,"Weslaco, Texas"
+2175,35,0,44,"Del Rio, Texas"
+2176,26,0,41,"Lufkin, Texas"
+2177,33,0,40,"San Juan, Texas"
+2178,25,0,39,"La Porte, Texas"
+2179,28,0,37,"Nacogdoches, Texas"
+2180,26,0,30,"Copperas Cove, Texas"
+2181,23,0,37,"Socorro, Texas"
+2182,32,0,41,"Deer Park, Texas"
+2183,21,0,32,"Schertz, Texas"
+2184,35,0,41,"Rosenberg, Texas"
+2185,25,0,38,"Waxahachie, Texas"
+2186,19,0,38,"Fort Hood, Texas"
+2187,26,0,39,"Cleburne, Texas"
+2188,43,30,53,"Farmers Branch, Texas"
+2189,15,0,30,"Kyle, Texas"
+2190,24,0,38,"Big Spring, Texas"
+2191,23,0,40,"Lake Jackson, Texas"
+2192,31,0,36,"Harker Heights, Texas"
+2193,15,0,31,"Southlake, Texas"
+2194,24,0,41,"Leander, Texas"
+2195,40,0,43,"Eagle Pass, Texas"
+2196,39,0,47,"Kingsville, Texas"
+2197,23,0,34,"Little Elm, Texas"
+2198,26,0,40,"Greenville, Texas"
+2199,23,0,31,"Weatherford, Texas"
+2200,35,0,47,"Seguin, Texas"
+2201,37,0,47,"Paris, Texas"
+2202,42,0,48,"San Benito, Texas"
+2203,30,0,43,"Alvin, Texas"
+2204,29,0,42,"Corsicana, Texas"
+2205,32,0,40,"Balch Springs, Texas"
+2206,26,0,39,"Marshall, Texas"
+2207,39,0,43,"Watauga, Texas"
+2208,60,38,61,"University Park, Texas"
+2209,49,0,50,"Cloverleaf, Texas"
+2210,17,0,34,"Colleyville, Texas"
+2211,7,0,33,"West Odessa, Texas"
+2212,27,0,34,"Denison, Texas"
+2213,33,0,40,"Kerrville, Texas"
+2214,32,0,43,"Plainview, Texas"
+2215,15,0,32,"Brushy Creek, Texas"
+2216,3,0,14,"Canyon Lake, Texas"
+2217,23,0,41,"Benbrook, Texas"
+2218,19,0,32,"Sachse, Texas"
+2219,12,0,32,"Corinth, Texas"
+2220,27,0,38,"Saginaw, Texas"
+2221,29,0,41,"Brownwood, Texas"
+2222,37,0,43,"Alice, Texas"
+2223,11,0,32,"Fresno, Texas"
+2224,29,0,40,"Angleton, Texas"
+2225,25,0,35,"Palestine, Texas"
+2226,25,0,38,"Dickinson, Texas"
+2227,23,0,42,"Orange, Texas"
+2228,34,0,42,"Universal City, Texas"
+2229,33,0,39,"Ennis, Texas"
+2230,36,0,43,"Alamo, Texas"
+2231,41,0,44,"Cinco Ranch, Texas"
+2232,31,0,36,"Belton, Texas"
+2233,23,21,33,"Converse, Texas"
+2234,13,0,30,"Midlothian, Texas"
+2235,33,0,44,"Pampa, Texas"
+2236,15,0,33,"Murphy, Texas"
+2237,36,0,41,"Stafford, Texas"
+2238,30,0,45,"Bay City, Texas"
+2239,41,0,46,"Nederland, Texas"
+2240,31,0,41,"Stephenville, Texas"
+2241,60,10,55,"South Houston, Texas"
+2242,52,46,50,"Bellaire, Texas"
+2243,19,0,39,"Mineral Wells, Texas"
+2244,23,0,35,"Horizon City, Texas"
+2245,59,44,73,"Salt Lake City, Utah"
+2246,35,36,43,"West Valley City, Utah"
+2247,47,34,63,"Provo, Utah"
+2248,27,29,40,"West Jordan, Utah"
+2249,43,33,58,"Orem, Utah"
+2250,34,27,37,"Sandy, Utah"
+2251,46,36,45,"Ogden, Utah"
+2252,30,16,45,"St. George, Utah"
+2253,30,22,40,"Layton, Utah"
+2254,46,39,48,"Millcreek, Utah"
+2255,34,35,44,"Taylorsville, Utah"
+2256,25,22,44,"South Jordan, Utah"
+2257,41,0,51,"Logan, Utah"
+2258,22,14,40,"Lehi, Utah"
+2259,39,38,51,"Murray, Utah"
+2260,36,26,34,"Bountiful, Utah"
+2261,18,16,33,"Draper, Utah"
+2262,25,19,43,"Riverton, Utah"
+2263,28,28,47,"Roy, Utah"
+2264,33,35,39,"Kearns, Utah"
+2265,32,12,44,"Spanish Fork, Utah"
+2266,28,18,45,"Pleasant Grove, Utah"
+2267,39,30,40,"Cottonwood Heights, Utah"
+2268,25,18,33,"Tooele, Utah"
+2269,33,29,50,"Clearfield, Utah"
+2270,29,15,38,"Springville, Utah"
+2271,32,0,40,"Cedar City, Utah"
+2272,52,41,48,"Midvale, Utah"
+2273,19,21,39,"Kaysville, Utah"
+2274,31,31,36,"Magna, Utah"
+2275,37,33,45,"Holladay, Utah"
+2276,34,19,45,"American Fork, Utah"
+2277,23,9,42,"Syracuse, Utah"
+2278,58,48,58,"South Salt Lake, Utah"
+2279,13,15,28,"Herriman, Utah"
+2280,18,5,30,"Eagle Mountain, Utah"
+2281,27,23,47,"Clinton, Utah"
+2282,14,2,31,"Washington, Utah"
+2283,38,20,40,"Payson, Utah"
+2284,18,26,39,"Farmington, Utah"
+2285,39,20,49,"Brigham City, Utah"
+2286,8,4,27,"Saratoga Springs, Utah"
+2287,20,28,25,"North Ogden, Utah"
+2288,40,34,39,"South Ogden, Utah"
+2289,59,37,78,"Burlington, Vermont"
+2290,27,0,53,"South Burlington, Vermont"
+2291,32,21,44,"Virginia Beach, Virginia"
+2292,45,36,51,"Norfolk, Virginia"
+2293,21,13,40,"Chesapeake, Virginia"
+2294,69,62,72,"Arlington, Virginia"
+2295,52,0,52,"Richmond, Virginia"
+2296,33,27,42,"Newport News, Virginia"
+2297,60,55,61,"Alexandria, Virginia"
+2298,31,27,42,"Hampton, Virginia"
+2299,42,28,39,"Roanoke, Virginia"
+2300,36,24,44,"Portsmouth, Virginia"
+2301,15,0,35,"Suffolk, Virginia"
+2302,29,21,24,"Lynchburg, Virginia"
+2303,32,22,48,"Centreville, Virginia"
+2304,19,0,26,"Dale City, Virginia"
+2305,40,40,54,"Reston, Virginia"
+2306,45,31,40,"Harrisonburg, Virginia"
+2307,24,26,30,"McLean, Virginia"
+2308,31,0,33,"Tuckahoe, Virginia"
+2309,36,0,41,"Ashburn, Virginia"
+2310,59,38,56,"Charlottesville, Virginia"
+2311,27,0,25,"Danville, Virginia"
+2312,42,40,63,"Blacksburg, Virginia"
+2313,36,0,45,"Leesburg, Virginia"
+2314,23,0,25,"Lake Ridge, Virginia"
+2315,25,24,34,"Burke, Virginia"
+2316,41,38,44,"Annandale, Virginia"
+2317,43,21,47,"Manassas, Virginia"
+2318,14,0,28,"Mechanicsville, Virginia"
+2319,11,0,34,"Linton Hall, Virginia"
+2320,31,0,26,"Marumsco, Virginia"
+2321,30,36,46,"Oakton, Virginia"
+2322,31,0,36,"Petersburg, Virginia"
+2323,35,42,44,"Springfield, Virginia"
+2324,46,35,55,"Fair Oaks, Virginia"
+2325,50,35,45,"West Falls Church, Virginia"
+2326,39,0,40,"Sterling, Virginia"
+2327,49,0,43,"Winchester, Virginia"
+2328,24,0,18,"Cave Spring, Virginia"
+2329,28,16,30,"Salem, Virginia"
+2330,28,0,34,"Short Pump, Virginia"
+2331,45,0,46,"Fredericksburg, Virginia"
+2332,19,0,40,"South Riding, Virginia"
+2333,36,0,24,"Staunton, Virginia"
+2334,63,50,53,"Bailey's Crossroads, Virginia"
+2335,51,35,57,"Herndon, Virginia"
+2336,28,25,44,"Chantilly, Virginia"
+2337,39,39,35,"Lincolnia, Virginia"
+2338,37,0,38,"Hopewell, Virginia"
+2339,53,38,56,"Fairfax, Virginia"
+2340,21,26,29,"West Springfield, Virginia"
+2341,24,16,26,"Christiansburg, Virginia"
+2342,31,0,30,"Waynesboro, Virginia"
+2343,10,0,23,"Chester, Virginia"
+2344,48,40,45,"Woodlawn, Virginia"
+2345,27,41,32,"Rose Hill, Virginia"
+2346,49,56,45,"Tysons Corner, Virginia"
+2347,13,17,25,"Montclair, Virginia"
+2348,20,24,50,"Franklin Farm, Virginia"
+2349,25,34,39,"Lorton, Virginia"
+2350,17,0,30,"Meadowbrook, Virginia"
+2351,33,41,47,"Franconia, Virginia"
+2352,30,0,27,"Bristol, Virginia"
+2353,53,36,44,"McNair, Virginia"
+2354,33,0,36,"Colonial Heights, Virginia"
+2355,38,22,38,"Burke Centre, Virginia"
+2356,42,37,43,"Idylwood, Virginia"
+2357,31,0,37,"Laurel, Virginia"
+2358,74,60,70,"Seattle, Washington"
+2359,49,36,52,"Spokane, Washington"
+2360,53,0,49,"Tacoma, Washington"
+2361,40,34,61,"Vancouver, Washington"
+2362,40,38,44,"Bellevue, Washington"
+2363,48,39,55,"Everett, Washington"
+2364,39,35,46,"Kent, Washington"
+2365,50,27,50,"Yakima, Washington"
+2366,38,33,37,"Renton, Washington"
+2367,30,28,47,"Spokane Valley, Washington"
+2368,36,32,39,"Federal Way, Washington"
+2369,49,37,58,"Bellingham, Washington"
+2370,34,0,40,"Kennewick, Washington"
+2371,31,24,41,"Auburn, Washington"
+2372,22,0,41,"Marysville, Washington"
+2373,36,31,46,"Pasco, Washington"
+2374,38,0,45,"Lakewood, Washington"
+2375,31,39,51,"Redmond, Washington"
+2376,48,43,50,"Shoreline, Washington"
+2377,17,0,29,"South Hill, Washington"
+2378,48,40,50,"Kirkland, Washington"
+2379,33,28,51,"Richland, Washington"
+2380,39,35,57,"Olympia, Washington"
+2381,13,17,29,"Sammamish, Washington"
+2382,27,30,53,"Lacey, Washington"
+2383,45,34,42,"Edmonds, Washington"
+2384,49,31,38,"Bremerton, Washington"
+2385,31,0,36,"Puyallup, Washington"
+2386,38,21,49,"Longview, Washington"
+2387,53,0,50,"Lynnwood, Washington"
+2388,37,0,43,"Parkland, Washington"
+2389,29,32,37,"Bothell, Washington"
+2390,51,39,46,"Burien, Washington"
+2391,47,33,47,"Wenatchee, Washington"
+2392,34,4,42,"Mount Vernon, Washington"
+2393,47,25,63,"Walla Walla, Washington"
+2394,34,0,45,"University Place, Washington"
+2395,30,26,37,"Issaquah, Washington"
+2396,23,21,33,"East Hill-Meridian, Washington"
+2397,41,0,39,"Pullman, Washington"
+2398,39,37,41,"Des Moines, Washington"
+2399,23,0,34,"Lake Stevens, Washington"
+2400,23,0,36,"Spanaway, Washington"
+2401,38,49,39,"SeaTac, Washington"
+2402,6,0,26,"Graham, Washington"
+2403,18,20,39,"Bainbridge Island, Washington"
+2404,27,26,33,"Inglewood-Finn Hill, Washington"
+2405,31,26,35,"Mercer Island, Washington"
+2406,22,20,33,"Maple Valley, Washington"
+2407,6,0,23,"Cottage Lake, Washington"
+2408,27,20,37,"Oak Harbor, Washington"
+2409,18,0,34,"Silver Firs, Washington"
+2410,28,32,35,"Kenmore, Washington"
+2411,29,0,38,"Moses Lake, Washington"
+2412,25,0,31,"Mukilteo, Washington"
+2413,21,0,37,"Eastmont, Washington"
+2414,50,0,43,"Mountlake Terrace, Washington"
+2415,29,0,49,"Salmon Creek, Washington"
+2416,29,0,57,"Orchards, Washington"
+2417,39,0,62,"Hazel Dell, Washington"
+2418,18,0,36,"Camas, Washington"
+2419,17,21,28,"Silverdale, Washington"
+2420,43,47,41,"Tukwila, Washington"
+2421,18,24,30,"Fairwood, Washington"
+2422,35,0,39,"Port Angeles, Washington"
+2423,12,0,31,"Union Hill-Novelty Hill, Washington"
+2424,6,0,27,"Frederickson, Washington"
+2425,28,0,48,"Mill Creek, Washington"
+2426,43,0,55,"Ellensburg, Washington"
+2427,25,0,55,"Five Corners, Washington"
+2428,26,18,38,"Arlington, Washington"
+2429,21,20,35,"Covington, Washington"
+2430,33,0,52,"Battle Ground, Washington"
+2431,15,0,24,"Bonney Lake, Washington"
+2432,29,29,38,"Tumwater, Washington"
+2433,29,0,43,"Monroe, Washington"
+2434,47,0,43,"Aberdeen, Washington"
+2435,14,0,27,"Bothell West, Washington"
+2436,38,0,44,"North Lynnwood, Washington"
+2437,32,0,28,"Charleston, West Virginia"
+2438,48,0,44,"Huntington, West Virginia"
+2439,45,0,37,"Parkersburg, West Virginia"
+2440,54,0,41,"Morgantown, West Virginia"
+2441,36,0,35,"Wheeling, West Virginia"
+2442,26,0,20,"Weirton, West Virginia"
+2443,42,0,26,"Fairmont, West Virginia"
+2444,34,0,27,"Beckley, West Virginia"
+2445,48,0,39,"Martinsburg, West Virginia"
+2446,40,0,28,"Clarksburg, West Virginia"
+2447,63,48,59,"Milwaukee, Wisconsin"
+2448,48,39,65,"Madison, Wisconsin"
+2449,41,28,49,"Green Bay, Wisconsin"
+2450,45,0,49,"Kenosha, Wisconsin"
+2451,56,34,57,"Racine, Wisconsin"
+2452,42,0,52,"Appleton, Wisconsin"
+2453,35,28,40,"Waukesha, Wisconsin"
+2454,42,28,52,"Oshkosh, Wisconsin"
+2455,35,0,49,"Eau Claire, Wisconsin"
+2456,35,21,48,"Janesville, Wisconsin"
+2457,60,43,53,"West Allis, Wisconsin"
+2458,53,27,65,"La Crosse, Wisconsin"
+2459,52,27,59,"Sheboygan, Wisconsin"
+2460,58,43,58,"Wauwatosa, Wisconsin"
+2461,44,0,52,"Fond du Lac, Wisconsin"
+2462,17,0,37,"New Berlin, Wisconsin"
+2463,41,0,52,"Wausau, Wisconsin"
+2464,20,8,37,"Brookfield, Wisconsin"
+2465,43,0,50,"Beloit, Wisconsin"
+2466,37,35,43,"Greenfield, Wisconsin"
+2467,26,14,38,"Menomonee Falls, Wisconsin"
+2468,15,0,33,"Franklin, Wisconsin"
+2469,21,19,40,"Oak Creek, Wisconsin"
+2470,37,0,47,"Manitowoc, Wisconsin"
+2471,33,0,42,"West Bend, Wisconsin"
+2472,32,0,56,"Sun Prairie, Wisconsin"
+2473,42,24,50,"Superior, Wisconsin"
+2474,45,0,64,"Stevens Point, Wisconsin"
+2475,18,0,37,"Mount Pleasant, Wisconsin"
+2476,42,0,51,"Neenah, Wisconsin"
+2477,29,21,57,"Fitchburg, Wisconsin"
+2478,8,0,33,"Caledonia, Wisconsin"
+2479,14,0,41,"Muskego, Wisconsin"
+2480,37,0,42,"Watertown, Wisconsin"
+2481,30,17,43,"De Pere, Wisconsin"
+2482,10,0,34,"Mequon, Wisconsin"
+2483,41,33,52,"South Milwaukee, Wisconsin"
+2484,21,3,35,"Germantown, Wisconsin"
+2485,9,0,36,"Pleasant Prairie, Wisconsin"
+2486,37,0,56,"Marshfield, Wisconsin"
+2487,39,0,53,"Wisconsin Rapids, Wisconsin"
+2488,49,34,54,"Cudahy, Wisconsin"
+2489,28,10,42,"Onalaska, Wisconsin"
+2490,44,25,57,"Middleton, Wisconsin"
+2491,16,0,39,"Howard, Wisconsin"
+2492,40,0,55,"Menasha, Wisconsin"
+2493,29,20,42,"Ashwaubenon, Wisconsin"
+2494,37,0,51,"Cheyenne, Wyoming"
+2495,39,0,44,"Casper, Wyoming"
+2496,34,0,67,"Laramie, Wyoming"
+2497,21,0,34,"Gillette, Wyoming"
+2498,29,0,32,"Rock Springs, Wyoming"
+2499,30,0,45,"Sheridan, Wyoming"

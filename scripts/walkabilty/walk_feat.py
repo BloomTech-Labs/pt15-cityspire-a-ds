@@ -75,6 +75,5 @@ walk = walk.drop(columns=['City', 'State', 'Zip Code', 'Population'])
 walk["Transit Score"] = walk['Transit Score'].str.replace('--', '0', regex=False)
 
 
-
-print(walk.head(4))
+walk.to_csv('walk.csv')
 
