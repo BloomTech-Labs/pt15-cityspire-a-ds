@@ -83,37 +83,9 @@ async def get_url(connection=Depends(get_db)):
 # Dummy Endpointss
 #
 
-@router.post('/call_population')
-async def find_pop(user_var: Query_Pop):
-
-    """
-    Request URL
-    http://127.0.0.1:8000/call_population?year=2012&city_state=Newark%2C%20New%20Jersey
-
-    Predict population in Newark, New Jersey.
-
-    Pop_History schema
-
-    {
-        "city_state": "Newark, New Jersey",
-        "year": 2012
-    }
-
-    """
-    
-    result={
-            "population": 276478,
-            "city_state": user_var.city_state,
-            "year": user_var.year,
-            "id_num": 17634
-            }
-    return result
-
-
-
-
 # @router.post('/call_population')
-# async def find_pop(city_state: str, year: int):
+# async def find_pop(user_var: Query_Pop):
+
 #     """
 #     Request URL
 #     http://127.0.0.1:8000/call_population?year=2012&city_state=Newark%2C%20New%20Jersey
@@ -121,6 +93,7 @@ async def find_pop(user_var: Query_Pop):
 #     Predict population in Newark, New Jersey.
 
 #     Pop_History schema
+
 #     {
 #         "city_state": "Newark, New Jersey",
 #         "year": 2012
@@ -130,11 +103,38 @@ async def find_pop(user_var: Query_Pop):
     
 #     result={
 #             "population": 276478,
-#             "city_state": city_state,
-#             "year": year,
+#             "city_state": user_var.city_state,
+#             "year": user_var.year,
 #             "id_num": 17634
 #             }
 #     return result
+
+
+
+
+@router.post('/call_population')
+async def find_pop(city_state: str, year: int):
+    """
+    Request URL
+    http://127.0.0.1:8000/call_population?year=2012&city_state=Newark%2C%20New%20Jersey
+
+    Predict population in Newark, New Jersey.
+
+    Pop_History schema
+    {
+        "city_state": "Newark, New Jersey",
+        "year": 2012
+    }
+
+    """
+    
+    result={
+            "population": 276478,
+            "city_state": city_state,
+            "year": year,
+            "id_num": 17634
+            }
+    return result
 
 
 @router.get('/population_history/')
