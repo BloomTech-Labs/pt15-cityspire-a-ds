@@ -222,13 +222,13 @@ def initial_fill():
     population_etl_initial(big_df)
 
 
-# MAIN
+# # MAIN
 
-# initial_fill()
+# # initial_fill()
 
-pop_query()
+# pop_query()
 
-# user inpute
-user_city_state = {'City, State':'San Francisco, California'}
-results = predict_pop_growth(user_city_state)
-print(results) 
+# # user inpute
+# user_city_state = {'City, State':'San Francisco, California'}
+# results = predict_pop_growth(user_city_state)
+# print(results) 
