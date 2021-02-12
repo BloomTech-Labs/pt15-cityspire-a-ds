@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 jupyter = "*"
 pytest = "*"
-requests = "*"
+
 
 [packages]
 fastapi = "*"
@@ -16,6 +16,7 @@ pandas = "*"
 sklearn = "*"
 typing = "*"
 datetime = "*"
+requests = "*"
 gunicorn = "*"
 xlrd = "*"
 
