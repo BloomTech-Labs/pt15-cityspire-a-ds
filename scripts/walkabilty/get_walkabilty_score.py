@@ -14,3 +14,5 @@ for i in us_state_abbrev:
     df = pd.concat([df, df_i])
 
 print(df.head())
+
+df.to_csv('walk.csv')
