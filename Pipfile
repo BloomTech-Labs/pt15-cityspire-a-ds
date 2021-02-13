@@ -9,7 +9,6 @@ pytest = "*"
 
 [packages]
 fastapi = "*"
-uvicorn = {extras = ["standard"], version = "*"}
 sqlalchemy = "*"
 simplejson = "*"
 pandas = "*"
@@ -22,3 +21,7 @@ typing-extensions = "*"
 
 [requires]
 python_version = "3"
+
+[packages.uvicorn]
+extras = [ "standard",]
+version = "*"
