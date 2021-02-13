@@ -3,11 +3,13 @@ import pandas as pd
 
 total = pd.read_csv('https://raw.githubusercontent.com/JeffreyAsuncion/LambdaLabs/main/cityspire-a-ds/Datasets_csv/pop_cc_rr_ws.csv')
 
-#
+# next three scripts are to create a liveabilty score based of equal ratio of 
+# crime, rental and walk scores 
 
 def crime_liv(df):
   temp_crime = df['crime_rate'] * 33
   temp_crime_liv  = temp_crime / 21000
+  # will take the inverse of the returned score due to lower crime scores better
   df['liv_crime'] = 30 - temp_crime_liv
   
   return df
@@ -38,3 +40,5 @@ liv_score(total)
 total['livability_score'] = total['livability_score'].round(2)
 
 total.drop(total.columns[[6,7,8]], axis=1, inplace=True)
+
+total.to_csv('complete.csv')
