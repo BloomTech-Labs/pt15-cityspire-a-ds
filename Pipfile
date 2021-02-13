@@ -7,7 +7,6 @@ verify_ssl = true
 jupyter = "*"
 pytest = "*"
 
-
 [packages]
 fastapi = "*"
 sqlalchemy = "*"
@@ -18,7 +17,7 @@ typing = "*"
 datetime = "*"
 requests = "*"
 gunicorn = "*"
-xlrd = "*"
+typing-extensions = "*"
 
 [requires]
 python_version = "3"
