@@ -7,7 +7,6 @@ verify_ssl = true
 jupyter = "*"
 pytest = "*"
 
-
 [packages]
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
@@ -19,6 +18,7 @@ typing = "*"
 datetime = "*"
 requests = "*"
 gunicorn = "*"
+typing-extensions = "*"
 
 [requires]
 python_version = "3"
