@@ -1,25 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import uvicorn
 
+import pandas as pd
+from joblib import load
 from app import db, ml, viz
 
-#
-#
-from typing import List
-
-from fastapi import Depends, FastAPI, HTTPException
-from sqlalchemy.orm import Session
-
-from . import crud, models, schemas
-from .database import SessionLocal, engine
-
-models.Base.metadata.create_all(bind=engine)
-#
-#
-
 description = """
-Edit your app's title and description. See [https://fastapi.tiangolo.com/tutorial/metadata/](https://fastapi.tiangolo.com/tutorial/metadata/)
 
 To use these interactive docs:
 - Click on an endpoint below
@@ -30,24 +16,10 @@ To use these interactive docs:
 """
 
 app = FastAPI(
-    title='DS API',
+    title='DS API - Cityspire - Group A',
     description=description,
     docs_url='/',
 )
-
-#
-# Dependency
-# def get_db():
-#     db = SessionLocal()
-#     try:
-#         yield db
-#     finally:
-#         db.close()
-# #
-
-
-
-
 
 app.include_router(db.router, tags=['Database'])
 app.include_router(ml.router, tags=['Machine Learning'])
@@ -60,6 +32,9 @@ app.add_middleware(
     allow_methods=['*'],
     allow_headers=['*'],
 )
+
+
+
 
 if __name__ == '__main__':
     uvicorn.run(app)
