@@ -17,10 +17,10 @@ from app.data_dict.city_state_json import city_state_2_id_num
 router = APIRouter()
 
 
-filename = 'app/recommend/recommendation_model.sav'
-model_file = open(filename, 'rb')
-loaded_model = pickle.load(model_file)
-states_pkl = pd.read_pickle('app/recommend/states_dataset.pkl')
+# filename = 'app/recommend/recommendation_model.sav'
+# model_file = open(filename, 'rb')
+# loaded_model = pickle.load(model_file)
+# states_pkl = pd.read_pickle('app/recommend/states_dataset.pkl')
 
 
 # @router.get('/recommend')
