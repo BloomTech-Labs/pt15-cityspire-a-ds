@@ -5,46 +5,13 @@ import os
 from dotenv import load_dotenv
 from fastapi import APIRouter, Depends
 import sqlalchemy
-
-from app.population import predict_pop_growth
-import requests
-import pandas as pd
-from ast import literal_eval
-# Import the appropriate estimator class from Scikit-Learn
-from sklearn.linear_model import LinearRegression
-import sqlite3
-
-from .models import Pop_Table
-#
-#
-from typing import List
-
-from fastapi import Depends, FastAPI, HTTPException
-from sqlalchemy.orm import Session
-
-from . import crud, models, schemas
-from .database import SessionLocal, engine
+from app.data_dict.predict_json import predict_2021
+from app.data_dict.city_state_json import city_state_2_id_num
 
 
-from .schemas import Pop_History, Predict_Pop, Query_Pop
-
-
-models.Base.metadata.create_all(bind=engine)
-#
-#
 router = APIRouter()
 
 
-# # Dependency
-# def get_db():
-#     db = SessionLocal()
-#     try:
-#         yield db
-#     finally:
-#         db.close()
-
-
-# this is conflicts with the one i added above
 async def get_db() -> sqlalchemy.engine.base.Connection:
     """Get a SQLAlchemy database connection.
     
@@ -54,8 +21,7 @@ async def get_db() -> sqlalchemy.engine.base.Connection:
     Otherwise uses a SQLite database for initial local development.
     """
     load_dotenv()
-    # database_url = os.getenv('DATABASE_URL', default='sqlite:///temporary.db')
-    database_url = os.getenv('DATABASE_URL', default='sqlite:///app/pop_db.sqlite3')
+    database_url = os.getenv('DATABASE_URL', default='sqlite:///temporary.db')
     engine = sqlalchemy.create_engine(database_url)
     connection = engine.connect()
     try:
@@ -63,271 +29,35 @@ async def get_db() -> sqlalchemy.engine.base.Connection:
     finally:
         connection.close()
 
+@router.get('/state_id')
+async def return_city_state(city_state: str):
+    '''Returns the state_id
 
-@router.get('/info')
-async def get_url(connection=Depends(get_db)):
-    """Verify we can connect to the database, 
-    and return the database URL in this format:
-
-    dialect://user:password@host/dbname
-
-    The password will be hidden with ***
-    """
-    url_without_password = repr(connection.engine.url)
-    return {'database_url': url_without_password}
-
-
-
-
-#
-# Dummy Endpointss
-#
-
-# @router.post('/call_population')
-# async def find_pop(user_var: Query_Pop):
-
-#     """
-#     Request URL
-#     http://127.0.0.1:8000/call_population?year=2012&city_state=Newark%2C%20New%20Jersey
-
-#     Predict population in Newark, New Jersey.
-
-#     Pop_History schema
-
-#     {
-#         "city_state": "Newark, New Jersey",
-#         "year": 2012
-#     }
-
-#     """
+        for a given city_state, i.e., "Newark, New Jersey"    
     
-#     result={
-#             "population": 276478,
-#             "city_state": user_var.city_state,
-#             "year": user_var.year,
-#             "id_num": 17634
-#             }
-#     return result
-
-
-
-
-@router.post('/call_population')
-async def find_pop(city_state: str, year: int):
-    """
-    Request URL
-    http://127.0.0.1:8000/call_population?year=2012&city_state=Newark%2C%20New%20Jersey
-
-    Predict population in Newark, New Jersey.
-
-    Pop_History schema
-    {
-        "city_state": "Newark, New Jersey",
-        "year": 2012
-    }
-
-    """
-    
-    result={
-            "population": 276478,
-            "city_state": city_state,
-            "year": year,
-            "id_num": 17634
-            }
-    return result
-
-
-@router.get('/population_history/')
-async def predict(city_state: str):
-
-    """
-    Request URL
-    http://127.0.0.1:8000/population_history/?city_state=Newark%2C%20New%20Jersey
-
-    collect population in Newark, New Jersey.
-    {
-        "city_state": "Newark, New Jersey",
-    }
-
-    """
-    results = [
-                {
-                    "population": 274674,
-                    "city_state": "Newark, New Jersey",
-                    "year": 2010,
-                    "id_num": 17130
-                },
-                {
-                    "population": 275512,
-                    "city_state": "Newark, New Jersey",
-                    "year": 2011,
-                    "id_num": 16283
-                },
-                {
-                    "population": 276478,
-                    "city_state": "Newark, New Jersey",
-                    "year": 2012,
-                    "id_num": 15634
-                },
-                {
-                    "population": 277357,
-                    "city_state": "Newark, New Jersey",
-                    "year": 2013,
-                    "id_num": 16044
-                },
-                {
-                    "population": 278750,
-                    "city_state": "Newark, New Jersey",
-                    "year": 2014,
-                    "id_num": 15513
-                },
-                {
-                    "population": 279793,
-                    "city_state": "Newark, New Jersey",
-                    "year": 2015,
-                    "id_num": 22111
-                },
-                {
-                    "population": 280139,
-                    "city_state": "Newark, New Jersey",
-                    "year": 2016,
-                    "id_num": 22848
-                },
-                {
-                    "population": 282803,
-                    "city_state": "Newark, New Jersey",
-                    "year": 2017,
-                    "id_num": 21428
-                },
-                {
-                    "population": 280463,
-                    "city_state": "Newark, New Jersey",
-                    "year": 2018,
-                    "id_num": 3135
-                },
-                {
-                    "population": 281054,
-                    "city_state": "Newark, New Jersey",
-                    "year": 2019,
-                    "id_num": 25726
-                }
-                ]
-    return results
-
-#
-# Dummy Endpoints
-#
-
-
-
-
-
-@router.get('/call_crime_rate')
-async def predict(year, city_state):
-    '''{
-        "city_state": "Newark, New Jersey",
-        "year": 2012
-    }
-
+        {"Newark, New Jersey" : 18127 }
+                
     '''
-    return {
-            "crime_per_1000": 125.2,
-            "city_state": "Newark, New Jersey",
-            "percent_diff_national": "12%",
-            "year": 2012,
-            "id_num": 1234
-            }
-
-@router.get('/crime_rate_history/')
-async def predict(city_state):
-    """
-    collect crime rate of Newark, New Jersey.
-    {
-        "city_state": "Newark, New Jersey",
-    }
-
-    """
-    results = [
-                {
-                    "crime_per_1000": 120.2,
-                    "city_state": "Newark, New Jersey",
-                    "percent_diff_national": "12%",
-                    "year": 2014,
-                    "id_num": 15515
-                },
-                {
-                    "crime_per_1000": 115.2,
-                    "city_state": "Newark, New Jersey",
-                    "percent_diff_national": "12%",
-                    "year": 2015,
-                    "id_num": 12454
-                },
-                {
-                    "crime_per_1000": 145.1,
-                    "city_state": "Newark, New Jersey",
-                    "percent_diff_national": "12%",
-                    "year": 2016,
-                    "id_num": 15541
-                },
-                {
-                    "crime_per_1000": 110.5,
-                    "city_state": "Newark, New Jersey",
-                    "percent_diff_national": "12%",
-                    "year": 2017,
-                    "id_num": 211515
-                },
-                {
-                    "crime_per_1000": 125.2,
-                    "city_state": "Newark, New Jersey",
-                    "percent_diff_national": "12%",
-                    "year": 2018,
-                    "id_num": 3162184835
-                },
-                {
-                    "crime_per_1000": 110.9,
-                    "city_state": "Newark, New Jersey",
-                    "percent_diff_national": "12%",
-                    "year": 2019,
-                    "id_num": 1215184
-                }
-                ]
-    return results
-
-@router.get('/call_rental_rate')
-async def predict(year, city_state):
-    '''{
-        "city_state": "Newark, New Jersey",
-        "year": 2012
-    }
-
-    '''
-    return {
-            "city_state": "Newark, New Jersey",
-            "year": 2012,
-            "rent_amount" : 2664.0,
-            "id_num": 1234
-           }
-
-#
-# This code works with SQLITE DB
-#
-# @router.get('/pop_query/{year}/{city_state}')
-# async def query_pop(year: int, city_state: str, db: Session=Depends(get_db)):
-
-#     results = crud.get_pop_predict_model(db, year, city_state)
-#     if results == []:
-#         results = {"error": 123}
-#     return results
+    return {"id_num" : city_state_2_id_num[city_state]}
 
 
-# @router.get('/pop_query_predict_10/{city_state}')
-# async def predict_pop_model_10(city_state: str, db: Session=Depends(get_db)):
+@router.get('/predict')
+async def predict_city_state(city_state: str):
+    '''Returns the predicted values for a given state
 
-#     results = crud.pop_predict_model_all(db, city_state)
+        for a given city_state, i.e., "Newark, New Jersey"    
     
-#     if results == []:
-#         results = {"error": 123}
-#     return results
-#
-# This code works with SQLITE DB
-#
+        {
+        "id_num": 17089,
+
+        "population": 283945,
+
+        "crime_rate": 27.4,
+
+        "rental_rate": 1466.89,
+        
+        "walk_score": 79
+        }
+                
+    '''
+    return predict_2021[city_state]
