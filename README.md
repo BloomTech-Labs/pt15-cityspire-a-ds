@@ -88,3 +88,4 @@ with 2 working routes
 eb init --platform docker --region us-east-1 group-a04
 eb create --region us-east-1 group-a04
 eb open
+
