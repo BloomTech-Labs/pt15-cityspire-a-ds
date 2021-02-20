@@ -7,10 +7,11 @@ from fastapi import APIRouter, Depends
 import sqlalchemy
 from app.data_dict.predict_json import predict_2021
 from app.data_dict.city_state_json import city_state_2_id_num
-
+import pandas as pd
 
 router = APIRouter()
 
+states_pkl = pd.read_pickle('app/recommend/states_dataset.pkl')
 
 async def get_db() -> sqlalchemy.engine.base.Connection:
     """Get a SQLAlchemy database connection.
@@ -61,3 +62,37 @@ async def predict_city_state(city_state: str):
                 
     '''
     return predict_2021[city_state]
+
+@router.get('/livability')
+async def calculate_livability(city_state:str, crime_percent:float, rental_percent:float):
+    '''
+        Returns the Livability Score for a city_state
+            { "livability_score" : 54.06 }
+
+            params : 
+                city_state - "Newark, New Jersey"
+                crime_percent - 40.0
+                rental_percent - 40.0
+
+                walk_percent = 100 - crime_percent - rental_percent 
+    '''
+    #calculate walk_score percentage in livability
+    walk_percent = 100 - crime_percent - rental_percent
+
+    a = states_pkl[states_pkl["city_state"]== city_state]
+    # convert a dataframe to a list 
+    A = a.values.tolist()
+
+    temp_crime = A[0][3] * crime_percent
+    temp_crime_liv  = temp_crime / 21000   #21000 is the max value crime rate
+    liv_crime = 30 - temp_crime_liv
+
+    temp_rental = A[0][4] * rental_percent
+    liv_rental = temp_rental / 3529.70 # 3529 is the max value for rental rate
+
+    temp_walk = A[0][5] * walk_percent
+    liv_walk = temp_walk / 211.1 # 211.1 is the max value for walk score
+
+    livability_score = round((liv_crime + liv_rental + liv_walk),2)
+
+    return {"livability_score" : livability_score}
