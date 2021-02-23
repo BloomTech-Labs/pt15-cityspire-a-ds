@@ -13,7 +13,7 @@ uvicorn = {extras = ["standard"], version = "*"}
 sqlalchemy = "*"
 sklearn = "*"
 pandas = "*"
+category-encoders = "*"
 
 [requires]
 python_version = "3"
-
