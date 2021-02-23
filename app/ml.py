@@ -4,7 +4,6 @@ from sklearn.linear_model import LinearRegression
 from datetime import datetime
 
 
-
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 import pandas as pd
@@ -134,5 +133,4 @@ async def recommendatio_model(crime_rate: float, rental_rate: float, population:
                 },
             ]
     return results
-
 

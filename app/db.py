@@ -5,6 +5,9 @@ import os
 from dotenv import load_dotenv
 from fastapi import APIRouter, Depends
 import sqlalchemy
+from app.data_dict.predict_json import predict_2021
+from app.data_dict.city_state_json import city_state_2_id_num
+
 
 from app.population import predict_pop_growth
 import requests
@@ -61,13 +64,21 @@ async def get_db() -> sqlalchemy.engine.base.Connection:
     finally:
         connection.close()
 
+@router.get('/state_id')
+async def return_city_state(city_state: str):
+    '''Returns the state_id
 
-@router.get('/info')
-async def get_url(connection=Depends(get_db)):
-    """Verify we can connect to the database, 
-    and return the database URL in this format:
+        for a given city_state, i.e., "Newark, New Jersey"    
+    
+        {"Newark, New Jersey" : 18127 }
+                
+    '''
+    return {"id_num" : city_state_2_id_num[city_state]}
 
-    dialect://user:password@host/dbname
+
+@router.get('/predict')
+async def predict_city_state(city_state: str):
+    '''Returns the predicted values for a given state
 
     The password will be hidden with ***
     """
@@ -243,3 +254,4 @@ async def predict(city_state: str):
 #
 # This code works with SQLITE DB
 #
+
