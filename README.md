@@ -1,91 +1,157 @@
-# Labs DS template
+# Labs DS API 
 
-[Docs](https://docs.labs.lambdaschool.com/data-science/)
+how to use DS API
 
-2021.01.27 - JA
-- added request to pipfile - using 'pipenv install requests'
-- added pandas to pipfile - using 'pipenv install pandas'
-- no need to add ast to pipfile - already exists
-- added sklearn to pipfile - using 'pipenv install sklearn'
+1. To find state_id of a city, state 
 
-2021.01.28 - JA
-- added SQLAlchemy to pipfile - using 'pipenv install SQLAlchemy'
+* for city_state = 'Newark, New Jersey'
 
-2021.01.29 - JA
-- to run fastapi app - 'uvicorn app.main:app --reload'
-- reminder when you open folder
-    - pipenv shell
-    - code .
-- Reminder when you change the pipenv install --dev
-    - you have to delete the piplock file
-    - they do not write over or replace
-    - you must do it manually
-- https://fastapi.tiangolo.com/advanced/testing-database/
-- https://datacarpentry.org/python-ecology-lesson/09-working-with-sql/index.htmlhh
-- SQLITE test db works with population.py
-2021.01.30
-- created .env file for credentials
-- load_dotenv() and os.getenv() to call credentials
+    app_url/state_id?city_state=Newark%2C%20New%20Jersey
+
+* Response body
+    
+    {
+    "id_num": 17089
+    }
 
 
+2. to predict the values for population, crime rate, rental rate, and walk score.
 
-2021.02.02
-https://fastapi.tiangolo.com/tutorial/sql-databases/
-- database.py
-- models.py
-- crud.py
-- main part 
+* for city_state = 'Newark, New Jersey' 
 
+    app_url/predict?city_state=Newark%2C%20New%20Jersey
 
+* 	Response body
 
-- import Pydantics Base Model - https://fastapi.tiangolo.com/tutorial/body/
-
-class UserInput(Base Model):
-    crime_rate :  float
-    rental_rate : float
-    population : int
-
-
-Database call not returning .all() due to primary key error, need to index and add column
-
-    # save the big_df as a csv
-    big_df.to_csv('app/pop_2010_2019.csv', sep=',', index=True) # changed to True
-
-        sql = """
-        CREATE TABLE pop_2010_2019 (
-            id INTEGER,
-            year INTEGER,
-            city_state TEXT,
-            population INTEGER,
-            primary key(id)
-        ) """
-
-I am currently working on a FastAPI app 
-that is calling data from Sqlite db and SQLAlchemy is 
-returning objects instead of the data. Please advise
-
-Need to write a __repr__(self) for db class
-
-- pipenv install simplejson
-- import simplejson as json
+    {
+    "id_num": 17089,
+    "population": 283945,
+    "crime_rate": 27.4,
+    "rental_rate": 1466.89,
+    "walk_score": 79
+    }
 
 
-2021.02.11
-- Delete the Dockerfile (not technically required but it would be confusing to have it in your repo if you’re not using it)
-- Create a Procfile with this line: web: gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker (Like on Heroku, the Procfile tells AWS what command to run. We’ve had better luck in the past using gunicorn instead of uvicorn with the Python platform on AWS Elastic Beanstalk.)
-- pipenv install gunicorn (to install gunicorn)
+3. to calculate the livability for a city, state
+
+* for a city_state = 'Newark, New Jersey', crime_percent - 40.0,   rental_percent - 40.0
+
+    app_url/livability?city_state=Newark%2C%20New%20Jersey&crime_percent=40.0&rental_percent=40.0
+
+* 	Response body
+
+    {
+    "livability_score": 54.06
+    }
 
 
+4. to generate list of recommended city, states
 
+* for a population = 200000, crime_rate = 20, rental_rate = 1500, walk_score = 50
 
-2021.02.16
+    app_url/recommend?population=20000&crime_rate=20&rental_rate=1500&walk_score=50
 
-cleaned repo to original 
-with 2 working routes
+* Response body
 
-
-
-eb init --platform docker --region us-east-1 group-a04
-eb create --region us-east-1 group-a04
-eb open
-
+    [
+    [
+        {
+        "city_state": "Highland, Utah",
+        "id_num": 23298,
+        "population": 19974,
+        "crime_rate": 23.05,
+        "rental_rate": 1483.17,
+        "walk_score": 31.93
+        }
+    ],
+    [
+        {
+        "city_state": "Seymour, Indiana",
+        "id_num": 8922,
+        "population": 19991,
+        "crime_rate": 52.6,
+        "rental_rate": 1466.89,
+        "walk_score": 39
+        }
+    ],
+    [
+        {
+        "city_state": "Nogales, Arizona",
+        "id_num": 2150,
+        "population": 19960,
+        "crime_rate": 32.6,
+        "rental_rate": 1461.8,
+        "walk_score": 34
+        }
+    ],
+    [
+        {
+        "city_state": "Shelby, North Carolina",
+        "id_num": 15596,
+        "population": 19938,
+        "crime_rate": 33.66,
+        "rental_rate": 1461.4,
+        "walk_score": 28
+        }
+    ],
+    [
+        {
+        "city_state": "Columbia Heights, Minnesota",
+        "id_num": 14479,
+        "population": 20103,
+        "crime_rate": 26.6,
+        "rental_rate": 1482.9,
+        "walk_score": 53
+        }
+    ],
+    [
+        {
+        "city_state": "Fernley, Nevada",
+        "id_num": 16575,
+        "population": 20033,
+        "crime_rate": 24.5,
+        "rental_rate": 1594.7,
+        "walk_score": 16
+        }
+    ],
+    [
+        {
+        "city_state": "Jollyville, Texas",
+        "id_num": 26108,
+        "population": 20112,
+        "crime_rate": 21.83,
+        "rental_rate": 1481.18,
+        "walk_score": 30.68
+        }
+    ],
+    [
+        {
+        "city_state": "Lake Ronkonkoma, New York",
+        "id_num": 18299,
+        "population": 20039,
+        "crime_rate": 22.9,
+        "rental_rate": 1361.25,
+        "walk_score": 41
+        }
+    ],
+    [
+        {
+        "city_state": "Alamo, Texas",
+        "id_num": 25382,
+        "population": 20144,
+        "crime_rate": 21.83,
+        "rental_rate": 1481.18,
+        "walk_score": 36
+        }
+    ],
+    [
+        {
+        "city_state": "Glassboro, New Jersey",
+        "id_num": 16942,
+        "population": 19856,
+        "crime_rate": 18.3,
+        "rental_rate": 1466.89,
+        "walk_score": 38
+        }
+    ]
+    ]
